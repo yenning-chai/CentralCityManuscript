@@ -1,0 +1,1007 @@
+SampleID	Date	SampleType	Location	Rep	Plot	GrowthCondtion	Genotype	SorghumType	Plate	Variety	GrowthCondtion_Variety	Variety_GrowthCondtion
+CC0101FG1L0718176036	71817	Leaf	CentralCity	1	1	Full N	G1	BTx623	84	Grain	Full N_Grain	Grain_Full N
+CC0104LE17L0718176034	71817	Leaf	CentralCity	1	4	Low N	E17	PI655972	85	Energy	Low N_Energy	Energy_Low N
+CC0105FS2L0718177283	71817	Leaf	CentralCity	1	5	Full N	S2	SanChiSan	86	Sweet	Full N_Sweet	Sweet_Full N
+CC0106FE10L0718177284	71817	Leaf	CentralCity	1	6	Full N	E10	PI297155	82	Energy	Full N_Energy	Energy_Full N
+CC0108LS3L0718177265	71817	Leaf	CentralCity	1	8	Low N	S3	ICSV700	79	Sweet	Low N_Sweet	Sweet_Low N
+CC0113LE14L0718176035	71817	Leaf	CentralCity	1	13	Low N	E14	Grassl	79	Energy	Low N_Energy	Energy_Low N
+CC0115FE6L0718177292	71817	Leaf	CentralCity	1	15	Full N	E6	PI585954	81	Energy	Full N_Energy	Energy_Full N
+CC0117FS6L0718177294	71817	Leaf	CentralCity	1	17	Full N	S6	ChineseAmber	82	Sweet	Full N_Sweet	Sweet_Full N
+CC0117LS6L0718177273	71817	Leaf	CentralCity	1	17	Low N	S6	ChineseAmber	82	Sweet	Low N_Sweet	Sweet_Low N
+CC0121LE11L0718177277	71817	Leaf	CentralCity	1	21	Low N	E11	PI506069	87	Energy	Low N_Energy	Energy_Low N
+CC0122LE9L0718177278	71817	Leaf	CentralCity	1	22	Low N	E9	PI229841	86	Energy	Low N_Energy	Energy_Low N
+CC0123FE13L0718177300	71817	Leaf	CentralCity	1	23	Full N	E13	PI297130	83	Energy	Full N_Energy	Energy_Full N
+CC0201FG1L0718176042	71817	Leaf	CentralCity	2	1	Full N	G1	BTx623	80	Grain	Full N_Grain	Grain_Full N
+CC0203FE10L0718177416	71817	Leaf	CentralCity	2	3	Full N	E10	PI297155	92	Energy	Full N_Energy	Energy_Full N
+CC0204FS2L0718177417	71817	Leaf	CentralCity	2	4	Full N	S2	SanChiSan	90	Sweet	Full N_Sweet	Sweet_Full N
+CC0205FE17L0718176043	71817	Leaf	CentralCity	2	5	Full N	E17	PI655972	79	Energy	Full N_Energy	Energy_Full N
+CC0205LE17L0718176040	71817	Leaf	CentralCity	2	5	Low N	E17	PI655972	80	Energy	Low N_Energy	Energy_Low N
+CC0206FS10L0718177418	71817	Leaf	CentralCity	2	6	Full N	S10	China17	94	Sweet	Full N_Sweet	Sweet_Full N
+CC0206LS10L0718177305	71817	Leaf	CentralCity	2	6	Low N	S10	China17	86	Sweet	Low N_Sweet	Sweet_Low N
+CC0207FS4L0718177419	71817	Leaf	CentralCity	2	7	Full N	S4	Atlas	96	Sweet	Full N_Sweet	Sweet_Full N
+CC0207LS4L0718177306	71817	Leaf	CentralCity	2	7	Low N	S4	Atlas	83	Sweet	Low N_Sweet	Sweet_Low N
+CC0208FE9L0718177420	71817	Leaf	CentralCity	2	8	Full N	E9	PI229841	95	Energy	Full N_Energy	Energy_Full N
+CC0209FE1L0718177421	71817	Leaf	CentralCity	2	9	Full N	E1	PI329311	95	Energy	Full N_Energy	Energy_Full N
+CC0210FE15L0718177422	71817	Leaf	CentralCity	2	10	Full N	E15	PI152730	93	Energy	Full N_Energy	Energy_Full N
+CC0212LE6L0718177403	71817	Leaf	CentralCity	2	12	Low N	E6	PI585954	94	Energy	Low N_Energy	Energy_Low N
+CC0213FS6L0718177425	71817	Leaf	CentralCity	2	13	Full N	S6	ChineseAmber	95	Sweet	Full N_Sweet	Sweet_Full N
+CC0213LS6L0718177404	71817	Leaf	CentralCity	2	13	Low N	S6	ChineseAmber	92	Sweet	Low N_Sweet	Sweet_Low N
+CC0214FE3L0718177426	71817	Leaf	CentralCity	2	14	Full N	E3	PI505735	94	Energy	Full N_Energy	Energy_Full N
+CC0215FE18L0718177427	71817	Leaf	CentralCity	2	15	Full N	E18	PI510757	94	Energy	Full N_Energy	Energy_Full N
+CC0215LE18L0718177406	71817	Leaf	CentralCity	2	15	Low N	E18	PI510757	90	Energy	Low N_Energy	Energy_Low N
+CC0216FE4L0718177428	71817	Leaf	CentralCity	2	16	Full N	E4	PI329632	92	Energy	Full N_Energy	Energy_Full N
+CC0216LE4L0718177407	71817	Leaf	CentralCity	2	16	Low N	E4	PI329632	92	Energy	Low N_Energy	Energy_Low N
+CC0217LE8L0718177408	71817	Leaf	CentralCity	2	17	Low N	E8	M81e	94	Energy	Low N_Energy	Energy_Low N
+CC0218LS3L0718177409	71817	Leaf	CentralCity	2	18	Low N	S3	ICSV700	94	Sweet	Low N_Sweet	Sweet_Low N
+CC0220LE14L0718176041	71817	Leaf	CentralCity	2	20	Low N	E14	Grassl	85	Energy	Low N_Energy	Energy_Low N
+CC0221FE13L0718177432	71817	Leaf	CentralCity	2	21	Full N	E13	PI297130	96	Energy	Full N_Energy	Energy_Full N
+CC0221LE13L0718177411	71817	Leaf	CentralCity	2	21	Low N	E13	PI297130	89	Energy	Low N_Energy	Energy_Low N
+CC0222FE11L0718177433	71817	Leaf	CentralCity	2	22	Full N	E11	PI506069	89	Energy	Full N_Energy	Energy_Full N
+CC0222LE11L0718177412	71817	Leaf	CentralCity	2	22	Low N	E11	PI506069	89	Energy	Low N_Energy	Energy_Low N
+CC0223FE7L0718177434	71817	Leaf	CentralCity	2	23	Full N	E7	NTJ2	92	Energy	Full N_Energy	Energy_Full N
+CC0223LE7L0718177413	71817	Leaf	CentralCity	2	23	Low N	E7	NTJ2	93	Energy	Low N_Energy	Energy_Low N
+CC0301FG1L0718176045	71817	Leaf	CentralCity	3	1	Full N	G1	BTx623	85	Grain	Full N_Grain	Grain_Full N
+CC0304FS10L0718177437	71817	Leaf	CentralCity	3	4	Full N	S10	China17	95	Sweet	Full N_Sweet	Sweet_Full N
+CC0305FS2L0718177438	71817	Leaf	CentralCity	3	5	Full N	S2	SanChiSan	97	Sweet	Full N_Sweet	Sweet_Full N
+CC0306FE10L0718177439	71817	Leaf	CentralCity	3	6	Full N	E10	PI297155	94	Energy	Full N_Energy	Energy_Full N
+CC0307FS3L0718177440	71817	Leaf	CentralCity	3	7	Full N	S3	ICSV700	95	Sweet	Full N_Sweet	Sweet_Full N
+CC0307LS3L0718177461	71817	Leaf	CentralCity	3	7	Low N	S3	ICSV700	96	Sweet	Low N_Sweet	Sweet_Low N
+CC0308FE9L0718177441	71817	Leaf	CentralCity	3	8	Full N	E9	PI229841	97	Energy	Full N_Energy	Energy_Full N
+CC0310LE13L0718177464	71817	Leaf	CentralCity	3	10	Low N	E13	PI297130	89	Energy	Low N_Energy	Energy_Low N
+CC0311FE14L0718176047	71817	Leaf	CentralCity	3	11	Full N	E14	Grassl	82	Energy	Full N_Energy	Energy_Full N
+CC0311LE14L0718176050	71817	Leaf	CentralCity	3	11	Low N	E14	Grassl	86	Energy	Low N_Energy	Energy_Low N
+CC0312FS5L0718177444	71817	Leaf	CentralCity	3	12	Full N	S5	Leoti	92	Sweet	Full N_Sweet	Sweet_Full N
+CC0313FE11L0718177445	71817	Leaf	CentralCity	3	13	Full N	E11	PI506069	93	Energy	Full N_Energy	Energy_Full N
+CC0314LS8L0718177467	71817	Leaf	CentralCity	3	14	Low N	S8	Rio	96	Sweet	Low N_Sweet	Sweet_Low N
+CC0316FE8L0718177448	71817	Leaf	CentralCity	3	16	Full N	E8	M81e	89	Energy	Full N_Energy	Energy_Full N
+CC0321FE1L0718177453	71817	Leaf	CentralCity	3	21	Full N	E1	PI329311	98	Energy	Full N_Energy	Energy_Full N
+CC0321LE1L0718177474	71817	Leaf	CentralCity	3	21	Low N	E1	PI329311	96	Energy	Low N_Energy	Energy_Low N
+CC0322FE6L0718177454	71817	Leaf	CentralCity	3	22	Full N	E6	PI585954	97	Energy	Full N_Energy	Energy_Full N
+CC0322LE6L0718177475	71817	Leaf	CentralCity	3	22	Low N	E6	PI585954	89	Energy	Low N_Energy	Energy_Low N
+CC0323FE3L0718177455	71817	Leaf	CentralCity	3	23	Full N	E3	PI505735	94	Energy	Full N_Energy	Energy_Full N
+CC0402LG1L0718177479	71817	Leaf	CentralCity	4	2	Low N	G1	BTx623	90	Grain	Low N_Grain	Grain_Low N
+CC0403LE17L0718177480	71817	Leaf	CentralCity	4	3	Low N	E17	PI655972	94	Energy	Low N_Energy	Energy_Low N
+CC0404FE10L0718177505	71817	Leaf	CentralCity	4	4	Full N	E10	PI297155	94	Energy	Full N_Energy	Energy_Full N
+CC0406FS2L0718177507	71817	Leaf	CentralCity	4	6	Full N	S2	SanChiSan	89	Sweet	Full N_Sweet	Sweet_Full N
+CC0408FS4L0718177509	71817	Leaf	CentralCity	4	8	Full N	S4	Atlas	92	Sweet	Full N_Sweet	Sweet_Full N
+CC0410FS5L0718177511	71817	Leaf	CentralCity	4	10	Full N	S5	Leoti	94	Sweet	Full N_Sweet	Sweet_Full N
+CC0412LE15L0718177489	71817	Leaf	CentralCity	4	12	Low N	E15	PI152730	92	Energy	Low N_Energy	Energy_Low N
+CC0413FE6L0718177514	71817	Leaf	CentralCity	4	13	Full N	E6	PI585954	98	Energy	Full N_Energy	Energy_Full N
+CC0420FE13L0718177521	71817	Leaf	CentralCity	4	20	Full N	E13	PI297130	96	Energy	Full N_Energy	Energy_Full N
+CC0422FE14L0718177523	71817	Leaf	CentralCity	4	22	Full N	E14	Grassl	95	Energy	Full N_Energy	Energy_Full N
+CC0422LE14L0718177499	71817	Leaf	CentralCity	4	22	Low N	E14	Grassl	93	Energy	Low N_Energy	Energy_Low N
+CC0423FE3L0718177524	71817	Leaf	CentralCity	4	23	Full N	E3	PI505735	95	Energy	Full N_Energy	Energy_Full N
+CC0424FE11L0718177525	71817	Leaf	CentralCity	4	24	Full N	E11	PI506069	89	Energy	Full N_Energy	Energy_Full N
+CC0501LG1L0718176054	71817	Leaf	CentralCity	5	1	Low N	G1	BTx623	84	Grain	Low N_Grain	Grain_Low N
+CC0502LG3L0718177547	71817	Leaf	CentralCity	5	2	Low N	G3	Btx642	94	Grain	Low N_Grain	Grain_Low N
+CC0505FE17L0718176052	71817	Leaf	CentralCity	5	5	Full N	E17	PI655972	80	Energy	Full N_Energy	Energy_Full N
+CC0506LE10L0718177550	71817	Leaf	CentralCity	5	6	Low N	E10	PI297155	95	Energy	Low N_Energy	Energy_Low N
+CC0508LE5L0718177552	71817	Leaf	CentralCity	5	8	Low N	E5	PI35038	92	Energy	Low N_Energy	Energy_Low N
+CC0510LE9L0718177554	71817	Leaf	CentralCity	5	10	Low N	E9	PI229841	90	Energy	Low N_Energy	Energy_Low N
+CC0511LE7L0718177555	71817	Leaf	CentralCity	5	11	Low N	E7	NTJ2	94	Energy	Low N_Energy	Energy_Low N
+CC0512FE14L0718176053	71817	Leaf	CentralCity	5	12	Full N	E14	Grassl	82	Energy	Full N_Energy	Energy_Full N
+CC0513FS3L0718177535	71817	Leaf	CentralCity	5	13	Full N	S3	ICSV700	90	Sweet	Full N_Sweet	Sweet_Full N
+CC0513LS3L0718177556	71817	Leaf	CentralCity	5	13	Low N	S3	ICSV700	92	Sweet	Low N_Sweet	Sweet_Low N
+CC0514FE6L0718177536	71817	Leaf	CentralCity	5	14	Full N	E6	PI585954	90	Energy	Full N_Energy	Energy_Full N
+CC0516FE11L0718177538	71817	Leaf	CentralCity	5	16	Full N	E11	PI506069	92	Energy	Full N_Energy	Energy_Full N
+CC0516LE11L0718177559	71817	Leaf	CentralCity	5	16	Low N	E11	PI506069	96	Energy	Low N_Energy	Energy_Low N
+CC0518FE3L0718177540	71817	Leaf	CentralCity	5	18	Full N	E3	PI505735	90	Energy	Full N_Energy	Energy_Full N
+CC0519FS6L0718177541	71817	Leaf	CentralCity	5	19	Full N	S6	ChineseAmber	92	Sweet	Full N_Sweet	Sweet_Full N
+CC0522FE18L0718177544	71817	Leaf	CentralCity	5	22	Full N	E18	PI510757	97	Energy	Full N_Energy	Energy_Full N
+CC0522LE18L0718177565	71817	Leaf	CentralCity	5	22	Low N	E18	PI510757	96	Energy	Low N_Energy	Energy_Low N
+CC0523LS8L0718177566	71817	Leaf	CentralCity	5	23	Low N	S8	Rio	91	Sweet	Low N_Sweet	Sweet_Low N
+CC0601LG3L0718177394	71817	Leaf	CentralCity	6	1	Low N	G3	Btx642	79	Grain	Low N_Grain	Grain_Low N
+CC0602FG1L0718176057	71817	Leaf	CentralCity	6	2	Full N	G1	BTx623	82	Grain	Full N_Grain	Grain_Full N
+CC0602LG1L0718176060	71817	Leaf	CentralCity	6	2	Low N	G1	BTx623	84	Grain	Low N_Grain	Grain_Low N
+CC0603FS2L0718177569	71817	Leaf	CentralCity	6	3	Full N	S2	SanChiSan	94	Sweet	Full N_Sweet	Sweet_Full N
+CC0604FE10L0718177570	71817	Leaf	CentralCity	6	4	Full N	E10	PI297155	94	Energy	Full N_Energy	Energy_Full N
+CC0605FE17L0718176058	71817	Leaf	CentralCity	6	5	Full N	E17	PI655972	79	Energy	Full N_Energy	Energy_Full N
+CC0612FE14L0718176059	71817	Leaf	CentralCity	6	12	Full N	E14	Grassl	81	Energy	Full N_Energy	Energy_Full N
+CC0612LE14L0718176062	71817	Leaf	CentralCity	6	12	Low N	E14	Grassl	79	Energy	Low N_Energy	Energy_Low N
+CC0613FS3L0718177577	71817	Leaf	CentralCity	6	13	Full N	S3	ICSV700	89	Sweet	Full N_Sweet	Sweet_Full N
+CC0620FE6L0718177399	71817	Leaf	CentralCity	6	20	Full N	E6	PI585954	87	Energy	Full N_Energy	Energy_Full N
+CC0620LE6L0718177378	71817	Leaf	CentralCity	6	20	Low N	E6	PI585954	86	Energy	Low N_Energy	Energy_Low N
+CC0621FE13L0718177398	71817	Leaf	CentralCity	6	21	Full N	E13	PI297130	79	Energy	Full N_Energy	Energy_Full N
+CC0621LE13L0718177377	71817	Leaf	CentralCity	6	21	Low N	E13	PI297130	79	Energy	Low N_Energy	Energy_Low N
+CC0703LS10L0718177371	71817	Leaf	CentralCity	7	3	Low N	S10	China17	82	Sweet	Low N_Sweet	Sweet_Low N
+CC0712LE13L0718177362	71817	Leaf	CentralCity	7	12	Low N	E13	PI297130	80	Energy	Low N_Energy	Energy_Low N
+CC0715LE11L0718177359	71817	Leaf	CentralCity	7	15	Low N	E11	PI506069	81	Energy	Low N_Energy	Energy_Low N
+CC0722LE14L0718177352	71817	Leaf	CentralCity	7	22	Low N	E14	Grassl	79	Energy	Low N_Energy	Energy_Low N
+CC0724LE7L0718177350	71817	Leaf	CentralCity	7	24	Low N	E7	NTJ2	86	Energy	Low N_Energy	Energy_Low N
+CC0802LG1L0718176066	71817	Leaf	CentralCity	8	2	Low N	G1	BTx623	83	Grain	Low N_Grain	Grain_Low N
+CC0806LS10L0718177774	71817	Leaf	CentralCity	8	6	Low N	S10	China17	90	Sweet	Low N_Sweet	Sweet_Low N
+CC0807FE9L0718177321	71817	Leaf	CentralCity	8	7	Full N	E9	PI229841	80	Energy	Full N_Energy	Energy_Full N
+CC0807LE9L0718177775	71817	Leaf	CentralCity	8	7	Low N	E9	PI229841	89	Energy	Low N_Energy	Energy_Low N
+CC0812FS6L0718177316	71817	Leaf	CentralCity	8	12	Full N	S6	ChineseAmber	80	Sweet	Full N_Sweet	Sweet_Full N
+CC0812LS6L0718177780	71817	Leaf	CentralCity	8	12	Low N	S6	ChineseAmber	94	Sweet	Low N_Sweet	Sweet_Low N
+CC0815LE1L0718177783	71817	Leaf	CentralCity	8	15	Low N	E1	PI329311	92	Energy	Low N_Energy	Energy_Low N
+CC0817FE7L0718177311	71817	Leaf	CentralCity	8	17	Full N	E7	NTJ2	82	Energy	Full N_Energy	Energy_Full N
+CC0818LS3L0718177786	71817	Leaf	CentralCity	8	18	Low N	S3	ICSV700	96	Sweet	Low N_Sweet	Sweet_Low N
+CC0819LE11L0718177787	71817	Leaf	CentralCity	8	19	Low N	E11	PI506069	94	Energy	Low N_Energy	Energy_Low N
+CC0821LE14L0718176068	71817	Leaf	CentralCity	8	21	Low N	E14	Grassl	80	Energy	Low N_Energy	Energy_Low N
+CC0822FS5L0718177768	71817	Leaf	CentralCity	8	22	Full N	S5	Leoti	93	Sweet	Full N_Sweet	Sweet_Full N
+CC0823FE13L0718177769	71817	Leaf	CentralCity	8	23	Full N	E13	PI297130	95	Energy	Full N_Energy	Energy_Full N
+CC0823LE13L0718177790	71817	Leaf	CentralCity	8	23	Low N	E13	PI297130	92	Energy	Low N_Energy	Energy_Low N
+CC0824LE3L0718177791	71817	Leaf	CentralCity	8	24	Low N	E3	PI505735	97	Energy	Low N_Energy	Energy_Low N
+CC01FNPS30718176402	71817	Soil Between Rows	CentralCity	1		Full N	NotApplicable	NotApplicable	77	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC01FNPS40718176403	71817	Soil Between Rows	CentralCity	1		Full N	NotApplicable	NotApplicable	76	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC01LNPS10718176400	71817	Soil Between Rows	CentralCity	1		Low N	NotApplicable	NotApplicable	73	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC01LNPS20718176401	71817	Soil Between Rows	CentralCity	1		Low N	NotApplicable	NotApplicable	76	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC02FNPS70718176406	71817	Soil Between Rows	CentralCity	2		Full N	NotApplicable	NotApplicable	71	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC02FNPS80718176407	71817	Soil Between Rows	CentralCity	2		Full N	NotApplicable	NotApplicable	77	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC02LNPS60718176405	71817	Soil Between Rows	CentralCity	2		Low N	NotApplicable	NotApplicable	72	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC03FNPS100718176409	71817	Soil Between Rows	CentralCity	3		Full N	NotApplicable	NotApplicable	73	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC03FNPS90718176408	71817	Soil Between Rows	CentralCity	3		Full N	NotApplicable	NotApplicable	76	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC03LNPS110718176410	71817	Soil Between Rows	CentralCity	3		Low N	NotApplicable	NotApplicable	71	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC03LNPS120718176411	71817	Soil Between Rows	CentralCity	3		Low N	NotApplicable	NotApplicable	77	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC04FNPS150718176414	71817	Soil Between Rows	CentralCity	4		Full N	NotApplicable	NotApplicable	72	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC04FNPS160718176415	71817	Soil Between Rows	CentralCity	4		Full N	NotApplicable	NotApplicable	71	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC04LNPS130718176412	71817	Soil Between Rows	CentralCity	4		Low N	NotApplicable	NotApplicable	77	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC05FNPS170718176416	71817	Soil Between Rows	CentralCity	5		Full N	NotApplicable	NotApplicable	71	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC05FNPS180718176417	71817	Soil Between Rows	CentralCity	5		Full N	NotApplicable	NotApplicable	71	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC05LNPS190718176418	71817	Soil Between Rows	CentralCity	5		Low N	NotApplicable	NotApplicable	71	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC05LNPS200718176419	71817	Soil Between Rows	CentralCity	5		Low N	NotApplicable	NotApplicable	71	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC06FNPS210718176420	71817	Soil Between Rows	CentralCity	6		Full N	NotApplicable	NotApplicable	76	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC06FNPS220718176421	71817	Soil Between Rows	CentralCity	6		Full N	NotApplicable	NotApplicable	78	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC06LNPS230718176422	71817	Soil Between Rows	CentralCity	6		Low N	NotApplicable	NotApplicable	70	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC06LNPS240718176423	71817	Soil Between Rows	CentralCity	6		Low N	NotApplicable	NotApplicable	77	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC07FNPS270718176426	71817	Soil Between Rows	CentralCity	7		Full N	NotApplicable	NotApplicable	77	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC07FNPS280718176427	71817	Soil Between Rows	CentralCity	7		Full N	NotApplicable	NotApplicable	73	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC07LNPS250718176424	71817	Soil Between Rows	CentralCity	7		Low N	NotApplicable	NotApplicable	73	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC07LNPS260718176425	71817	Soil Between Rows	CentralCity	7		Low N	NotApplicable	NotApplicable	77	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC08FNPS290718176428	71817	Soil Between Rows	CentralCity	8		Full N	NotApplicable	NotApplicable	77	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC08FNPS300718176429	71817	Soil Between Rows	CentralCity	8		Full N	NotApplicable	NotApplicable	74	NotApplicable	Full N_NotApplicable	NotApplicable_Full N
+CC08LNPS310718176430	71817	Soil Between Rows	CentralCity	8		Low N	NotApplicable	NotApplicable	70	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC08LNPS320718176431	71817	Soil Between Rows	CentralCity	8		Low N	NotApplicable	NotApplicable	70	NotApplicable	Low N_NotApplicable	NotApplicable_Low N
+CC0101FG1Z0718175340	71817	Rhizosphere	CentralCity	1	1	Full N	G1	BTx623	62	Grain	Full N_Grain	Grain_Full N
+CC0101LG1Z0718175337	71817	Rhizosphere	CentralCity	1	1	Low N	G1	BTx623	65	Grain	Low N_Grain	Grain_Low N
+CC0102FG3Z0718176134	71817	Rhizosphere	CentralCity	1	2	Full N	G3	Btx642	65	Grain	Full N_Grain	Grain_Full N
+CC0102LG3Z0718176113	71817	Rhizosphere	CentralCity	1	2	Low N	G3	Btx642	68	Grain	Low N_Grain	Grain_Low N
+CC0103FS10Z0718176135	71817	Rhizosphere	CentralCity	1	3	Full N	S10	China17	67	Sweet	Full N_Sweet	Sweet_Full N
+CC0103LS10Z0718176114	71817	Rhizosphere	CentralCity	1	3	Low N	S10	China17	69	Sweet	Low N_Sweet	Sweet_Low N
+CC0104FE17Z0718175341	71817	Rhizosphere	CentralCity	1	4	Full N	E17	PI655972	62	Energy	Full N_Energy	Energy_Full N
+CC0104LE17Z0718175338	71817	Rhizosphere	CentralCity	1	4	Low N	E17	PI655972	67	Energy	Low N_Energy	Energy_Low N
+CC0105FS2Z0718176136	71817	Rhizosphere	CentralCity	1	5	Full N	S2	SanChiSan	63	Sweet	Full N_Sweet	Sweet_Full N
+CC0106FE10Z0718176137	71817	Rhizosphere	CentralCity	1	6	Full N	E10	PI297155	67	Energy	Full N_Energy	Energy_Full N
+CC0106LE10Z0718176116	71817	Rhizosphere	CentralCity	1	6	Low N	E10	PI297155	69	Energy	Low N_Energy	Energy_Low N
+CC0107FE8Z0718176138	71817	Rhizosphere	CentralCity	1	7	Full N	E8	M81e	65	Energy	Full N_Energy	Energy_Full N
+CC0107LE8Z0718176117	71817	Rhizosphere	CentralCity	1	7	Low N	E8	M81e	63	Energy	Low N_Energy	Energy_Low N
+CC0108FS3Z0718176139	71817	Rhizosphere	CentralCity	1	8	Full N	S3	ICSV700	64	Sweet	Full N_Sweet	Sweet_Full N
+CC0108LS3Z0718178574	71817	Rhizosphere	CentralCity	1	8	Low N	S3	ICSV700	96	Sweet	Low N_Sweet	Sweet_Low N
+CC0109FS5Z0718176140	71817	Rhizosphere	CentralCity	1	9	Full N	S5	Leoti	65	Sweet	Full N_Sweet	Sweet_Full N
+CC0109LS5Z0718176119	71817	Rhizosphere	CentralCity	1	9	Low N	S5	Leoti	68	Sweet	Low N_Sweet	Sweet_Low N
+CC0110FE5Z0718176141	71817	Rhizosphere	CentralCity	1	10	Full N	E5	PI35038	62	Energy	Full N_Energy	Energy_Full N
+CC0110LE5Z0718176120	71817	Rhizosphere	CentralCity	1	10	Low N	E5	PI35038	66	Energy	Low N_Energy	Energy_Low N
+CC0111FE15Z0718176142	71817	Rhizosphere	CentralCity	1	11	Full N	E15	PI152730	66	Energy	Full N_Energy	Energy_Full N
+CC0111LE15Z0718176121	71817	Rhizosphere	CentralCity	1	11	Low N	E15	PI152730	65	Energy	Low N_Energy	Energy_Low N
+CC0112FE4Z0718176143	71817	Rhizosphere	CentralCity	1	12	Full N	E4	PI329632	62	Energy	Full N_Energy	Energy_Full N
+CC0112LE4Z0718176122	71817	Rhizosphere	CentralCity	1	12	Low N	E4	PI329632	69	Energy	Low N_Energy	Energy_Low N
+CC0113FE14Z0718175342	71817	Rhizosphere	CentralCity	1	13	Full N	E14	Grassl	63	Energy	Full N_Energy	Energy_Full N
+CC0113LE14Z0718175339	71817	Rhizosphere	CentralCity	1	13	Low N	E14	Grassl	68	Energy	Low N_Energy	Energy_Low N
+CC0114FS8Z0718176144	71817	Rhizosphere	CentralCity	1	14	Full N	S8	Rio	64	Sweet	Full N_Sweet	Sweet_Full N
+CC0114LS8Z0718176123	71817	Rhizosphere	CentralCity	1	14	Low N	S8	Rio	69	Sweet	Low N_Sweet	Sweet_Low N
+CC0115FE6Z0718176145	71817	Rhizosphere	CentralCity	1	15	Full N	E6	PI585954	63	Energy	Full N_Energy	Energy_Full N
+CC0115LE6Z0718176124	71817	Rhizosphere	CentralCity	1	15	Low N	E6	PI585954	65	Energy	Low N_Energy	Energy_Low N
+CC0116FE3Z0718176146	71817	Rhizosphere	CentralCity	1	16	Full N	E3	PI505735	67	Energy	Full N_Energy	Energy_Full N
+CC0116LE3Z0718176125	71817	Rhizosphere	CentralCity	1	16	Low N	E3	PI505735	62	Energy	Low N_Energy	Energy_Low N
+CC0117FS6Z0718176147	71817	Rhizosphere	CentralCity	1	17	Full N	S6	ChineseAmber	67	Sweet	Full N_Sweet	Sweet_Full N
+CC0117LS6Z0718176126	71817	Rhizosphere	CentralCity	1	17	Low N	S6	ChineseAmber	64	Sweet	Low N_Sweet	Sweet_Low N
+CC0118FE7Z0718176148	71817	Rhizosphere	CentralCity	1	18	Full N	E7	NTJ2	68	Energy	Full N_Energy	Energy_Full N
+CC0118LE7Z0718176127	71817	Rhizosphere	CentralCity	1	18	Low N	E7	NTJ2	63	Energy	Low N_Energy	Energy_Low N
+CC0119FE1Z0718176149	71817	Rhizosphere	CentralCity	1	19	Full N	E1	PI329311	68	Energy	Full N_Energy	Energy_Full N
+CC0119LE1Z0718176128	71817	Rhizosphere	CentralCity	1	19	Low N	E1	PI329311	65	Energy	Low N_Energy	Energy_Low N
+CC0120FS4Z0718176150	71817	Rhizosphere	CentralCity	1	20	Full N	S4	Atlas	68	Sweet	Full N_Sweet	Sweet_Full N
+CC0120LS4Z0718176129	71817	Rhizosphere	CentralCity	1	20	Low N	S4	Atlas	69	Sweet	Low N_Sweet	Sweet_Low N
+CC0121FE11Z0718176151	71817	Rhizosphere	CentralCity	1	21	Full N	E11	PI506069	67	Energy	Full N_Energy	Energy_Full N
+CC0121LE11Z0718176130	71817	Rhizosphere	CentralCity	1	21	Low N	E11	PI506069	63	Energy	Low N_Energy	Energy_Low N
+CC0122FE9Z0718176152	71817	Rhizosphere	CentralCity	1	22	Full N	E9	PI229841	64	Energy	Full N_Energy	Energy_Full N
+CC0122LE9Z0718176131	71817	Rhizosphere	CentralCity	1	22	Low N	E9	PI229841	66	Energy	Low N_Energy	Energy_Low N
+CC0123FE13Z0718176153	71817	Rhizosphere	CentralCity	1	23	Full N	E13	PI297130	68	Energy	Full N_Energy	Energy_Full N
+CC0123LE13Z0718176132	71817	Rhizosphere	CentralCity	1	23	Low N	E13	PI297130	68	Energy	Low N_Energy	Energy_Low N
+CC0124FE18Z0718176154	71817	Rhizosphere	CentralCity	1	24	Full N	E18	PI510757	66	Energy	Full N_Energy	Energy_Full N
+CC0124LE18Z0718176133	71817	Rhizosphere	CentralCity	1	24	Low N	E18	PI510757	69	Energy	Low N_Energy	Energy_Low N
+CC0201FG1Z0718175346	71817	Rhizosphere	CentralCity	2	1	Full N	G1	BTx623	66	Grain	Full N_Grain	Grain_Full N
+CC0201LG1Z0718175343	71817	Rhizosphere	CentralCity	2	1	Low N	G1	BTx623	64	Grain	Low N_Grain	Grain_Low N
+CC0202FG3Z0718176176	71817	Rhizosphere	CentralCity	2	2	Full N	G3	Btx642	65	Grain	Full N_Grain	Grain_Full N
+CC0202LG3Z0718176155	71817	Rhizosphere	CentralCity	2	2	Low N	G3	Btx642	68	Grain	Low N_Grain	Grain_Low N
+CC0203FE10Z0718176177	71817	Rhizosphere	CentralCity	2	3	Full N	E10	PI297155	68	Energy	Full N_Energy	Energy_Full N
+CC0203LE10Z0718176156	71817	Rhizosphere	CentralCity	2	3	Low N	E10	PI297155	64	Energy	Low N_Energy	Energy_Low N
+CC0204FS2Z0718176178	71817	Rhizosphere	CentralCity	2	4	Full N	S2	SanChiSan	63	Sweet	Full N_Sweet	Sweet_Full N
+CC0204LS2Z0718176157	71817	Rhizosphere	CentralCity	2	4	Low N	S2	SanChiSan	67	Sweet	Low N_Sweet	Sweet_Low N
+CC0205FE17Z0718175347	71817	Rhizosphere	CentralCity	2	5	Full N	E17	PI655972	63	Energy	Full N_Energy	Energy_Full N
+CC0205LE17Z0718175344	71817	Rhizosphere	CentralCity	2	5	Low N	E17	PI655972	65	Energy	Low N_Energy	Energy_Low N
+CC0206FS10Z0718176179	71817	Rhizosphere	CentralCity	2	6	Full N	S10	China17	69	Sweet	Full N_Sweet	Sweet_Full N
+CC0206LS10Z0718176158	71817	Rhizosphere	CentralCity	2	6	Low N	S10	China17	66	Sweet	Low N_Sweet	Sweet_Low N
+CC0207FS4Z0718176180	71817	Rhizosphere	CentralCity	2	7	Full N	S4	Atlas	67	Sweet	Full N_Sweet	Sweet_Full N
+CC0207LS4Z0718176159	71817	Rhizosphere	CentralCity	2	7	Low N	S4	Atlas	67	Sweet	Low N_Sweet	Sweet_Low N
+CC0208FE9Z0718176181	71817	Rhizosphere	CentralCity	2	8	Full N	E9	PI229841	63	Energy	Full N_Energy	Energy_Full N
+CC0208LE9Z0718176160	71817	Rhizosphere	CentralCity	2	8	Low N	E9	PI229841	62	Energy	Low N_Energy	Energy_Low N
+CC0209FE1Z0718176182	71817	Rhizosphere	CentralCity	2	9	Full N	E1	PI329311	64	Energy	Full N_Energy	Energy_Full N
+CC0209LE1Z0718176161	71817	Rhizosphere	CentralCity	2	9	Low N	E1	PI329311	63	Energy	Low N_Energy	Energy_Low N
+CC0210FE15Z0718176183	71817	Rhizosphere	CentralCity	2	10	Full N	E15	PI152730	67	Energy	Full N_Energy	Energy_Full N
+CC0210LE15Z0718176162	71817	Rhizosphere	CentralCity	2	10	Low N	E15	PI152730	62	Energy	Low N_Energy	Energy_Low N
+CC0211FS8Z0718176184	71817	Rhizosphere	CentralCity	2	11	Full N	S8	Rio	69	Sweet	Full N_Sweet	Sweet_Full N
+CC0212FE6Z0718176185	71817	Rhizosphere	CentralCity	2	12	Full N	E6	PI585954	63	Energy	Full N_Energy	Energy_Full N
+CC0212LE6Z0718176164	71817	Rhizosphere	CentralCity	2	12	Low N	E6	PI585954	67	Energy	Low N_Energy	Energy_Low N
+CC0213FS6Z0718176186	71817	Rhizosphere	CentralCity	2	13	Full N	S6	ChineseAmber	69	Sweet	Full N_Sweet	Sweet_Full N
+CC0213LS6Z0718176165	71817	Rhizosphere	CentralCity	2	13	Low N	S6	ChineseAmber	66	Sweet	Low N_Sweet	Sweet_Low N
+CC0214FE3Z0718176187	71817	Rhizosphere	CentralCity	2	14	Full N	E3	PI505735	67	Energy	Full N_Energy	Energy_Full N
+CC0215FE18Z0718176188	71817	Rhizosphere	CentralCity	2	15	Full N	E18	PI510757	62	Energy	Full N_Energy	Energy_Full N
+CC0215LE18Z0718176167	71817	Rhizosphere	CentralCity	2	15	Low N	E18	PI510757	69	Energy	Low N_Energy	Energy_Low N
+CC0216FE4Z0718176189	71817	Rhizosphere	CentralCity	2	16	Full N	E4	PI329632	62	Energy	Full N_Energy	Energy_Full N
+CC0216LE4Z0718176168	71817	Rhizosphere	CentralCity	2	16	Low N	E4	PI329632	67	Energy	Low N_Energy	Energy_Low N
+CC0217FE8Z0718176190	71817	Rhizosphere	CentralCity	2	17	Full N	E8	M81e	64	Energy	Full N_Energy	Energy_Full N
+CC0217LE8Z0718176169	71817	Rhizosphere	CentralCity	2	17	Low N	E8	M81e	69	Energy	Low N_Energy	Energy_Low N
+CC0218FS3Z0718176191	71817	Rhizosphere	CentralCity	2	18	Full N	S3	ICSV700	69	Sweet	Full N_Sweet	Sweet_Full N
+CC0218LS3Z0718176170	71817	Rhizosphere	CentralCity	2	18	Low N	S3	ICSV700	68	Sweet	Low N_Sweet	Sweet_Low N
+CC0219FE5Z0718176192	71817	Rhizosphere	CentralCity	2	19	Full N	E5	PI35038	64	Energy	Full N_Energy	Energy_Full N
+CC0219LE5Z0718176171	71817	Rhizosphere	CentralCity	2	19	Low N	E5	PI35038	69	Energy	Low N_Energy	Energy_Low N
+CC0220FE14Z0718175348	71817	Rhizosphere	CentralCity	2	20	Full N	E14	Grassl	67	Energy	Full N_Energy	Energy_Full N
+CC0220LE14Z0718175345	71817	Rhizosphere	CentralCity	2	20	Low N	E14	Grassl	68	Energy	Low N_Energy	Energy_Low N
+CC0221FE13Z0718176193	71817	Rhizosphere	CentralCity	2	21	Full N	E13	PI297130	64	Energy	Full N_Energy	Energy_Full N
+CC0221LE13Z0718176172	71817	Rhizosphere	CentralCity	2	21	Low N	E13	PI297130	63	Energy	Low N_Energy	Energy_Low N
+CC0222FE11Z0718176194	71817	Rhizosphere	CentralCity	2	22	Full N	E11	PI506069	68	Energy	Full N_Energy	Energy_Full N
+CC0222LE11Z0718176173	71817	Rhizosphere	CentralCity	2	22	Low N	E11	PI506069	68	Energy	Low N_Energy	Energy_Low N
+CC0223LE7Z0718176174	71817	Rhizosphere	CentralCity	2	23	Low N	E7	NTJ2	66	Energy	Low N_Energy	Energy_Low N
+CC0224FS5Z0718176196	71817	Rhizosphere	CentralCity	2	24	Full N	S5	Leoti	65	Sweet	Full N_Sweet	Sweet_Full N
+CC0224LS5Z0718176175	71817	Rhizosphere	CentralCity	2	24	Low N	S5	Leoti	66	Sweet	Low N_Sweet	Sweet_Low N
+CC0301FG1Z0718175349	71817	Rhizosphere	CentralCity	3	1	Full N	G1	BTx623	63	Grain	Full N_Grain	Grain_Full N
+CC0301LG1Z0718175352	71817	Rhizosphere	CentralCity	3	1	Low N	G1	BTx623	63	Grain	Low N_Grain	Grain_Low N
+CC0302FG3Z0718176197	71817	Rhizosphere	CentralCity	3	2	Full N	G3	Btx642	62	Grain	Full N_Grain	Grain_Full N
+CC0302LG3Z0718176218	71817	Rhizosphere	CentralCity	3	2	Low N	G3	Btx642	68	Grain	Low N_Grain	Grain_Low N
+CC0303FE17Z0718175350	71817	Rhizosphere	CentralCity	3	3	Full N	E17	PI655972	69	Energy	Full N_Energy	Energy_Full N
+CC0303LE17Z0718175353	71817	Rhizosphere	CentralCity	3	3	Low N	E17	PI655972	64	Energy	Low N_Energy	Energy_Low N
+CC0304FS10Z0718176198	71817	Rhizosphere	CentralCity	3	4	Full N	S10	China17	67	Sweet	Full N_Sweet	Sweet_Full N
+CC0304LS10Z0718176219	71817	Rhizosphere	CentralCity	3	4	Low N	S10	China17	63	Sweet	Low N_Sweet	Sweet_Low N
+CC0305FS2Z0718178575	71817	Rhizosphere	CentralCity	3	5	Full N	S2	SanChiSan	91	Sweet	Full N_Sweet	Sweet_Full N
+CC0305LS2Z0718176220	71817	Rhizosphere	CentralCity	3	5	Low N	S2	SanChiSan	64	Sweet	Low N_Sweet	Sweet_Low N
+CC0306LE10Z0718176221	71817	Rhizosphere	CentralCity	3	6	Low N	E10	PI297155	69	Energy	Low N_Energy	Energy_Low N
+CC0307LS3Z0718176222	71817	Rhizosphere	CentralCity	3	7	Low N	S3	ICSV700	62	Sweet	Low N_Sweet	Sweet_Low N
+CC0308FE9Z0718176202	71817	Rhizosphere	CentralCity	3	8	Full N	E9	PI229841	62	Energy	Full N_Energy	Energy_Full N
+CC0308LE9Z0718176223	71817	Rhizosphere	CentralCity	3	8	Low N	E9	PI229841	64	Energy	Low N_Energy	Energy_Low N
+CC0309FS4Z0718176203	71817	Rhizosphere	CentralCity	3	9	Full N	S4	Atlas	63	Sweet	Full N_Sweet	Sweet_Full N
+CC0309LS4Z0718176224	71817	Rhizosphere	CentralCity	3	9	Low N	S4	Atlas	62	Sweet	Low N_Sweet	Sweet_Low N
+CC0310FE13Z0718176204	71817	Rhizosphere	CentralCity	3	10	Full N	E13	PI297130	66	Energy	Full N_Energy	Energy_Full N
+CC0310LE13Z0718176225	71817	Rhizosphere	CentralCity	3	10	Low N	E13	PI297130	66	Energy	Low N_Energy	Energy_Low N
+CC0311FE14Z0718175351	71817	Rhizosphere	CentralCity	3	11	Full N	E14	Grassl	68	Energy	Full N_Energy	Energy_Full N
+CC0311LE14Z0718175354	71817	Rhizosphere	CentralCity	3	11	Low N	E14	Grassl	64	Energy	Low N_Energy	Energy_Low N
+CC0312FS5Z0718176205	71817	Rhizosphere	CentralCity	3	12	Full N	S5	Leoti	66	Sweet	Full N_Sweet	Sweet_Full N
+CC0312LS5Z0718176226	71817	Rhizosphere	CentralCity	3	12	Low N	S5	Leoti	62	Sweet	Low N_Sweet	Sweet_Low N
+CC0313FE11Z0718176206	71817	Rhizosphere	CentralCity	3	13	Full N	E11	PI506069	62	Energy	Full N_Energy	Energy_Full N
+CC0313LE11Z0718176227	71817	Rhizosphere	CentralCity	3	13	Low N	E11	PI506069	64	Energy	Low N_Energy	Energy_Low N
+CC0314FS8Z0718176207	71817	Rhizosphere	CentralCity	3	14	Full N	S8	Rio	67	Sweet	Full N_Sweet	Sweet_Full N
+CC0314LS8Z0718176229	71817	Rhizosphere	CentralCity	3	14	Low N	S8	Rio	63	Sweet	Low N_Sweet	Sweet_Low N
+CC0315FE4Z0718176208	71817	Rhizosphere	CentralCity	3	15	Full N	E4	PI329632	65	Energy	Full N_Energy	Energy_Full N
+CC0315LE4Z0718176228	71817	Rhizosphere	CentralCity	3	15	Low N	E4	PI329632	66	Energy	Low N_Energy	Energy_Low N
+CC0316FE8Z0718176209	71817	Rhizosphere	CentralCity	3	16	Full N	E8	M81e	62	Energy	Full N_Energy	Energy_Full N
+CC0316LE8Z0718176230	71817	Rhizosphere	CentralCity	3	16	Low N	E8	M81e	66	Energy	Low N_Energy	Energy_Low N
+CC0317LE15Z0718176231	71817	Rhizosphere	CentralCity	3	17	Low N	E15	PI152730	68	Energy	Low N_Energy	Energy_Low N
+CC0318FE18Z0718176211	71817	Rhizosphere	CentralCity	3	18	Full N	E18	PI510757	69	Energy	Full N_Energy	Energy_Full N
+CC0318LE18Z0718176232	71817	Rhizosphere	CentralCity	3	18	Low N	E18	PI510757	62	Energy	Low N_Energy	Energy_Low N
+CC0319FE5Z0718176212	71817	Rhizosphere	CentralCity	3	19	Full N	E5	PI35038	65	Energy	Full N_Energy	Energy_Full N
+CC0319LE5Z0718176233	71817	Rhizosphere	CentralCity	3	19	Low N	E5	PI35038	66	Energy	Low N_Energy	Energy_Low N
+CC0320FE7Z0718176213	71817	Rhizosphere	CentralCity	3	20	Full N	E7	NTJ2	66	Energy	Full N_Energy	Energy_Full N
+CC0320LE7Z0718176234	71817	Rhizosphere	CentralCity	3	20	Low N	E7	NTJ2	67	Energy	Low N_Energy	Energy_Low N
+CC0321FE1Z0718176214	71817	Rhizosphere	CentralCity	3	21	Full N	E1	PI329311	69	Energy	Full N_Energy	Energy_Full N
+CC0321LE1Z0718176235	71817	Rhizosphere	CentralCity	3	21	Low N	E1	PI329311	68	Energy	Low N_Energy	Energy_Low N
+CC0322FE6Z0718176215	71817	Rhizosphere	CentralCity	3	22	Full N	E6	PI585954	64	Energy	Full N_Energy	Energy_Full N
+CC0323FE3Z0718176216	71817	Rhizosphere	CentralCity	3	23	Full N	E3	PI505735	67	Energy	Full N_Energy	Energy_Full N
+CC0323LE3Z0718176237	71817	Rhizosphere	CentralCity	3	23	Low N	E3	PI505735	62	Energy	Low N_Energy	Energy_Low N
+CC0324FS6Z0718176217	71817	Rhizosphere	CentralCity	3	24	Full N	S6	ChineseAmber	63	Sweet	Full N_Sweet	Sweet_Full N
+CC0324LS6Z0718176238	71817	Rhizosphere	CentralCity	3	24	Low N	S6	ChineseAmber	62	Sweet	Low N_Sweet	Sweet_Low N
+CC0401FG3Z0718176263	71817	Rhizosphere	CentralCity	4	1	Full N	G3	Btx642	69	Grain	Full N_Grain	Grain_Full N
+CC0401LG3Z0718176239	71817	Rhizosphere	CentralCity	4	1	Low N	G3	Btx642	65	Grain	Low N_Grain	Grain_Low N
+CC0402FG1Z0718176264	71817	Rhizosphere	CentralCity	4	2	Full N	G1	BTx623	62	Grain	Full N_Grain	Grain_Full N
+CC0402LG1Z0718176240	71817	Rhizosphere	CentralCity	4	2	Low N	G1	BTx623	67	Grain	Low N_Grain	Grain_Low N
+CC0403FE17Z0718176265	71817	Rhizosphere	CentralCity	4	3	Full N	E17	PI655972	68	Energy	Full N_Energy	Energy_Full N
+CC0403LE17Z0718176241	71817	Rhizosphere	CentralCity	4	3	Low N	E17	PI655972	66	Energy	Low N_Energy	Energy_Low N
+CC0404FE10Z0718176266	71817	Rhizosphere	CentralCity	4	4	Full N	E10	PI297155	63	Energy	Full N_Energy	Energy_Full N
+CC0404LE10Z0718176242	71817	Rhizosphere	CentralCity	4	4	Low N	E10	PI297155	64	Energy	Low N_Energy	Energy_Low N
+CC0405FS10Z0718176267	71817	Rhizosphere	CentralCity	4	5	Full N	S10	China17	64	Sweet	Full N_Sweet	Sweet_Full N
+CC0406FS2Z0718176268	71817	Rhizosphere	CentralCity	4	6	Full N	S2	SanChiSan	64	Sweet	Full N_Sweet	Sweet_Full N
+CC0406LS2Z0718176244	71817	Rhizosphere	CentralCity	4	6	Low N	S2	SanChiSan	64	Sweet	Low N_Sweet	Sweet_Low N
+CC0407FE18Z0718176270	71817	Rhizosphere	CentralCity	4	7	Full N	E18	PI510757	63	Energy	Full N_Energy	Energy_Full N
+CC0407LE18Z0718176245	71817	Rhizosphere	CentralCity	4	7	Low N	E18	PI510757	66	Energy	Low N_Energy	Energy_Low N
+CC0408FS4Z0718176269	71817	Rhizosphere	CentralCity	4	8	Full N	S4	Atlas	69	Sweet	Full N_Sweet	Sweet_Full N
+CC0408LS4Z0718176246	71817	Rhizosphere	CentralCity	4	8	Low N	S4	Atlas	62	Sweet	Low N_Sweet	Sweet_Low N
+CC0409FS6Z0718176271	71817	Rhizosphere	CentralCity	4	9	Full N	S6	ChineseAmber	69	Sweet	Full N_Sweet	Sweet_Full N
+CC0409LS6Z0718176247	71817	Rhizosphere	CentralCity	4	9	Low N	S6	ChineseAmber	64	Sweet	Low N_Sweet	Sweet_Low N
+CC0410FS5Z0718176272	71817	Rhizosphere	CentralCity	4	10	Full N	S5	Leoti	69	Sweet	Full N_Sweet	Sweet_Full N
+CC0410LS5Z0718176248	71817	Rhizosphere	CentralCity	4	10	Low N	S5	Leoti	63	Sweet	Low N_Sweet	Sweet_Low N
+CC0411FE7Z0718176273	71817	Rhizosphere	CentralCity	4	11	Full N	E7	NTJ2	64	Energy	Full N_Energy	Energy_Full N
+CC0411LE7Z0718176249	71817	Rhizosphere	CentralCity	4	11	Low N	E7	NTJ2	64	Energy	Low N_Energy	Energy_Low N
+CC0412FE15Z0718176274	71817	Rhizosphere	CentralCity	4	12	Full N	E15	PI152730	68	Energy	Full N_Energy	Energy_Full N
+CC0412LE15Z0718176250	71817	Rhizosphere	CentralCity	4	12	Low N	E15	PI152730	62	Energy	Low N_Energy	Energy_Low N
+CC0413FE6Z0718176275	71817	Rhizosphere	CentralCity	4	13	Full N	E6	PI585954	64	Energy	Full N_Energy	Energy_Full N
+CC0413LE6Z0718176251	71817	Rhizosphere	CentralCity	4	13	Low N	E6	PI585954	69	Energy	Low N_Energy	Energy_Low N
+CC0414FS3Z0718176276	71817	Rhizosphere	CentralCity	4	14	Full N	S3	ICSV700	63	Sweet	Full N_Sweet	Sweet_Full N
+CC0414LS3Z0718176252	71817	Rhizosphere	CentralCity	4	14	Low N	S3	ICSV700	68	Sweet	Low N_Sweet	Sweet_Low N
+CC0415FE1Z0718176277	71817	Rhizosphere	CentralCity	4	15	Full N	E1	PI329311	68	Energy	Full N_Energy	Energy_Full N
+CC0415LE1Z0718176253	71817	Rhizosphere	CentralCity	4	15	Low N	E1	PI329311	66	Energy	Low N_Energy	Energy_Low N
+CC0416FE4Z0718176278	71817	Rhizosphere	CentralCity	4	16	Full N	E4	PI329632	64	Energy	Full N_Energy	Energy_Full N
+CC0416LE4Z0718176254	71817	Rhizosphere	CentralCity	4	16	Low N	E4	PI329632	65	Energy	Low N_Energy	Energy_Low N
+CC0417FE9Z0718176279	71817	Rhizosphere	CentralCity	4	17	Full N	E9	PI229841	65	Energy	Full N_Energy	Energy_Full N
+CC0417LE9Z0718176256	71817	Rhizosphere	CentralCity	4	17	Low N	E9	PI229841	62	Energy	Low N_Energy	Energy_Low N
+CC0418FS8Z0718176280	71817	Rhizosphere	CentralCity	4	18	Full N	S8	Rio	62	Sweet	Full N_Sweet	Sweet_Full N
+CC0418LS8Z0718176255	71817	Rhizosphere	CentralCity	4	18	Low N	S8	Rio	63	Sweet	Low N_Sweet	Sweet_Low N
+CC0419FE8Z0718176281	71817	Rhizosphere	CentralCity	4	19	Full N	E8	M81e	68	Energy	Full N_Energy	Energy_Full N
+CC0419LE8Z0718176257	71817	Rhizosphere	CentralCity	4	19	Low N	E8	M81e	66	Energy	Low N_Energy	Energy_Low N
+CC0420FE13Z0718176282	71817	Rhizosphere	CentralCity	4	20	Full N	E13	PI297130	65	Energy	Full N_Energy	Energy_Full N
+CC0420LE13Z0718176258	71817	Rhizosphere	CentralCity	4	20	Low N	E13	PI297130	63	Energy	Low N_Energy	Energy_Low N
+CC0421FE5Z0718176283	71817	Rhizosphere	CentralCity	4	21	Full N	E5	PI35038	68	Energy	Full N_Energy	Energy_Full N
+CC0421LE5Z0718176741	71817	Rhizosphere	CentralCity	4	21	Low N	E5	PI35038	70	Energy	Low N_Energy	Energy_Low N
+CC0422FE14Z0718176284	71817	Rhizosphere	CentralCity	4	22	Full N	E14	Grassl	68	Energy	Full N_Energy	Energy_Full N
+CC0422LE14Z0718176260	71817	Rhizosphere	CentralCity	4	22	Low N	E14	Grassl	63	Energy	Low N_Energy	Energy_Low N
+CC0423FE3Z0718176285	71817	Rhizosphere	CentralCity	4	23	Full N	E3	PI505735	63	Energy	Full N_Energy	Energy_Full N
+CC0423LE3Z0718176261	71817	Rhizosphere	CentralCity	4	23	Low N	E3	PI505735	63	Energy	Low N_Energy	Energy_Low N
+CC0424FE11Z0718176286	71817	Rhizosphere	CentralCity	4	24	Full N	E11	PI506069	63	Energy	Full N_Energy	Energy_Full N
+CC0424LE11Z0718176262	71817	Rhizosphere	CentralCity	4	24	Low N	E11	PI506069	63	Energy	Low N_Energy	Energy_Low N
+CC0501FG1Z0718175355	71817	Rhizosphere	CentralCity	5	1	Full N	G1	BTx623	66	Grain	Full N_Grain	Grain_Full N
+CC0501LG1Z0718175358	71817	Rhizosphere	CentralCity	5	1	Low N	G1	BTx623	69	Grain	Low N_Grain	Grain_Low N
+CC0502FG3Z0718176287	71817	Rhizosphere	CentralCity	5	2	Full N	G3	Btx642	67	Grain	Full N_Grain	Grain_Full N
+CC0502LG3Z0718177595	71817	Rhizosphere	CentralCity	5	2	Low N	G3	Btx642	74	Grain	Low N_Grain	Grain_Low N
+CC0503FS2Z0718176288	71817	Rhizosphere	CentralCity	5	3	Full N	S2	SanChiSan	63	Sweet	Full N_Sweet	Sweet_Full N
+CC0503LS2Z0718177596	71817	Rhizosphere	CentralCity	5	3	Low N	S2	SanChiSan	73	Sweet	Low N_Sweet	Sweet_Low N
+CC0504FS10Z0718176289	71817	Rhizosphere	CentralCity	5	4	Full N	S10	China17	65	Sweet	Full N_Sweet	Sweet_Full N
+CC0504LS10Z0718177597	71817	Rhizosphere	CentralCity	5	4	Low N	S10	China17	71	Sweet	Low N_Sweet	Sweet_Low N
+CC0505FE17Z0718175356	71817	Rhizosphere	CentralCity	5	5	Full N	E17	PI655972	64	Energy	Full N_Energy	Energy_Full N
+CC0505LE17Z0718175359	71817	Rhizosphere	CentralCity	5	5	Low N	E17	PI655972	68	Energy	Low N_Energy	Energy_Low N
+CC0506FE10Z0718176290	71817	Rhizosphere	CentralCity	5	6	Full N	E10	PI297155	66	Energy	Full N_Energy	Energy_Full N
+CC0506LE10Z0718177598	71817	Rhizosphere	CentralCity	5	6	Low N	E10	PI297155	72	Energy	Low N_Energy	Energy_Low N
+CC0507LE15Z0718177599	71817	Rhizosphere	CentralCity	5	7	Low N	E15	PI152730	77	Energy	Low N_Energy	Energy_Low N
+CC0508FE5Z0718176292	71817	Rhizosphere	CentralCity	5	8	Full N	E5	PI35038	62	Energy	Full N_Energy	Energy_Full N
+CC0508LE5Z0718177600	71817	Rhizosphere	CentralCity	5	8	Low N	E5	PI35038	75	Energy	Low N_Energy	Energy_Low N
+CC0509FE4Z0718176293	71817	Rhizosphere	CentralCity	5	9	Full N	E4	PI329632	64	Energy	Full N_Energy	Energy_Full N
+CC0509LE4Z0718177601	71817	Rhizosphere	CentralCity	5	9	Low N	E4	PI329632	74	Energy	Low N_Energy	Energy_Low N
+CC0510FE9Z0718176294	71817	Rhizosphere	CentralCity	5	10	Full N	E9	PI229841	62	Energy	Full N_Energy	Energy_Full N
+CC0510LE9Z0718177602	71817	Rhizosphere	CentralCity	5	10	Low N	E9	PI229841	74	Energy	Low N_Energy	Energy_Low N
+CC0511FE7Z0718176295	71817	Rhizosphere	CentralCity	5	11	Full N	E7	NTJ2	64	Energy	Full N_Energy	Energy_Full N
+CC0511LE7Z0718177603	71817	Rhizosphere	CentralCity	5	11	Low N	E7	NTJ2	75	Energy	Low N_Energy	Energy_Low N
+CC0512FE14Z0718175357	71817	Rhizosphere	CentralCity	5	12	Full N	E14	Grassl	69	Energy	Full N_Energy	Energy_Full N
+CC0512LE14Z0718175360	71817	Rhizosphere	CentralCity	5	12	Low N	E14	Grassl	62	Energy	Low N_Energy	Energy_Low N
+CC0513FS3Z0718176296	71817	Rhizosphere	CentralCity	5	13	Full N	S3	ICSV700	64	Sweet	Full N_Sweet	Sweet_Full N
+CC0513LS3Z0718177604	71817	Rhizosphere	CentralCity	5	13	Low N	S3	ICSV700	73	Sweet	Low N_Sweet	Sweet_Low N
+CC0514FE6Z0718177584	71817	Rhizosphere	CentralCity	5	14	Full N	E6	PI585954	74	Energy	Full N_Energy	Energy_Full N
+CC0514LE6Z0718177605	71817	Rhizosphere	CentralCity	5	14	Low N	E6	PI585954	74	Energy	Low N_Energy	Energy_Low N
+CC0515FS4Z0718177585	71817	Rhizosphere	CentralCity	5	15	Full N	S4	Atlas	72	Sweet	Full N_Sweet	Sweet_Full N
+CC0515LS4Z0718177606	71817	Rhizosphere	CentralCity	5	15	Low N	S4	Atlas	78	Sweet	Low N_Sweet	Sweet_Low N
+CC0516FE11Z0718177586	71817	Rhizosphere	CentralCity	5	16	Full N	E11	PI506069	78	Energy	Full N_Energy	Energy_Full N
+CC0516LE11Z0718177607	71817	Rhizosphere	CentralCity	5	16	Low N	E11	PI506069	78	Energy	Low N_Energy	Energy_Low N
+CC0517FE1Z0718177587	71817	Rhizosphere	CentralCity	5	17	Full N	E1	PI329311	76	Energy	Full N_Energy	Energy_Full N
+CC0517LE1Z0718177608	71817	Rhizosphere	CentralCity	5	17	Low N	E1	PI329311	77	Energy	Low N_Energy	Energy_Low N
+CC0518LE3Z0718177609	71817	Rhizosphere	CentralCity	5	18	Low N	E3	PI505735	77	Energy	Low N_Energy	Energy_Low N
+CC0519FS6Z0718178591	71817	Rhizosphere	CentralCity	5	19	Full N	S6	ChineseAmber	97	Sweet	Full N_Sweet	Sweet_Full N
+CC0519LS6Z0718177610	71817	Rhizosphere	CentralCity	5	19	Low N	S6	ChineseAmber	70	Sweet	Low N_Sweet	Sweet_Low N
+CC0520FE13Z0718177590	71817	Rhizosphere	CentralCity	5	20	Full N	E13	PI297130	78	Energy	Full N_Energy	Energy_Full N
+CC0520LE13Z0718177611	71817	Rhizosphere	CentralCity	5	20	Low N	E13	PI297130	73	Energy	Low N_Energy	Energy_Low N
+CC0521FE8Z0718177591	71817	Rhizosphere	CentralCity	5	21	Full N	E8	M81e	73	Energy	Full N_Energy	Energy_Full N
+CC0521LE8Z0718177612	71817	Rhizosphere	CentralCity	5	21	Low N	E8	M81e	75	Energy	Low N_Energy	Energy_Low N
+CC0522FE18Z0718177592	71817	Rhizosphere	CentralCity	5	22	Full N	E18	PI510757	71	Energy	Full N_Energy	Energy_Full N
+CC0522LE18Z0718177613	71817	Rhizosphere	CentralCity	5	22	Low N	E18	PI510757	75	Energy	Low N_Energy	Energy_Low N
+CC0523LS8Z0718177614	71817	Rhizosphere	CentralCity	5	23	Low N	S8	Rio	77	Sweet	Low N_Sweet	Sweet_Low N
+CC0524FS5Z0718177594	71817	Rhizosphere	CentralCity	5	24	Full N	S5	Leoti	78	Sweet	Full N_Sweet	Sweet_Full N
+CC0524LS5Z0718177615	71817	Rhizosphere	CentralCity	5	24	Low N	S5	Leoti	74	Sweet	Low N_Sweet	Sweet_Low N
+CC0601FG3Z0718177616	71817	Rhizosphere	CentralCity	6	1	Full N	G3	Btx642	73	Grain	Full N_Grain	Grain_Full N
+CC0601LG3Z0718177637	71817	Rhizosphere	CentralCity	6	1	Low N	G3	Btx642	72	Grain	Low N_Grain	Grain_Low N
+CC0602LG1Z0718175364	71817	Rhizosphere	CentralCity	6	2	Low N	G1	BTx623	63	Grain	Low N_Grain	Grain_Low N
+CC0603FS2Z0718177617	71817	Rhizosphere	CentralCity	6	3	Full N	S2	SanChiSan	74	Sweet	Full N_Sweet	Sweet_Full N
+CC0603LS2Z0718177638	71817	Rhizosphere	CentralCity	6	3	Low N	S2	SanChiSan	78	Sweet	Low N_Sweet	Sweet_Low N
+CC0604FE10Z0718177618	71817	Rhizosphere	CentralCity	6	4	Full N	E10	PI297155	70	Energy	Full N_Energy	Energy_Full N
+CC0604LE10Z0718177639	71817	Rhizosphere	CentralCity	6	4	Low N	E10	PI297155	72	Energy	Low N_Energy	Energy_Low N
+CC0605FE17Z0718175362	71817	Rhizosphere	CentralCity	6	5	Full N	E17	PI655972	64	Energy	Full N_Energy	Energy_Full N
+CC0605LE17Z0718175365	71817	Rhizosphere	CentralCity	6	5	Low N	E17	PI655972	63	Energy	Low N_Energy	Energy_Low N
+CC0606FS10Z0718177619	71817	Rhizosphere	CentralCity	6	6	Full N	S10	China17	76	Sweet	Full N_Sweet	Sweet_Full N
+CC0606LS10Z0718177640	71817	Rhizosphere	CentralCity	6	6	Low N	S10	China17	70	Sweet	Low N_Sweet	Sweet_Low N
+CC0607FS8Z0718177620	71817	Rhizosphere	CentralCity	6	7	Full N	S8	Rio	71	Sweet	Full N_Sweet	Sweet_Full N
+CC0607LS8Z0718177641	71817	Rhizosphere	CentralCity	6	7	Low N	S8	Rio	77	Sweet	Low N_Sweet	Sweet_Low N
+CC0608FE5Z0718177621	71817	Rhizosphere	CentralCity	6	8	Full N	E5	PI35038	74	Energy	Full N_Energy	Energy_Full N
+CC0608LE5Z0718177642	71817	Rhizosphere	CentralCity	6	8	Low N	E5	PI35038	78	Energy	Low N_Energy	Energy_Low N
+CC0609FE15Z0718177622	71817	Rhizosphere	CentralCity	6	9	Full N	E15	PI152730	78	Energy	Full N_Energy	Energy_Full N
+CC0609LE15Z0718177643	71817	Rhizosphere	CentralCity	6	9	Low N	E15	PI152730	73	Energy	Low N_Energy	Energy_Low N
+CC0610FE3Z0718177623	71817	Rhizosphere	CentralCity	6	10	Full N	E3	PI505735	70	Energy	Full N_Energy	Energy_Full N
+CC0610LE3Z0718177644	71817	Rhizosphere	CentralCity	6	10	Low N	E3	PI505735	76	Energy	Low N_Energy	Energy_Low N
+CC0611FE9Z0718177624	71817	Rhizosphere	CentralCity	6	11	Full N	E9	PI229841	72	Energy	Full N_Energy	Energy_Full N
+CC0611LE9Z0718177645	71817	Rhizosphere	CentralCity	6	11	Low N	E9	PI229841	76	Energy	Low N_Energy	Energy_Low N
+CC0612FE14Z0718175363	71817	Rhizosphere	CentralCity	6	12	Full N	E14	Grassl	69	Energy	Full N_Energy	Energy_Full N
+CC0612LE14Z0718175366	71817	Rhizosphere	CentralCity	6	12	Low N	E14	Grassl	69	Energy	Low N_Energy	Energy_Low N
+CC0613FS3Z0718177625	71817	Rhizosphere	CentralCity	6	13	Full N	S3	ICSV700	71	Sweet	Full N_Sweet	Sweet_Full N
+CC0613LS3Z0718177646	71817	Rhizosphere	CentralCity	6	13	Low N	S3	ICSV700	77	Sweet	Low N_Sweet	Sweet_Low N
+CC0614FS5Z0718177626	71817	Rhizosphere	CentralCity	6	14	Full N	S5	Leoti	70	Sweet	Full N_Sweet	Sweet_Full N
+CC0614LS5Z0718177647	71817	Rhizosphere	CentralCity	6	14	Low N	S5	Leoti	73	Sweet	Low N_Sweet	Sweet_Low N
+CC0615FE1Z0718177627	71817	Rhizosphere	CentralCity	6	15	Full N	E1	PI329311	72	Energy	Full N_Energy	Energy_Full N
+CC0615LE1Z0718177648	71817	Rhizosphere	CentralCity	6	15	Low N	E1	PI329311	73	Energy	Low N_Energy	Energy_Low N
+CC0616FE8Z0718177628	71817	Rhizosphere	CentralCity	6	16	Full N	E8	M81e	75	Energy	Full N_Energy	Energy_Full N
+CC0616LE8Z0718177649	71817	Rhizosphere	CentralCity	6	16	Low N	E8	M81e	76	Energy	Low N_Energy	Energy_Low N
+CC0617LS6Z0718177650	71817	Rhizosphere	CentralCity	6	17	Low N	S6	ChineseAmber	75	Sweet	Low N_Sweet	Sweet_Low N
+CC0618FE7Z0718177630	71817	Rhizosphere	CentralCity	6	18	Full N	E7	NTJ2	74	Energy	Full N_Energy	Energy_Full N
+CC0619FE11Z0718177631	71817	Rhizosphere	CentralCity	6	19	Full N	E11	PI506069	70	Energy	Full N_Energy	Energy_Full N
+CC0619LE11Z0718177652	71817	Rhizosphere	CentralCity	6	19	Low N	E11	PI506069	75	Energy	Low N_Energy	Energy_Low N
+CC0620FE6Z0718177632	71817	Rhizosphere	CentralCity	6	20	Full N	E6	PI585954	74	Energy	Full N_Energy	Energy_Full N
+CC0621FE13Z0718177633	71817	Rhizosphere	CentralCity	6	21	Full N	E13	PI297130	73	Energy	Full N_Energy	Energy_Full N
+CC0621LE13Z0718177654	71817	Rhizosphere	CentralCity	6	21	Low N	E13	PI297130	71	Energy	Low N_Energy	Energy_Low N
+CC0622FS4Z0718177634	71817	Rhizosphere	CentralCity	6	22	Full N	S4	Atlas	74	Sweet	Full N_Sweet	Sweet_Full N
+CC0622LS4Z0718177655	71817	Rhizosphere	CentralCity	6	22	Low N	S4	Atlas	76	Sweet	Low N_Sweet	Sweet_Low N
+CC0623FE18Z0718177635	71817	Rhizosphere	CentralCity	6	23	Full N	E18	PI510757	77	Energy	Full N_Energy	Energy_Full N
+CC0623LE18Z0718177656	71817	Rhizosphere	CentralCity	6	23	Low N	E18	PI510757	75	Energy	Low N_Energy	Energy_Low N
+CC0624FE4Z0718177636	71817	Rhizosphere	CentralCity	6	24	Full N	E4	PI329632	74	Energy	Full N_Energy	Energy_Full N
+CC0624LE4Z0718177657	71817	Rhizosphere	CentralCity	6	24	Low N	E4	PI329632	71	Energy	Low N_Energy	Energy_Low N
+CC0701FG3Z0718177682	71817	Rhizosphere	CentralCity	7	1	Full N	G3	Btx642	75	Grain	Full N_Grain	Grain_Full N
+CC0701LG3Z0718177658	71817	Rhizosphere	CentralCity	7	1	Low N	G3	Btx642	70	Grain	Low N_Grain	Grain_Low N
+CC0702FG1Z0718177683	71817	Rhizosphere	CentralCity	7	2	Full N	G1	BTx623	77	Grain	Full N_Grain	Grain_Full N
+CC0702LG1Z0718177659	71817	Rhizosphere	CentralCity	7	2	Low N	G1	BTx623	77	Grain	Low N_Grain	Grain_Low N
+CC0703FS10Z0718177684	71817	Rhizosphere	CentralCity	7	3	Full N	S10	China17	77	Sweet	Full N_Sweet	Sweet_Full N
+CC0703LS10Z0718177660	71817	Rhizosphere	CentralCity	7	3	Low N	S10	China17	77	Sweet	Low N_Sweet	Sweet_Low N
+CC0704FE10Z0718177685	71817	Rhizosphere	CentralCity	7	4	Full N	E10	PI297155	74	Energy	Full N_Energy	Energy_Full N
+CC0704LE10Z0718177661	71817	Rhizosphere	CentralCity	7	4	Low N	E10	PI297155	71	Energy	Low N_Energy	Energy_Low N
+CC0705FE17Z0718177686	71817	Rhizosphere	CentralCity	7	5	Full N	E17	PI655972	77	Energy	Full N_Energy	Energy_Full N
+CC0705LE17Z0718177662	71817	Rhizosphere	CentralCity	7	5	Low N	E17	PI655972	73	Energy	Low N_Energy	Energy_Low N
+CC0706FS2Z0718177687	71817	Rhizosphere	CentralCity	7	6	Full N	S2	SanChiSan	71	Sweet	Full N_Sweet	Sweet_Full N
+CC0706LS2Z0718177663	71817	Rhizosphere	CentralCity	7	6	Low N	S2	SanChiSan	73	Sweet	Low N_Sweet	Sweet_Low N
+CC0707FS5Z0718177688	71817	Rhizosphere	CentralCity	7	7	Full N	S5	Leoti	78	Sweet	Full N_Sweet	Sweet_Full N
+CC0707LS5Z0718177664	71817	Rhizosphere	CentralCity	7	7	Low N	S5	Leoti	76	Sweet	Low N_Sweet	Sweet_Low N
+CC0708FE3Z0718177689	71817	Rhizosphere	CentralCity	7	8	Full N	E3	PI505735	70	Energy	Full N_Energy	Energy_Full N
+CC0708LE3Z0718177665	71817	Rhizosphere	CentralCity	7	8	Low N	E3	PI505735	77	Energy	Low N_Energy	Energy_Low N
+CC0709FE6Z0718177690	71817	Rhizosphere	CentralCity	7	9	Full N	E6	PI585954	76	Energy	Full N_Energy	Energy_Full N
+CC0709LE6Z0718177666	71817	Rhizosphere	CentralCity	7	9	Low N	E6	PI585954	78	Energy	Low N_Energy	Energy_Low N
+CC0710FE5Z0718177691	71817	Rhizosphere	CentralCity	7	10	Full N	E5	PI35038	73	Energy	Full N_Energy	Energy_Full N
+CC0710LE5Z0718177667	71817	Rhizosphere	CentralCity	7	10	Low N	E5	PI35038	71	Energy	Low N_Energy	Energy_Low N
+CC0711FS3Z0718177692	71817	Rhizosphere	CentralCity	7	11	Full N	S3	ICSV700	76	Sweet	Full N_Sweet	Sweet_Full N
+CC0711LS3Z0718177668	71817	Rhizosphere	CentralCity	7	11	Low N	S3	ICSV700	72	Sweet	Low N_Sweet	Sweet_Low N
+CC0712FE13Z0718177693	71817	Rhizosphere	CentralCity	7	12	Full N	E13	PI297130	70	Energy	Full N_Energy	Energy_Full N
+CC0712LE13Z0718177669	71817	Rhizosphere	CentralCity	7	12	Low N	E13	PI297130	77	Energy	Low N_Energy	Energy_Low N
+CC0713FE18Z0718177694	71817	Rhizosphere	CentralCity	7	13	Full N	E18	PI510757	74	Energy	Full N_Energy	Energy_Full N
+CC0714FE4Z0718177695	71817	Rhizosphere	CentralCity	7	14	Full N	E4	PI329632	74	Energy	Full N_Energy	Energy_Full N
+CC0714LE4Z0718177671	71817	Rhizosphere	CentralCity	7	14	Low N	E4	PI329632	78	Energy	Low N_Energy	Energy_Low N
+CC0715FE11Z0718177696	71817	Rhizosphere	CentralCity	7	15	Full N	E11	PI506069	78	Energy	Full N_Energy	Energy_Full N
+CC0715LE11Z0718177672	71817	Rhizosphere	CentralCity	7	15	Low N	E11	PI506069	77	Energy	Low N_Energy	Energy_Low N
+CC0716FE1Z0718177697	71817	Rhizosphere	CentralCity	7	16	Full N	E1	PI329311	72	Energy	Full N_Energy	Energy_Full N
+CC0716LE1Z0718177673	71817	Rhizosphere	CentralCity	7	16	Low N	E1	PI329311	72	Energy	Low N_Energy	Energy_Low N
+CC0717FE15Z0718177698	71817	Rhizosphere	CentralCity	7	17	Full N	E15	PI152730	71	Energy	Full N_Energy	Energy_Full N
+CC0717LE15Z0718177674	71817	Rhizosphere	CentralCity	7	17	Low N	E15	PI152730	70	Energy	Low N_Energy	Energy_Low N
+CC0718FS8Z0718177699	71817	Rhizosphere	CentralCity	7	18	Full N	S8	Rio	72	Sweet	Full N_Sweet	Sweet_Full N
+CC0718LS8Z0718177675	71817	Rhizosphere	CentralCity	7	18	Low N	S8	Rio	77	Sweet	Low N_Sweet	Sweet_Low N
+CC0719FS4Z0718177700	71817	Rhizosphere	CentralCity	7	19	Full N	S4	Atlas	76	Sweet	Full N_Sweet	Sweet_Full N
+CC0719LS4Z0718177676	71817	Rhizosphere	CentralCity	7	19	Low N	S4	Atlas	71	Sweet	Low N_Sweet	Sweet_Low N
+CC0720FE9Z0718177701	71817	Rhizosphere	CentralCity	7	20	Full N	E9	PI229841	75	Energy	Full N_Energy	Energy_Full N
+CC0720LE9Z0718177677	71817	Rhizosphere	CentralCity	7	20	Low N	E9	PI229841	73	Energy	Low N_Energy	Energy_Low N
+CC0721FS6Z0718177702	71817	Rhizosphere	CentralCity	7	21	Full N	S6	ChineseAmber	72	Sweet	Full N_Sweet	Sweet_Full N
+CC0721LS6Z0718177678	71817	Rhizosphere	CentralCity	7	21	Low N	S6	ChineseAmber	78	Sweet	Low N_Sweet	Sweet_Low N
+CC0722FE14Z0718177703	71817	Rhizosphere	CentralCity	7	22	Full N	E14	Grassl	78	Energy	Full N_Energy	Energy_Full N
+CC0722LE14Z0718177679	71817	Rhizosphere	CentralCity	7	22	Low N	E14	Grassl	73	Energy	Low N_Energy	Energy_Low N
+CC0723FE8Z0718177704	71817	Rhizosphere	CentralCity	7	23	Full N	E8	M81e	74	Energy	Full N_Energy	Energy_Full N
+CC0723LE8Z0718177680	71817	Rhizosphere	CentralCity	7	23	Low N	E8	M81e	75	Energy	Low N_Energy	Energy_Low N
+CC0724FE7Z0718177705	71817	Rhizosphere	CentralCity	7	24	Full N	E7	NTJ2	74	Energy	Full N_Energy	Energy_Full N
+CC0801FG3Z0718177706	71817	Rhizosphere	CentralCity	8	1	Full N	G3	Btx642	73	Grain	Full N_Grain	Grain_Full N
+CC0801LG3Z0718177727	71817	Rhizosphere	CentralCity	8	1	Low N	G3	Btx642	70	Grain	Low N_Grain	Grain_Low N
+CC0802FG1Z0718175367	71817	Rhizosphere	CentralCity	8	2	Full N	G1	BTx623	66	Grain	Full N_Grain	Grain_Full N
+CC0802LG1Z0718175370	71817	Rhizosphere	CentralCity	8	2	Low N	G1	BTx623	67	Grain	Low N_Grain	Grain_Low N
+CC0803FS2Z0718177707	71817	Rhizosphere	CentralCity	8	3	Full N	S2	SanChiSan	71	Sweet	Full N_Sweet	Sweet_Full N
+CC0803LS2Z0718177728	71817	Rhizosphere	CentralCity	8	3	Low N	S2	SanChiSan	78	Sweet	Low N_Sweet	Sweet_Low N
+CC0804FE17Z0718175368	71817	Rhizosphere	CentralCity	8	4	Full N	E17	PI655972	65	Energy	Full N_Energy	Energy_Full N
+CC0805FE10Z0718177708	71817	Rhizosphere	CentralCity	8	5	Full N	E10	PI297155	73	Energy	Full N_Energy	Energy_Full N
+CC0805LE10Z0718177729	71817	Rhizosphere	CentralCity	8	5	Low N	E10	PI297155	71	Energy	Low N_Energy	Energy_Low N
+CC0806LS10Z0718177730	71817	Rhizosphere	CentralCity	8	6	Low N	S10	China17	77	Sweet	Low N_Sweet	Sweet_Low N
+CC0807FE9Z0718177710	71817	Rhizosphere	CentralCity	8	7	Full N	E9	PI229841	78	Energy	Full N_Energy	Energy_Full N
+CC0807LE9Z0718177731	71817	Rhizosphere	CentralCity	8	7	Low N	E9	PI229841	75	Energy	Low N_Energy	Energy_Low N
+CC0808FE18Z0718177711	71817	Rhizosphere	CentralCity	8	8	Full N	E18	PI510757	71	Energy	Full N_Energy	Energy_Full N
+CC0808LE18Z0718177732	71817	Rhizosphere	CentralCity	8	8	Low N	E18	PI510757	74	Energy	Low N_Energy	Energy_Low N
+CC0809FS8Z0718177712	71817	Rhizosphere	CentralCity	8	9	Full N	S8	Rio	70	Sweet	Full N_Sweet	Sweet_Full N
+CC0809LS8Z0718177733	71817	Rhizosphere	CentralCity	8	9	Low N	S8	Rio	75	Sweet	Low N_Sweet	Sweet_Low N
+CC0810FE6Z0718177713	71817	Rhizosphere	CentralCity	8	10	Full N	E6	PI585954	73	Energy	Full N_Energy	Energy_Full N
+CC0810LE6Z0718177734	71817	Rhizosphere	CentralCity	8	10	Low N	E6	PI585954	75	Energy	Low N_Energy	Energy_Low N
+CC0811FE8Z0718177714	71817	Rhizosphere	CentralCity	8	11	Full N	E8	M81e	73	Energy	Full N_Energy	Energy_Full N
+CC0811LE8Z0718177735	71817	Rhizosphere	CentralCity	8	11	Low N	E8	M81e	75	Energy	Low N_Energy	Energy_Low N
+CC0812FS6Z0718177715	71817	Rhizosphere	CentralCity	8	12	Full N	S6	ChineseAmber	75	Sweet	Full N_Sweet	Sweet_Full N
+CC0812LS6Z0718177736	71817	Rhizosphere	CentralCity	8	12	Low N	S6	ChineseAmber	76	Sweet	Low N_Sweet	Sweet_Low N
+CC0813FS4Z0718177716	71817	Rhizosphere	CentralCity	8	13	Full N	S4	Atlas	70	Sweet	Full N_Sweet	Sweet_Full N
+CC0813LS4Z0718177737	71817	Rhizosphere	CentralCity	8	13	Low N	S4	Atlas	78	Sweet	Low N_Sweet	Sweet_Low N
+CC0814FE5Z0718177717	71817	Rhizosphere	CentralCity	8	14	Full N	E5	PI35038	73	Energy	Full N_Energy	Energy_Full N
+CC0814LE5Z0718177738	71817	Rhizosphere	CentralCity	8	14	Low N	E5	PI35038	71	Energy	Low N_Energy	Energy_Low N
+CC0815FE1Z0718177718	71817	Rhizosphere	CentralCity	8	15	Full N	E1	PI329311	76	Energy	Full N_Energy	Energy_Full N
+CC0815LE1Z0718177739	71817	Rhizosphere	CentralCity	8	15	Low N	E1	PI329311	70	Energy	Low N_Energy	Energy_Low N
+CC0816FE15Z0718177719	71817	Rhizosphere	CentralCity	8	16	Full N	E15	PI152730	72	Energy	Full N_Energy	Energy_Full N
+CC0816LE15Z0718177740	71817	Rhizosphere	CentralCity	8	16	Low N	E15	PI152730	77	Energy	Low N_Energy	Energy_Low N
+CC0817FE7Z0718177720	71817	Rhizosphere	CentralCity	8	17	Full N	E7	NTJ2	73	Energy	Full N_Energy	Energy_Full N
+CC0817LE7Z0718177741	71817	Rhizosphere	CentralCity	8	17	Low N	E7	NTJ2	78	Energy	Low N_Energy	Energy_Low N
+CC0818FS3Z0718177721	71817	Rhizosphere	CentralCity	8	18	Full N	S3	ICSV700	70	Sweet	Full N_Sweet	Sweet_Full N
+CC0818LS3Z0718177742	71817	Rhizosphere	CentralCity	8	18	Low N	S3	ICSV700	72	Sweet	Low N_Sweet	Sweet_Low N
+CC0819FE11Z0718177722	71817	Rhizosphere	CentralCity	8	19	Full N	E11	PI506069	74	Energy	Full N_Energy	Energy_Full N
+CC0819LE11Z0718177743	71817	Rhizosphere	CentralCity	8	19	Low N	E11	PI506069	70	Energy	Low N_Energy	Energy_Low N
+CC0820FE4Z0718177723	71817	Rhizosphere	CentralCity	8	20	Full N	E4	PI329632	75	Energy	Full N_Energy	Energy_Full N
+CC0820LE4Z0718177744	71817	Rhizosphere	CentralCity	8	20	Low N	E4	PI329632	74	Energy	Low N_Energy	Energy_Low N
+CC0821LE14Z0718175372	71817	Rhizosphere	CentralCity	8	21	Low N	E14	Grassl	65	Energy	Low N_Energy	Energy_Low N
+CC0822FS5Z0718177724	71817	Rhizosphere	CentralCity	8	22	Full N	S5	Leoti	73	Sweet	Full N_Sweet	Sweet_Full N
+CC0822LS5Z0718177745	71817	Rhizosphere	CentralCity	8	22	Low N	S5	Leoti	73	Sweet	Low N_Sweet	Sweet_Low N
+CC0823FE13Z0718177725	71817	Rhizosphere	CentralCity	8	23	Full N	E13	PI297130	74	Energy	Full N_Energy	Energy_Full N
+CC0823LE13Z0718177746	71817	Rhizosphere	CentralCity	8	23	Low N	E13	PI297130	70	Energy	Low N_Energy	Energy_Low N
+CC0824FE3Z0718177726	71817	Rhizosphere	CentralCity	8	24	Full N	E3	PI505735	71	Energy	Full N_Energy	Energy_Full N
+CC0824LE3Z0718177747	71817	Rhizosphere	CentralCity	8	24	Low N	E3	PI505735	72	Energy	Low N_Energy	Energy_Low N
+CC0101FG1R0718175892	71817	Root	CentralCity	1	1	Full N	G1	BTx623	84	Grain	Full N_Grain	Grain_Full N
+CC0101LG1R0718175889	71817	Root	CentralCity	1	1	Low N	G1	BTx623	87	Grain	Low N_Grain	Grain_Low N
+CC0102FG3R0718176933	71817	Root	CentralCity	1	2	Full N	G3	Btx642	85	Grain	Full N_Grain	Grain_Full N
+CC0102LG3R0718176912	71817	Root	CentralCity	1	2	Low N	G3	Btx642	80	Grain	Low N_Grain	Grain_Low N
+CC0103LS10R0718176913	71817	Root	CentralCity	1	3	Low N	S10	China17	88	Sweet	Low N_Sweet	Sweet_Low N
+CC0104FE17R0718175893	71817	Root	CentralCity	1	4	Full N	E17	PI655972	81	Energy	Full N_Energy	Energy_Full N
+CC0104LE17R0718175890	71817	Root	CentralCity	1	4	Low N	E17	PI655972	85	Energy	Low N_Energy	Energy_Low N
+CC0105FS2R0718176935	71817	Root	CentralCity	1	5	Full N	S2	SanChiSan	88	Sweet	Full N_Sweet	Sweet_Full N
+CC0105LS2R0718176914	71817	Root	CentralCity	1	5	Low N	S2	SanChiSan	85	Sweet	Low N_Sweet	Sweet_Low N
+CC0106LE10R0718176915	71817	Root	CentralCity	1	6	Low N	E10	PI297155	86	Energy	Low N_Energy	Energy_Low N
+CC0107FE8R0718176937	71817	Root	CentralCity	1	7	Full N	E8	M81e	84	Energy	Full N_Energy	Energy_Full N
+CC0107LE8R0718176916	71817	Root	CentralCity	1	7	Low N	E8	M81e	81	Energy	Low N_Energy	Energy_Low N
+CC0108FS3R0718176938	71817	Root	CentralCity	1	8	Full N	S3	ICSV700	83	Sweet	Full N_Sweet	Sweet_Full N
+CC0108LS3R0718176917	71817	Root	CentralCity	1	8	Low N	S3	ICSV700	83	Sweet	Low N_Sweet	Sweet_Low N
+CC0110FE5R0718176940	71817	Root	CentralCity	1	10	Full N	E5	PI35038	85	Energy	Full N_Energy	Energy_Full N
+CC0110LE5R0718176919	71817	Root	CentralCity	1	10	Low N	E5	PI35038	80	Energy	Low N_Energy	Energy_Low N
+CC0111FE15R0718176941	71817	Root	CentralCity	1	11	Full N	E15	PI152730	85	Energy	Full N_Energy	Energy_Full N
+CC0112FE4R0718176942	71817	Root	CentralCity	1	12	Full N	E4	PI329632	84	Energy	Full N_Energy	Energy_Full N
+CC0112LE4R0718176921	71817	Root	CentralCity	1	12	Low N	E4	PI329632	85	Energy	Low N_Energy	Energy_Low N
+CC0113FE14R0718175894	71817	Root	CentralCity	1	13	Full N	E14	Grassl	85	Energy	Full N_Energy	Energy_Full N
+CC0113LE14R0718175891	71817	Root	CentralCity	1	13	Low N	E14	Grassl	88	Energy	Low N_Energy	Energy_Low N
+CC0114FS8R0718176943	71817	Root	CentralCity	1	14	Full N	S8	Rio	80	Sweet	Full N_Sweet	Sweet_Full N
+CC0114LS8R0718176922	71817	Root	CentralCity	1	14	Low N	S8	Rio	79	Sweet	Low N_Sweet	Sweet_Low N
+CC0115FE6R0718176944	71817	Root	CentralCity	1	15	Full N	E6	PI585954	82	Energy	Full N_Energy	Energy_Full N
+CC0115LE6R0718176923	71817	Root	CentralCity	1	15	Low N	E6	PI585954	88	Energy	Low N_Energy	Energy_Low N
+CC0116FE3R0718178584	71817	Root	CentralCity	1	16	Full N	E3	PI505735	98	Energy	Full N_Energy	Energy_Full N
+CC0116LE3R0718176924	71817	Root	CentralCity	1	16	Low N	E3	PI505735	80	Energy	Low N_Energy	Energy_Low N
+CC0117FS6R0718176946	71817	Root	CentralCity	1	17	Full N	S6	ChineseAmber	80	Sweet	Full N_Sweet	Sweet_Full N
+CC0118FE7R0718176947	71817	Root	CentralCity	1	18	Full N	E7	NTJ2	81	Energy	Full N_Energy	Energy_Full N
+CC0118LE7R0718176926	71817	Root	CentralCity	1	18	Low N	E7	NTJ2	82	Energy	Low N_Energy	Energy_Low N
+CC0119FE1R0718176948	71817	Root	CentralCity	1	19	Full N	E1	PI329311	87	Energy	Full N_Energy	Energy_Full N
+CC0119LE1R0718176927	71817	Root	CentralCity	1	19	Low N	E1	PI329311	87	Energy	Low N_Energy	Energy_Low N
+CC0120FS4R0718176949	71817	Root	CentralCity	1	20	Full N	S4	Atlas	83	Sweet	Full N_Sweet	Sweet_Full N
+CC0120LS4R0718176928	71817	Root	CentralCity	1	20	Low N	S4	Atlas	86	Sweet	Low N_Sweet	Sweet_Low N
+CC0121FE11R0718176950	71817	Root	CentralCity	1	21	Full N	E11	PI506069	80	Energy	Full N_Energy	Energy_Full N
+CC0121LE11R0718176929	71817	Root	CentralCity	1	21	Low N	E11	PI506069	88	Energy	Low N_Energy	Energy_Low N
+CC0122FE9R0718176951	71817	Root	CentralCity	1	22	Full N	E9	PI229841	83	Energy	Full N_Energy	Energy_Full N
+CC0122LE9R0718176930	71817	Root	CentralCity	1	22	Low N	E9	PI229841	81	Energy	Low N_Energy	Energy_Low N
+CC0123FE13R0718176952	71817	Root	CentralCity	1	23	Full N	E13	PI297130	81	Energy	Full N_Energy	Energy_Full N
+CC0123LE13R0718176931	71817	Root	CentralCity	1	23	Low N	E13	PI297130	80	Energy	Low N_Energy	Energy_Low N
+CC0124FE18R0718176953	71817	Root	CentralCity	1	24	Full N	E18	PI510757	80	Energy	Full N_Energy	Energy_Full N
+CC0124LE18R0718176932	71817	Root	CentralCity	1	24	Low N	E18	PI510757	79	Energy	Low N_Energy	Energy_Low N
+CC0201LG1R0718175895	71817	Root	CentralCity	2	1	Low N	G1	BTx623	85	Grain	Low N_Grain	Grain_Low N
+CC0202FG3R0718176975	71817	Root	CentralCity	2	2	Full N	G3	Btx642	79	Grain	Full N_Grain	Grain_Full N
+CC0202LG3R0718176954	71817	Root	CentralCity	2	2	Low N	G3	Btx642	80	Grain	Low N_Grain	Grain_Low N
+CC0203FE10R0718176976	71817	Root	CentralCity	2	3	Full N	E10	PI297155	80	Energy	Full N_Energy	Energy_Full N
+CC0203LE10R0718176955	71817	Root	CentralCity	2	3	Low N	E10	PI297155	81	Energy	Low N_Energy	Energy_Low N
+CC0204FS2R0718176977	71817	Root	CentralCity	2	4	Full N	S2	SanChiSan	83	Sweet	Full N_Sweet	Sweet_Full N
+CC0205LE17R0718175896	71817	Root	CentralCity	2	5	Low N	E17	PI655972	81	Energy	Low N_Energy	Energy_Low N
+CC0206LS10R0718176957	71817	Root	CentralCity	2	6	Low N	S10	China17	86	Sweet	Low N_Sweet	Sweet_Low N
+CC0207FS4R0718176979	71817	Root	CentralCity	2	7	Full N	S4	Atlas	86	Sweet	Full N_Sweet	Sweet_Full N
+CC0207LS4R0718176958	71817	Root	CentralCity	2	7	Low N	S4	Atlas	84	Sweet	Low N_Sweet	Sweet_Low N
+CC0208FE9R0718176980	71817	Root	CentralCity	2	8	Full N	E9	PI229841	88	Energy	Full N_Energy	Energy_Full N
+CC0209FE1R0718176981	71817	Root	CentralCity	2	9	Full N	E1	PI329311	87	Energy	Full N_Energy	Energy_Full N
+CC0209LE1R0718176960	71817	Root	CentralCity	2	9	Low N	E1	PI329311	79	Energy	Low N_Energy	Energy_Low N
+CC0210FE15R0718176982	71817	Root	CentralCity	2	10	Full N	E15	PI152730	80	Energy	Full N_Energy	Energy_Full N
+CC0211FS8R0718176983	71817	Root	CentralCity	2	11	Full N	S8	Rio	85	Sweet	Full N_Sweet	Sweet_Full N
+CC0212FE6R0718176984	71817	Root	CentralCity	2	12	Full N	E6	PI585954	83	Energy	Full N_Energy	Energy_Full N
+CC0213LS6R0718176964	71817	Root	CentralCity	2	13	Low N	S6	ChineseAmber	83	Sweet	Low N_Sweet	Sweet_Low N
+CC0214FE3R0718176986	71817	Root	CentralCity	2	14	Full N	E3	PI505735	87	Energy	Full N_Energy	Energy_Full N
+CC0215LE18R0718176966	71817	Root	CentralCity	2	15	Low N	E18	PI510757	87	Energy	Low N_Energy	Energy_Low N
+CC0216FE4R0718176988	71817	Root	CentralCity	2	16	Full N	E4	PI329632	83	Energy	Full N_Energy	Energy_Full N
+CC0217FE8R0718176989	71817	Root	CentralCity	2	17	Full N	E8	M81e	85	Energy	Full N_Energy	Energy_Full N
+CC0218FS3R0718176990	71817	Root	CentralCity	2	18	Full N	S3	ICSV700	85	Sweet	Full N_Sweet	Sweet_Full N
+CC0219FE5R0718176991	71817	Root	CentralCity	2	19	Full N	E5	PI35038	80	Energy	Full N_Energy	Energy_Full N
+CC0219LE5R0718176970	71817	Root	CentralCity	2	19	Low N	E5	PI35038	84	Energy	Low N_Energy	Energy_Low N
+CC0220FE14R0718175900	71817	Root	CentralCity	2	20	Full N	E14	Grassl	84	Energy	Full N_Energy	Energy_Full N
+CC0220LE14R0718175897	71817	Root	CentralCity	2	20	Low N	E14	Grassl	82	Energy	Low N_Energy	Energy_Low N
+CC0221FE13R0718176992	71817	Root	CentralCity	2	21	Full N	E13	PI297130	84	Energy	Full N_Energy	Energy_Full N
+CC0221LE13R0718176971	71817	Root	CentralCity	2	21	Low N	E13	PI297130	82	Energy	Low N_Energy	Energy_Low N
+CC0222FE11R0718176993	71817	Root	CentralCity	2	22	Full N	E11	PI506069	87	Energy	Full N_Energy	Energy_Full N
+CC0222LE11R0718176972	71817	Root	CentralCity	2	22	Low N	E11	PI506069	88	Energy	Low N_Energy	Energy_Low N
+CC0223FE7R0718176994	71817	Root	CentralCity	2	23	Full N	E7	NTJ2	86	Energy	Full N_Energy	Energy_Full N
+CC0223LE7R0718176973	71817	Root	CentralCity	2	23	Low N	E7	NTJ2	87	Energy	Low N_Energy	Energy_Low N
+CC0224FS5R0718176995	71817	Root	CentralCity	2	24	Full N	S5	Leoti	80	Sweet	Full N_Sweet	Sweet_Full N
+CC0224LS5R0718176974	71817	Root	CentralCity	2	24	Low N	S5	Leoti	80	Sweet	Low N_Sweet	Sweet_Low N
+CC0301FG1R0718175901	71817	Root	CentralCity	3	1	Full N	G1	BTx623	82	Grain	Full N_Grain	Grain_Full N
+CC0301LG1R0718175904	71817	Root	CentralCity	3	1	Low N	G1	BTx623	86	Grain	Low N_Grain	Grain_Low N
+CC0302FG3R0718176996	71817	Root	CentralCity	3	2	Full N	G3	Btx642	82	Grain	Full N_Grain	Grain_Full N
+CC0302LG3R0718177017	71817	Root	CentralCity	3	2	Low N	G3	Btx642	85	Grain	Low N_Grain	Grain_Low N
+CC0303FE17R0718175902	71817	Root	CentralCity	3	3	Full N	E17	PI655972	88	Energy	Full N_Energy	Energy_Full N
+CC0303LE17R0718175905	71817	Root	CentralCity	3	3	Low N	E17	PI655972	86	Energy	Low N_Energy	Energy_Low N
+CC0304LS10R0718177018	71817	Root	CentralCity	3	4	Low N	S10	China17	84	Sweet	Low N_Sweet	Sweet_Low N
+CC0305FS2R0718176998	71817	Root	CentralCity	3	5	Full N	S2	SanChiSan	85	Sweet	Full N_Sweet	Sweet_Full N
+CC0305LS2R0718177019	71817	Root	CentralCity	3	5	Low N	S2	SanChiSan	87	Sweet	Low N_Sweet	Sweet_Low N
+CC0306FE10R0718176999	71817	Root	CentralCity	3	6	Full N	E10	PI297155	80	Energy	Full N_Energy	Energy_Full N
+CC0306LE10R0718177020	71817	Root	CentralCity	3	6	Low N	E10	PI297155	81	Energy	Low N_Energy	Energy_Low N
+CC0307FS3R0718177000	71817	Root	CentralCity	3	7	Full N	S3	ICSV700	88	Sweet	Full N_Sweet	Sweet_Full N
+CC0307LS3R0718177021	71817	Root	CentralCity	3	7	Low N	S3	ICSV700	85	Sweet	Low N_Sweet	Sweet_Low N
+CC0308FE9R0718177001	71817	Root	CentralCity	3	8	Full N	E9	PI229841	88	Energy	Full N_Energy	Energy_Full N
+CC0308LE9R0718177022	71817	Root	CentralCity	3	8	Low N	E9	PI229841	84	Energy	Low N_Energy	Energy_Low N
+CC0309FS4R0718177002	71817	Root	CentralCity	3	9	Full N	S4	Atlas	79	Sweet	Full N_Sweet	Sweet_Full N
+CC0309LS4R0718177023	71817	Root	CentralCity	3	9	Low N	S4	Atlas	79	Sweet	Low N_Sweet	Sweet_Low N
+CC0310FE13R0718177003	71817	Root	CentralCity	3	10	Full N	E13	PI297130	83	Energy	Full N_Energy	Energy_Full N
+CC0310LE13R0718177024	71817	Root	CentralCity	3	10	Low N	E13	PI297130	81	Energy	Low N_Energy	Energy_Low N
+CC0311FE14R0718175903	71817	Root	CentralCity	3	11	Full N	E14	Grassl	84	Energy	Full N_Energy	Energy_Full N
+CC0311LE14R0718175906	71817	Root	CentralCity	3	11	Low N	E14	Grassl	85	Energy	Low N_Energy	Energy_Low N
+CC0312FS5R0718177004	71817	Root	CentralCity	3	12	Full N	S5	Leoti	82	Sweet	Full N_Sweet	Sweet_Full N
+CC0312LS5R0718177025	71817	Root	CentralCity	3	12	Low N	S5	Leoti	87	Sweet	Low N_Sweet	Sweet_Low N
+CC0313FE11R0718177005	71817	Root	CentralCity	3	13	Full N	E11	PI506069	88	Energy	Full N_Energy	Energy_Full N
+CC0313LE11R0718177026	71817	Root	CentralCity	3	13	Low N	E11	PI506069	84	Energy	Low N_Energy	Energy_Low N
+CC0314FS8R0718177006	71817	Root	CentralCity	3	14	Full N	S8	Rio	84	Sweet	Full N_Sweet	Sweet_Full N
+CC0314LS8R0718177027	71817	Root	CentralCity	3	14	Low N	S8	Rio	83	Sweet	Low N_Sweet	Sweet_Low N
+CC0315FE4R0718177007	71817	Root	CentralCity	3	15	Full N	E4	PI329632	80	Energy	Full N_Energy	Energy_Full N
+CC0315LE4R0718177028	71817	Root	CentralCity	3	15	Low N	E4	PI329632	84	Energy	Low N_Energy	Energy_Low N
+CC0316LE8R0718177029	71817	Root	CentralCity	3	16	Low N	E8	M81e	86	Energy	Low N_Energy	Energy_Low N
+CC0317FE15R0718177009	71817	Root	CentralCity	3	17	Full N	E15	PI152730	88	Energy	Full N_Energy	Energy_Full N
+CC0317LE15R0718177030	71817	Root	CentralCity	3	17	Low N	E15	PI152730	79	Energy	Low N_Energy	Energy_Low N
+CC0318FE18R0718177010	71817	Root	CentralCity	3	18	Full N	E18	PI510757	85	Energy	Full N_Energy	Energy_Full N
+CC0318LE18R0718177031	71817	Root	CentralCity	3	18	Low N	E18	PI510757	79	Energy	Low N_Energy	Energy_Low N
+CC0319FE5R0718177011	71817	Root	CentralCity	3	19	Full N	E5	PI35038	86	Energy	Full N_Energy	Energy_Full N
+CC0319LE5R0718177032	71817	Root	CentralCity	3	19	Low N	E5	PI35038	81	Energy	Low N_Energy	Energy_Low N
+CC0320FE7R0718177012	71817	Root	CentralCity	3	20	Full N	E7	NTJ2	87	Energy	Full N_Energy	Energy_Full N
+CC0320LE7R0718177033	71817	Root	CentralCity	3	20	Low N	E7	NTJ2	88	Energy	Low N_Energy	Energy_Low N
+CC0321FE1R0718177013	71817	Root	CentralCity	3	21	Full N	E1	PI329311	80	Energy	Full N_Energy	Energy_Full N
+CC0322FE6R0718177014	71817	Root	CentralCity	3	22	Full N	E6	PI585954	80	Energy	Full N_Energy	Energy_Full N
+CC0322LE6R0718177035	71817	Root	CentralCity	3	22	Low N	E6	PI585954	85	Energy	Low N_Energy	Energy_Low N
+CC0323FE3R0718177015	71817	Root	CentralCity	3	23	Full N	E3	PI505735	84	Energy	Full N_Energy	Energy_Full N
+CC0323LE3R0718177036	71817	Root	CentralCity	3	23	Low N	E3	PI505735	81	Energy	Low N_Energy	Energy_Low N
+CC0324FS6R0718177016	71817	Root	CentralCity	3	24	Full N	S6	ChineseAmber	80	Sweet	Full N_Sweet	Sweet_Full N
+CC0324LS6R0718178585	71817	Root	CentralCity	3	24	Low N	S6	ChineseAmber	97	Sweet	Low N_Sweet	Sweet_Low N
+CC0401FG3R0718177062	71817	Root	CentralCity	4	1	Full N	G3	Btx642	79	Grain	Full N_Grain	Grain_Full N
+CC0401LG3R0718177038	71817	Root	CentralCity	4	1	Low N	G3	Btx642	88	Grain	Low N_Grain	Grain_Low N
+CC0402FG1R0718177063	71817	Root	CentralCity	4	2	Full N	G1	BTx623	87	Grain	Full N_Grain	Grain_Full N
+CC0402LG1R0718177039	71817	Root	CentralCity	4	2	Low N	G1	BTx623	82	Grain	Low N_Grain	Grain_Low N
+CC0403FE17R0718177064	71817	Root	CentralCity	4	3	Full N	E17	PI655972	85	Energy	Full N_Energy	Energy_Full N
+CC0403LE17R0718177040	71817	Root	CentralCity	4	3	Low N	E17	PI655972	84	Energy	Low N_Energy	Energy_Low N
+CC0404FE10R0718177065	71817	Root	CentralCity	4	4	Full N	E10	PI297155	81	Energy	Full N_Energy	Energy_Full N
+CC0405FS10R0718177066	71817	Root	CentralCity	4	5	Full N	S10	China17	88	Sweet	Full N_Sweet	Sweet_Full N
+CC0405LS10R0718177042	71817	Root	CentralCity	4	5	Low N	S10	China17	79	Sweet	Low N_Sweet	Sweet_Low N
+CC0406FS2R0718177067	71817	Root	CentralCity	4	6	Full N	S2	SanChiSan	87	Sweet	Full N_Sweet	Sweet_Full N
+CC0407FE18R0718177068	71817	Root	CentralCity	4	7	Full N	E18	PI510757	87	Energy	Full N_Energy	Energy_Full N
+CC0407LE18R0718177044	71817	Root	CentralCity	4	7	Low N	E18	PI510757	83	Energy	Low N_Energy	Energy_Low N
+CC0408FS4R0718177069	71817	Root	CentralCity	4	8	Full N	S4	Atlas	86	Sweet	Full N_Sweet	Sweet_Full N
+CC0409FS6R0718177070	71817	Root	CentralCity	4	9	Full N	S6	ChineseAmber	88	Sweet	Full N_Sweet	Sweet_Full N
+CC0409LS6R0718177046	71817	Root	CentralCity	4	9	Low N	S6	ChineseAmber	84	Sweet	Low N_Sweet	Sweet_Low N
+CC0410FS5R0718177071	71817	Root	CentralCity	4	10	Full N	S5	Leoti	81	Sweet	Full N_Sweet	Sweet_Full N
+CC0410LS5R0718177047	71817	Root	CentralCity	4	10	Low N	S5	Leoti	88	Sweet	Low N_Sweet	Sweet_Low N
+CC0411FE7R0718177072	71817	Root	CentralCity	4	11	Full N	E7	NTJ2	88	Energy	Full N_Energy	Energy_Full N
+CC0412FE15R0718177073	71817	Root	CentralCity	4	12	Full N	E15	PI152730	88	Energy	Full N_Energy	Energy_Full N
+CC0412LE15R0718177049	71817	Root	CentralCity	4	12	Low N	E15	PI152730	85	Energy	Low N_Energy	Energy_Low N
+CC0413FE6R0718177074	71817	Root	CentralCity	4	13	Full N	E6	PI585954	86	Energy	Full N_Energy	Energy_Full N
+CC0414FS3R0718177075	71817	Root	CentralCity	4	14	Full N	S3	ICSV700	87	Sweet	Full N_Sweet	Sweet_Full N
+CC0414LS3R0718177051	71817	Root	CentralCity	4	14	Low N	S3	ICSV700	88	Sweet	Low N_Sweet	Sweet_Low N
+CC0415FE1R0718177076	71817	Root	CentralCity	4	15	Full N	E1	PI329311	81	Energy	Full N_Energy	Energy_Full N
+CC0416FE4R0718177077	71817	Root	CentralCity	4	16	Full N	E4	PI329632	79	Energy	Full N_Energy	Energy_Full N
+CC0416LE4R0718177053	71817	Root	CentralCity	4	16	Low N	E4	PI329632	81	Energy	Low N_Energy	Energy_Low N
+CC0417FE9R0718177078	71817	Root	CentralCity	4	17	Full N	E9	PI229841	82	Energy	Full N_Energy	Energy_Full N
+CC0417LE9R0718177054	71817	Root	CentralCity	4	17	Low N	E9	PI229841	85	Energy	Low N_Energy	Energy_Low N
+CC0418FS8R0718177079	71817	Root	CentralCity	4	18	Full N	S8	Rio	82	Sweet	Full N_Sweet	Sweet_Full N
+CC0418LS8R0718177055	71817	Root	CentralCity	4	18	Low N	S8	Rio	84	Sweet	Low N_Sweet	Sweet_Low N
+CC0419FE8R0718177080	71817	Root	CentralCity	4	19	Full N	E8	M81e	87	Energy	Full N_Energy	Energy_Full N
+CC0419LE8R0718177056	71817	Root	CentralCity	4	19	Low N	E8	M81e	88	Energy	Low N_Energy	Energy_Low N
+CC0420FE13R0718177081	71817	Root	CentralCity	4	20	Full N	E13	PI297130	82	Energy	Full N_Energy	Energy_Full N
+CC0421FE5R0718177082	71817	Root	CentralCity	4	21	Full N	E5	PI35038	83	Energy	Full N_Energy	Energy_Full N
+CC0421LE5R0718177058	71817	Root	CentralCity	4	21	Low N	E5	PI35038	87	Energy	Low N_Energy	Energy_Low N
+CC0422FE14R0718177083	71817	Root	CentralCity	4	22	Full N	E14	Grassl	85	Energy	Full N_Energy	Energy_Full N
+CC0422LE14R0718177059	71817	Root	CentralCity	4	22	Low N	E14	Grassl	79	Energy	Low N_Energy	Energy_Low N
+CC0423FE3R0718177084	71817	Root	CentralCity	4	23	Full N	E3	PI505735	85	Energy	Full N_Energy	Energy_Full N
+CC0423LE3R0718177060	71817	Root	CentralCity	4	23	Low N	E3	PI505735	87	Energy	Low N_Energy	Energy_Low N
+CC0424LE11R0718177061	71817	Root	CentralCity	4	24	Low N	E11	PI506069	88	Energy	Low N_Energy	Energy_Low N
+CC0501FG1R0718175908	71817	Root	CentralCity	5	1	Full N	G1	BTx623	86	Grain	Full N_Grain	Grain_Full N
+CC0501LG1R0718175910	71817	Root	CentralCity	5	1	Low N	G1	BTx623	86	Grain	Low N_Grain	Grain_Low N
+CC0502FG3R0718177086	71817	Root	CentralCity	5	2	Full N	G3	Btx642	85	Grain	Full N_Grain	Grain_Full N
+CC0502LG3R0718177107	71817	Root	CentralCity	5	2	Low N	G3	Btx642	83	Grain	Low N_Grain	Grain_Low N
+CC0503FS2R0718177087	71817	Root	CentralCity	5	3	Full N	S2	SanChiSan	87	Sweet	Full N_Sweet	Sweet_Full N
+CC0503LS2R0718177108	71817	Root	CentralCity	5	3	Low N	S2	SanChiSan	81	Sweet	Low N_Sweet	Sweet_Low N
+CC0504FS10R0718177088	71817	Root	CentralCity	5	4	Full N	S10	China17	86	Sweet	Full N_Sweet	Sweet_Full N
+CC0504LS10R0718177109	71817	Root	CentralCity	5	4	Low N	S10	China17	81	Sweet	Low N_Sweet	Sweet_Low N
+CC0505FE17R0718175907	71817	Root	CentralCity	5	5	Full N	E17	PI655972	87	Energy	Full N_Energy	Energy_Full N
+CC0505LE17R0718175911	71817	Root	CentralCity	5	5	Low N	E17	PI655972	81	Energy	Low N_Energy	Energy_Low N
+CC0506FE10R0718177089	71817	Root	CentralCity	5	6	Full N	E10	PI297155	88	Energy	Full N_Energy	Energy_Full N
+CC0506LE10R0718177110	71817	Root	CentralCity	5	6	Low N	E10	PI297155	87	Energy	Low N_Energy	Energy_Low N
+CC0507FE15R0718177090	71817	Root	CentralCity	5	7	Full N	E15	PI152730	80	Energy	Full N_Energy	Energy_Full N
+CC0507LE15R0718177111	71817	Root	CentralCity	5	7	Low N	E15	PI152730	84	Energy	Low N_Energy	Energy_Low N
+CC0508FE5R0718177091	71817	Root	CentralCity	5	8	Full N	E5	PI35038	86	Energy	Full N_Energy	Energy_Full N
+CC0508LE5R0718177112	71817	Root	CentralCity	5	8	Low N	E5	PI35038	88	Energy	Low N_Energy	Energy_Low N
+CC0509FE4R0718177092	71817	Root	CentralCity	5	9	Full N	E4	PI329632	81	Energy	Full N_Energy	Energy_Full N
+CC0509LE4R0718177113	71817	Root	CentralCity	5	9	Low N	E4	PI329632	81	Energy	Low N_Energy	Energy_Low N
+CC0510LE9R0718177114	71817	Root	CentralCity	5	10	Low N	E9	PI229841	82	Energy	Low N_Energy	Energy_Low N
+CC0511FE7R0718177094	71817	Root	CentralCity	5	11	Full N	E7	NTJ2	83	Energy	Full N_Energy	Energy_Full N
+CC0511LE7R0718177115	71817	Root	CentralCity	5	11	Low N	E7	NTJ2	79	Energy	Low N_Energy	Energy_Low N
+CC0512FE14R0718175909	71817	Root	CentralCity	5	12	Full N	E14	Grassl	83	Energy	Full N_Energy	Energy_Full N
+CC0512LE14R0718175912	71817	Root	CentralCity	5	12	Low N	E14	Grassl	82	Energy	Low N_Energy	Energy_Low N
+CC0513FS3R0718177095	71817	Root	CentralCity	5	13	Full N	S3	ICSV700	84	Sweet	Full N_Sweet	Sweet_Full N
+CC0513LS3R0718177116	71817	Root	CentralCity	5	13	Low N	S3	ICSV700	87	Sweet	Low N_Sweet	Sweet_Low N
+CC0514FE6R0718177096	71817	Root	CentralCity	5	14	Full N	E6	PI585954	83	Energy	Full N_Energy	Energy_Full N
+CC0514LE6R0718177117	71817	Root	CentralCity	5	14	Low N	E6	PI585954	86	Energy	Low N_Energy	Energy_Low N
+CC0515FS4R0718177097	71817	Root	CentralCity	5	15	Full N	S4	Atlas	80	Sweet	Full N_Sweet	Sweet_Full N
+CC0515LS4R0718177118	71817	Root	CentralCity	5	15	Low N	S4	Atlas	81	Sweet	Low N_Sweet	Sweet_Low N
+CC0516FE11R0718177098	71817	Root	CentralCity	5	16	Full N	E11	PI506069	87	Energy	Full N_Energy	Energy_Full N
+CC0516LE11R0718177119	71817	Root	CentralCity	5	16	Low N	E11	PI506069	79	Energy	Low N_Energy	Energy_Low N
+CC0517FE1R0718177099	71817	Root	CentralCity	5	17	Full N	E1	PI329311	86	Energy	Full N_Energy	Energy_Full N
+CC0517LE1R0718177120	71817	Root	CentralCity	5	17	Low N	E1	PI329311	86	Energy	Low N_Energy	Energy_Low N
+CC0518FE3R0718177100	71817	Root	CentralCity	5	18	Full N	E3	PI505735	79	Energy	Full N_Energy	Energy_Full N
+CC0518LE3R0718177121	71817	Root	CentralCity	5	18	Low N	E3	PI505735	83	Energy	Low N_Energy	Energy_Low N
+CC0519FS6R0718177101	71817	Root	CentralCity	5	19	Full N	S6	ChineseAmber	80	Sweet	Full N_Sweet	Sweet_Full N
+CC0520FE13R0718177102	71817	Root	CentralCity	5	20	Full N	E13	PI297130	81	Energy	Full N_Energy	Energy_Full N
+CC0520LE13R0718177123	71817	Root	CentralCity	5	20	Low N	E13	PI297130	84	Energy	Low N_Energy	Energy_Low N
+CC0521FE8R0718177103	71817	Root	CentralCity	5	21	Full N	E8	M81e	87	Energy	Full N_Energy	Energy_Full N
+CC0521LE8R0718177124	71817	Root	CentralCity	5	21	Low N	E8	M81e	79	Energy	Low N_Energy	Energy_Low N
+CC0522FE18R0718177104	71817	Root	CentralCity	5	22	Full N	E18	PI510757	86	Energy	Full N_Energy	Energy_Full N
+CC0522LE18R0718177125	71817	Root	CentralCity	5	22	Low N	E18	PI510757	80	Energy	Low N_Energy	Energy_Low N
+CC0523FS8R0718177105	71817	Root	CentralCity	5	23	Full N	S8	Rio	79	Sweet	Full N_Sweet	Sweet_Full N
+CC0523LS8R0718177126	71817	Root	CentralCity	5	23	Low N	S8	Rio	87	Sweet	Low N_Sweet	Sweet_Low N
+CC0524FS5R0718177106	71817	Root	CentralCity	5	24	Full N	S5	Leoti	85	Sweet	Full N_Sweet	Sweet_Full N
+CC0524LS5R0718177127	71817	Root	CentralCity	5	24	Low N	S5	Leoti	87	Sweet	Low N_Sweet	Sweet_Low N
+CC0601FG3R0718177128	71817	Root	CentralCity	6	1	Full N	G3	Btx642	87	Grain	Full N_Grain	Grain_Full N
+CC0601LG3R0718177149	71817	Root	CentralCity	6	1	Low N	G3	Btx642	79	Grain	Low N_Grain	Grain_Low N
+CC0602FG1R0718175913	71817	Root	CentralCity	6	2	Full N	G1	BTx623	82	Grain	Full N_Grain	Grain_Full N
+CC0602LG1R0718175916	71817	Root	CentralCity	6	2	Low N	G1	BTx623	84	Grain	Low N_Grain	Grain_Low N
+CC0603FS2R0718178586	71817	Root	CentralCity	6	3	Full N	S2	SanChiSan	90	Sweet	Full N_Sweet	Sweet_Full N
+CC0603LS2R0718177150	71817	Root	CentralCity	6	3	Low N	S2	SanChiSan	85	Sweet	Low N_Sweet	Sweet_Low N
+CC0604FE10R0718177130	71817	Root	CentralCity	6	4	Full N	E10	PI297155	80	Energy	Full N_Energy	Energy_Full N
+CC0605FE17R0718175914	71817	Root	CentralCity	6	5	Full N	E17	PI655972	84	Energy	Full N_Energy	Energy_Full N
+CC0605LE17R0718175917	71817	Root	CentralCity	6	5	Low N	E17	PI655972	88	Energy	Low N_Energy	Energy_Low N
+CC0606FS10R0718177131	71817	Root	CentralCity	6	6	Full N	S10	China17	88	Sweet	Full N_Sweet	Sweet_Full N
+CC0606LS10R0718177152	71817	Root	CentralCity	6	6	Low N	S10	China17	80	Sweet	Low N_Sweet	Sweet_Low N
+CC0607FS8R0718177132	71817	Root	CentralCity	6	7	Full N	S8	Rio	85	Sweet	Full N_Sweet	Sweet_Full N
+CC0607LS8R0718177153	71817	Root	CentralCity	6	7	Low N	S8	Rio	79	Sweet	Low N_Sweet	Sweet_Low N
+CC0608FE5R0718177133	71817	Root	CentralCity	6	8	Full N	E5	PI35038	88	Energy	Full N_Energy	Energy_Full N
+CC0608LE5R0718177154	71817	Root	CentralCity	6	8	Low N	E5	PI35038	86	Energy	Low N_Energy	Energy_Low N
+CC0609FE15R0718177134	71817	Root	CentralCity	6	9	Full N	E15	PI152730	82	Energy	Full N_Energy	Energy_Full N
+CC0609LE15R0718177155	71817	Root	CentralCity	6	9	Low N	E15	PI152730	81	Energy	Low N_Energy	Energy_Low N
+CC0610FE3R0718177135	71817	Root	CentralCity	6	10	Full N	E3	PI505735	85	Energy	Full N_Energy	Energy_Full N
+CC0610LE3R0718177156	71817	Root	CentralCity	6	10	Low N	E3	PI505735	82	Energy	Low N_Energy	Energy_Low N
+CC0611FE9R0718177136	71817	Root	CentralCity	6	11	Full N	E9	PI229841	81	Energy	Full N_Energy	Energy_Full N
+CC0611LE9R0718177157	71817	Root	CentralCity	6	11	Low N	E9	PI229841	85	Energy	Low N_Energy	Energy_Low N
+CC0612FE14R0718175915	71817	Root	CentralCity	6	12	Full N	E14	Grassl	84	Energy	Full N_Energy	Energy_Full N
+CC0612LE14R0718175918	71817	Root	CentralCity	6	12	Low N	E14	Grassl	88	Energy	Low N_Energy	Energy_Low N
+CC0613FS3R0718177137	71817	Root	CentralCity	6	13	Full N	S3	ICSV700	87	Sweet	Full N_Sweet	Sweet_Full N
+CC0613LS3R0718177158	71817	Root	CentralCity	6	13	Low N	S3	ICSV700	83	Sweet	Low N_Sweet	Sweet_Low N
+CC0614FS5R0718177138	71817	Root	CentralCity	6	14	Full N	S5	Leoti	85	Sweet	Full N_Sweet	Sweet_Full N
+CC0614LS5R0718177159	71817	Root	CentralCity	6	14	Low N	S5	Leoti	84	Sweet	Low N_Sweet	Sweet_Low N
+CC0615FE1R0718177139	71817	Root	CentralCity	6	15	Full N	E1	PI329311	81	Energy	Full N_Energy	Energy_Full N
+CC0615LE1R0718177160	71817	Root	CentralCity	6	15	Low N	E1	PI329311	88	Energy	Low N_Energy	Energy_Low N
+CC0616FE8R0718177140	71817	Root	CentralCity	6	16	Full N	E8	M81e	88	Energy	Full N_Energy	Energy_Full N
+CC0616LE8R0718177161	71817	Root	CentralCity	6	16	Low N	E8	M81e	84	Energy	Low N_Energy	Energy_Low N
+CC0617FS6R0718177141	71817	Root	CentralCity	6	17	Full N	S6	ChineseAmber	82	Sweet	Full N_Sweet	Sweet_Full N
+CC0617LS6R0718177162	71817	Root	CentralCity	6	17	Low N	S6	ChineseAmber	79	Sweet	Low N_Sweet	Sweet_Low N
+CC0618FE7R0718177142	71817	Root	CentralCity	6	18	Full N	E7	NTJ2	80	Energy	Full N_Energy	Energy_Full N
+CC0620FE6R0718177144	71817	Root	CentralCity	6	20	Full N	E6	PI585954	79	Energy	Full N_Energy	Energy_Full N
+CC0620LE6R0718177165	71817	Root	CentralCity	6	20	Low N	E6	PI585954	83	Energy	Low N_Energy	Energy_Low N
+CC0621FE13R0718177145	71817	Root	CentralCity	6	21	Full N	E13	PI297130	80	Energy	Full N_Energy	Energy_Full N
+CC0621LE13R0718177166	71817	Root	CentralCity	6	21	Low N	E13	PI297130	84	Energy	Low N_Energy	Energy_Low N
+CC0622LS4R0718177167	71817	Root	CentralCity	6	22	Low N	S4	Atlas	84	Sweet	Low N_Sweet	Sweet_Low N
+CC0623FE18R0718177147	71817	Root	CentralCity	6	23	Full N	E18	PI510757	79	Energy	Full N_Energy	Energy_Full N
+CC0623LE18R0718177168	71817	Root	CentralCity	6	23	Low N	E18	PI510757	85	Energy	Low N_Energy	Energy_Low N
+CC0624FE4R0718177148	71817	Root	CentralCity	6	24	Full N	E4	PI329632	86	Energy	Full N_Energy	Energy_Full N
+CC0624LE4R0718177169	71817	Root	CentralCity	6	24	Low N	E4	PI329632	81	Energy	Low N_Energy	Energy_Low N
+CC0701FG3R0718177194	71817	Root	CentralCity	7	1	Full N	G3	Btx642	81	Grain	Full N_Grain	Grain_Full N
+CC0701LG3R0718177170	71817	Root	CentralCity	7	1	Low N	G3	Btx642	81	Grain	Low N_Grain	Grain_Low N
+CC0702FG1R0718177195	71817	Root	CentralCity	7	2	Full N	G1	BTx623	88	Grain	Full N_Grain	Grain_Full N
+CC0702LG1R0718177171	71817	Root	CentralCity	7	2	Low N	G1	BTx623	86	Grain	Low N_Grain	Grain_Low N
+CC0703FS10R0718177196	71817	Root	CentralCity	7	3	Full N	S10	China17	86	Sweet	Full N_Sweet	Sweet_Full N
+CC0703LS10R0718177172	71817	Root	CentralCity	7	3	Low N	S10	China17	86	Sweet	Low N_Sweet	Sweet_Low N
+CC0704FE10R0718177197	71817	Root	CentralCity	7	4	Full N	E10	PI297155	85	Energy	Full N_Energy	Energy_Full N
+CC0705FE17R0718177198	71817	Root	CentralCity	7	5	Full N	E17	PI655972	83	Energy	Full N_Energy	Energy_Full N
+CC0706LS2R0718177175	71817	Root	CentralCity	7	6	Low N	S2	SanChiSan	87	Sweet	Low N_Sweet	Sweet_Low N
+CC0707FS5R0718177200	71817	Root	CentralCity	7	7	Full N	S5	Leoti	82	Sweet	Full N_Sweet	Sweet_Full N
+CC0707LS5R0718177176	71817	Root	CentralCity	7	7	Low N	S5	Leoti	82	Sweet	Low N_Sweet	Sweet_Low N
+CC0708FE3R0718177201	71817	Root	CentralCity	7	8	Full N	E3	PI505735	86	Energy	Full N_Energy	Energy_Full N
+CC0708LE3R0718177177	71817	Root	CentralCity	7	8	Low N	E3	PI505735	84	Energy	Low N_Energy	Energy_Low N
+CC0709LE6R0718177178	71817	Root	CentralCity	7	9	Low N	E6	PI585954	86	Energy	Low N_Energy	Energy_Low N
+CC0710FE5R0718177203	71817	Root	CentralCity	7	10	Full N	E5	PI35038	82	Energy	Full N_Energy	Energy_Full N
+CC0710LE5R0718177179	71817	Root	CentralCity	7	10	Low N	E5	PI35038	81	Energy	Low N_Energy	Energy_Low N
+CC0711FS3R0718177204	71817	Root	CentralCity	7	11	Full N	S3	ICSV700	87	Sweet	Full N_Sweet	Sweet_Full N
+CC0711LS3R0718177180	71817	Root	CentralCity	7	11	Low N	S3	ICSV700	87	Sweet	Low N_Sweet	Sweet_Low N
+CC0712FE13R0718177205	71817	Root	CentralCity	7	12	Full N	E13	PI297130	81	Energy	Full N_Energy	Energy_Full N
+CC0712LE13R0718177181	71817	Root	CentralCity	7	12	Low N	E13	PI297130	84	Energy	Low N_Energy	Energy_Low N
+CC0713FE18R0718177206	71817	Root	CentralCity	7	13	Full N	E18	PI510757	86	Energy	Full N_Energy	Energy_Full N
+CC0713LE18R0718177182	71817	Root	CentralCity	7	13	Low N	E18	PI510757	87	Energy	Low N_Energy	Energy_Low N
+CC0714FE4R0718177207	71817	Root	CentralCity	7	14	Full N	E4	PI329632	88	Energy	Full N_Energy	Energy_Full N
+CC0714LE4R0718177183	71817	Root	CentralCity	7	14	Low N	E4	PI329632	82	Energy	Low N_Energy	Energy_Low N
+CC0715FE11R0718177208	71817	Root	CentralCity	7	15	Full N	E11	PI506069	87	Energy	Full N_Energy	Energy_Full N
+CC0715LE11R0718177184	71817	Root	CentralCity	7	15	Low N	E11	PI506069	83	Energy	Low N_Energy	Energy_Low N
+CC0716FE1R0718177209	71817	Root	CentralCity	7	16	Full N	E1	PI329311	81	Energy	Full N_Energy	Energy_Full N
+CC0716LE1R0718177185	71817	Root	CentralCity	7	16	Low N	E1	PI329311	88	Energy	Low N_Energy	Energy_Low N
+CC0717FE15R0718177210	71817	Root	CentralCity	7	17	Full N	E15	PI152730	88	Energy	Full N_Energy	Energy_Full N
+CC0717LE15R0718177186	71817	Root	CentralCity	7	17	Low N	E15	PI152730	85	Energy	Low N_Energy	Energy_Low N
+CC0718FS8R0718177211	71817	Root	CentralCity	7	18	Full N	S8	Rio	80	Sweet	Full N_Sweet	Sweet_Full N
+CC0718LS8R0718177187	71817	Root	CentralCity	7	18	Low N	S8	Rio	87	Sweet	Low N_Sweet	Sweet_Low N
+CC0719FS4R0718177212	71817	Root	CentralCity	7	19	Full N	S4	Atlas	87	Sweet	Full N_Sweet	Sweet_Full N
+CC0719LS4R0718177188	71817	Root	CentralCity	7	19	Low N	S4	Atlas	84	Sweet	Low N_Sweet	Sweet_Low N
+CC0720FE9R0718177213	71817	Root	CentralCity	7	20	Full N	E9	PI229841	85	Energy	Full N_Energy	Energy_Full N
+CC0720LE9R0718177189	71817	Root	CentralCity	7	20	Low N	E9	PI229841	88	Energy	Low N_Energy	Energy_Low N
+CC0721FS6R0718177214	71817	Root	CentralCity	7	21	Full N	S6	ChineseAmber	81	Sweet	Full N_Sweet	Sweet_Full N
+CC0722FE14R0718177215	71817	Root	CentralCity	7	22	Full N	E14	Grassl	80	Energy	Full N_Energy	Energy_Full N
+CC0722LE14R0718177191	71817	Root	CentralCity	7	22	Low N	E14	Grassl	79	Energy	Low N_Energy	Energy_Low N
+CC0723FE8R0718177216	71817	Root	CentralCity	7	23	Full N	E8	M81e	87	Energy	Full N_Energy	Energy_Full N
+CC0723LE8R0718177192	71817	Root	CentralCity	7	23	Low N	E8	M81e	81	Energy	Low N_Energy	Energy_Low N
+CC0724FE7R0718177217	71817	Root	CentralCity	7	24	Full N	E7	NTJ2	81	Energy	Full N_Energy	Energy_Full N
+CC0724LE7R0718177193	71817	Root	CentralCity	7	24	Low N	E7	NTJ2	87	Energy	Low N_Energy	Energy_Low N
+CC0801FG3R0718177218	71817	Root	CentralCity	8	1	Full N	G3	Btx642	82	Grain	Full N_Grain	Grain_Full N
+CC0801LG3R0718177239	71817	Root	CentralCity	8	1	Low N	G3	Btx642	84	Grain	Low N_Grain	Grain_Low N
+CC0802FG1R0718175919	71817	Root	CentralCity	8	2	Full N	G1	BTx623	86	Grain	Full N_Grain	Grain_Full N
+CC0802LG1R0718175922	71817	Root	CentralCity	8	2	Low N	G1	BTx623	79	Grain	Low N_Grain	Grain_Low N
+CC0803FS2R0718177219	71817	Root	CentralCity	8	3	Full N	S2	SanChiSan	79	Sweet	Full N_Sweet	Sweet_Full N
+CC0803LS2R0718177240	71817	Root	CentralCity	8	3	Low N	S2	SanChiSan	79	Sweet	Low N_Sweet	Sweet_Low N
+CC0804FE17R0718175920	71817	Root	CentralCity	8	4	Full N	E17	PI655972	83	Energy	Full N_Energy	Energy_Full N
+CC0805FE10R0718177220	71817	Root	CentralCity	8	5	Full N	E10	PI297155	83	Energy	Full N_Energy	Energy_Full N
+CC0805LE10R0718177241	71817	Root	CentralCity	8	5	Low N	E10	PI297155	85	Energy	Low N_Energy	Energy_Low N
+CC0806FS10R0718178587	71817	Root	CentralCity	8	6	Full N	S10	China17	93	Sweet	Full N_Sweet	Sweet_Full N
+CC0806LS10R0718177242	71817	Root	CentralCity	8	6	Low N	S10	China17	83	Sweet	Low N_Sweet	Sweet_Low N
+CC0807FE9R0718177222	71817	Root	CentralCity	8	7	Full N	E9	PI229841	82	Energy	Full N_Energy	Energy_Full N
+CC0807LE9R0718177243	71817	Root	CentralCity	8	7	Low N	E9	PI229841	81	Energy	Low N_Energy	Energy_Low N
+CC0808FE18R0718177223	71817	Root	CentralCity	8	8	Full N	E18	PI510757	85	Energy	Full N_Energy	Energy_Full N
+CC0809FS8R0718177224	71817	Root	CentralCity	8	9	Full N	S8	Rio	82	Sweet	Full N_Sweet	Sweet_Full N
+CC0809LS8R0718177245	71817	Root	CentralCity	8	9	Low N	S8	Rio	82	Sweet	Low N_Sweet	Sweet_Low N
+CC0810LE6R0718177246	71817	Root	CentralCity	8	10	Low N	E6	PI585954	86	Energy	Low N_Energy	Energy_Low N
+CC0811FE8R0718177226	71817	Root	CentralCity	8	11	Full N	E8	M81e	88	Energy	Full N_Energy	Energy_Full N
+CC0811LE8R0718177247	71817	Root	CentralCity	8	11	Low N	E8	M81e	81	Energy	Low N_Energy	Energy_Low N
+CC0812FS6R0718177227	71817	Root	CentralCity	8	12	Full N	S6	ChineseAmber	87	Sweet	Full N_Sweet	Sweet_Full N
+CC0812LS6R0718177248	71817	Root	CentralCity	8	12	Low N	S6	ChineseAmber	83	Sweet	Low N_Sweet	Sweet_Low N
+CC0813FS4R0718177228	71817	Root	CentralCity	8	13	Full N	S4	Atlas	79	Sweet	Full N_Sweet	Sweet_Full N
+CC0813LS4R0718177249	71817	Root	CentralCity	8	13	Low N	S4	Atlas	87	Sweet	Low N_Sweet	Sweet_Low N
+CC0814FE5R0718177229	71817	Root	CentralCity	8	14	Full N	E5	PI35038	84	Energy	Full N_Energy	Energy_Full N
+CC0814LE5R0718177250	71817	Root	CentralCity	8	14	Low N	E5	PI35038	88	Energy	Low N_Energy	Energy_Low N
+CC0815FE1R0718177230	71817	Root	CentralCity	8	15	Full N	E1	PI329311	82	Energy	Full N_Energy	Energy_Full N
+CC0815LE1R0718177251	71817	Root	CentralCity	8	15	Low N	E1	PI329311	85	Energy	Low N_Energy	Energy_Low N
+CC0816FE15R0718177231	71817	Root	CentralCity	8	16	Full N	E15	PI152730	88	Energy	Full N_Energy	Energy_Full N
+CC0816LE15R0718177252	71817	Root	CentralCity	8	16	Low N	E15	PI152730	84	Energy	Low N_Energy	Energy_Low N
+CC0817FE7R0718177232	71817	Root	CentralCity	8	17	Full N	E7	NTJ2	81	Energy	Full N_Energy	Energy_Full N
+CC0817LE7R0718177253	71817	Root	CentralCity	8	17	Low N	E7	NTJ2	85	Energy	Low N_Energy	Energy_Low N
+CC0818FS3R0718177233	71817	Root	CentralCity	8	18	Full N	S3	ICSV700	81	Sweet	Full N_Sweet	Sweet_Full N
+CC0818LS3R0718177254	71817	Root	CentralCity	8	18	Low N	S3	ICSV700	81	Sweet	Low N_Sweet	Sweet_Low N
+CC0819FE11R0718177234	71817	Root	CentralCity	8	19	Full N	E11	PI506069	81	Energy	Full N_Energy	Energy_Full N
+CC0819LE11R0718177255	71817	Root	CentralCity	8	19	Low N	E11	PI506069	82	Energy	Low N_Energy	Energy_Low N
+CC0820FE4R0718177235	71817	Root	CentralCity	8	20	Full N	E4	PI329632	83	Energy	Full N_Energy	Energy_Full N
+CC0820LE4R0718177256	71817	Root	CentralCity	8	20	Low N	E4	PI329632	80	Energy	Low N_Energy	Energy_Low N
+CC0821FE14R0718175921	71817	Root	CentralCity	8	21	Full N	E14	Grassl	83	Energy	Full N_Energy	Energy_Full N
+CC0821LE14R0718175924	71817	Root	CentralCity	8	21	Low N	E14	Grassl	79	Energy	Low N_Energy	Energy_Low N
+CC0822FS5R0718177236	71817	Root	CentralCity	8	22	Full N	S5	Leoti	87	Sweet	Full N_Sweet	Sweet_Full N
+CC0822LS5R0718177257	71817	Root	CentralCity	8	22	Low N	S5	Leoti	83	Sweet	Low N_Sweet	Sweet_Low N
+CC0823FE13R0718177237	71817	Root	CentralCity	8	23	Full N	E13	PI297130	83	Energy	Full N_Energy	Energy_Full N
+CC0824FE3R0718177238	71817	Root	CentralCity	8	24	Full N	E3	PI505735	80	Energy	Full N_Energy	Energy_Full N
+CC0824LE3R0718177259	71817	Root	CentralCity	8	24	Low N	E3	PI505735	85	Energy	Low N_Energy	Energy_Low N
+CC0101FG1S0718175376	71817	Soil Within Row	CentralCity	1	1	Full N	G1	BTx623	62	Grain	Full N_Grain	Grain_Full N
+CC0101LG1S0718175373	71817	Soil Within Row	CentralCity	1	1	Low N	G1	BTx623	68	Grain	Low N_Grain	Grain_Low N
+CC0103FS10S0718177755	71817	Soil Within Row	CentralCity	1	3	Full N	S10	China17	71	Sweet	Full N_Sweet	Sweet_Full N
+CC0103LS10S0718177748	71817	Soil Within Row	CentralCity	1	3	Low N	S10	China17	74	Sweet	Low N_Sweet	Sweet_Low N
+CC0104FE17S0718175377	71817	Soil Within Row	CentralCity	1	4	Full N	E17	PI655972	67	Energy	Full N_Energy	Energy_Full N
+CC0104LE17S0718175374	71817	Soil Within Row	CentralCity	1	4	Low N	E17	PI655972	65	Energy	Low N_Energy	Energy_Low N
+CC0105FS2S0718177756	71817	Soil Within Row	CentralCity	1	5	Full N	S2	SanChiSan	76	Sweet	Full N_Sweet	Sweet_Full N
+CC0109FS5S0718177757	71817	Soil Within Row	CentralCity	1	9	Full N	S5	Leoti	72	Sweet	Full N_Sweet	Sweet_Full N
+CC0109LS5S0718177750	71817	Soil Within Row	CentralCity	1	9	Low N	S5	Leoti	76	Sweet	Low N_Sweet	Sweet_Low N
+CC0112LE4S0718177751	71817	Soil Within Row	CentralCity	1	12	Low N	E4	PI329632	73	Energy	Low N_Energy	Energy_Low N
+CC0113FE14S0718175378	71817	Soil Within Row	CentralCity	1	13	Full N	E14	Grassl	62	Energy	Full N_Energy	Energy_Full N
+CC0113LE14S0718175375	71817	Soil Within Row	CentralCity	1	13	Low N	E14	Grassl	65	Energy	Low N_Energy	Energy_Low N
+CC0115FE6S0718177759	71817	Soil Within Row	CentralCity	1	15	Full N	E6	PI585954	74	Energy	Full N_Energy	Energy_Full N
+CC0115LE6S0718177752	71817	Soil Within Row	CentralCity	1	15	Low N	E6	PI585954	77	Energy	Low N_Energy	Energy_Low N
+CC0121FE11S0718177760	71817	Soil Within Row	CentralCity	1	21	Full N	E11	PI506069	74	Energy	Full N_Energy	Energy_Full N
+CC0121LE11S0718177753	71817	Soil Within Row	CentralCity	1	21	Low N	E11	PI506069	77	Energy	Low N_Energy	Energy_Low N
+CC0122FE9S0718177761	71817	Soil Within Row	CentralCity	1	22	Full N	E9	PI229841	77	Energy	Full N_Energy	Energy_Full N
+CC0122LE9S0718177754	71817	Soil Within Row	CentralCity	1	22	Low N	E9	PI229841	76	Energy	Low N_Energy	Energy_Low N
+CC0201FG1S0718175382	71817	Soil Within Row	CentralCity	2	1	Full N	G1	BTx623	68	Grain	Full N_Grain	Grain_Full N
+CC0201LG1S0718175379	71817	Soil Within Row	CentralCity	2	1	Low N	G1	BTx623	67	Grain	Low N_Grain	Grain_Low N
+CC0204FS2S0718176297	71817	Soil Within Row	CentralCity	2	4	Full N	S2	SanChiSan	73	Sweet	Full N_Sweet	Sweet_Full N
+CC0205FE17S0718175383	71817	Soil Within Row	CentralCity	2	5	Full N	E17	PI655972	64	Energy	Full N_Energy	Energy_Full N
+CC0205LE17S0718175380	71817	Soil Within Row	CentralCity	2	5	Low N	E17	PI655972	64	Energy	Low N_Energy	Energy_Low N
+CC0206FS10S0718176298	71817	Soil Within Row	CentralCity	2	6	Full N	S10	China17	76	Sweet	Full N_Sweet	Sweet_Full N
+CC0206LS10S0718177762	71817	Soil Within Row	CentralCity	2	6	Low N	S10	China17	77	Sweet	Low N_Sweet	Sweet_Low N
+CC0208FE9S0718176299	71817	Soil Within Row	CentralCity	2	8	Full N	E9	PI229841	72	Energy	Full N_Energy	Energy_Full N
+CC0208LE9S0718177763	71817	Soil Within Row	CentralCity	2	8	Low N	E9	PI229841	74	Energy	Low N_Energy	Energy_Low N
+CC0212FE6S0718176300	71817	Soil Within Row	CentralCity	2	12	Full N	E6	PI585954	77	Energy	Full N_Energy	Energy_Full N
+CC0212LE6S0718177764	71817	Soil Within Row	CentralCity	2	12	Low N	E6	PI585954	71	Energy	Low N_Energy	Energy_Low N
+CC0216FE4S0718176301	71817	Soil Within Row	CentralCity	2	16	Full N	E4	PI329632	75	Energy	Full N_Energy	Energy_Full N
+CC0216LE4S0718177765	71817	Soil Within Row	CentralCity	2	16	Low N	E4	PI329632	76	Energy	Low N_Energy	Energy_Low N
+CC0220FE14S0718175384	71817	Soil Within Row	CentralCity	2	20	Full N	E14	Grassl	65	Energy	Full N_Energy	Energy_Full N
+CC0220LE14S0718175381	71817	Soil Within Row	CentralCity	2	20	Low N	E14	Grassl	67	Energy	Low N_Energy	Energy_Low N
+CC0222FE11S0718178578	71817	Soil Within Row	CentralCity	2	22	Full N	E11	PI506069	90	Energy	Full N_Energy	Energy_Full N
+CC0222LE11S0718177766	71817	Soil Within Row	CentralCity	2	22	Low N	E11	PI506069	74	Energy	Low N_Energy	Energy_Low N
+CC0224FS5S0718176303	71817	Soil Within Row	CentralCity	2	24	Full N	S5	Leoti	78	Sweet	Full N_Sweet	Sweet_Full N
+CC0224LS5S0718177767	71817	Soil Within Row	CentralCity	2	24	Low N	S5	Leoti	70	Sweet	Low N_Sweet	Sweet_Low N
+CC0301FG1S0718175385	71817	Soil Within Row	CentralCity	3	1	Full N	G1	BTx623	64	Grain	Full N_Grain	Grain_Full N
+CC0301LG1S0718175388	71817	Soil Within Row	CentralCity	3	1	Low N	G1	BTx623	67	Grain	Low N_Grain	Grain_Low N
+CC0303FE17S0718175386	71817	Soil Within Row	CentralCity	3	3	Full N	E17	PI655972	65	Energy	Full N_Energy	Energy_Full N
+CC0303LE17S0718175389	71817	Soil Within Row	CentralCity	3	3	Low N	E17	PI655972	66	Energy	Low N_Energy	Energy_Low N
+CC0304FS10S0718176304	71817	Soil Within Row	CentralCity	3	4	Full N	S10	China17	72	Sweet	Full N_Sweet	Sweet_Full N
+CC0304LS10S0718176311	71817	Soil Within Row	CentralCity	3	4	Low N	S10	China17	78	Sweet	Low N_Sweet	Sweet_Low N
+CC0305FS2S0718176305	71817	Soil Within Row	CentralCity	3	5	Full N	S2	SanChiSan	76	Sweet	Full N_Sweet	Sweet_Full N
+CC0308FE9S0718176306	71817	Soil Within Row	CentralCity	3	8	Full N	E9	PI229841	76	Energy	Full N_Energy	Energy_Full N
+CC0308LE9S0718176313	71817	Soil Within Row	CentralCity	3	8	Low N	E9	PI229841	72	Energy	Low N_Energy	Energy_Low N
+CC0311FE14S0718175387	71817	Soil Within Row	CentralCity	3	11	Full N	E14	Grassl	66	Energy	Full N_Energy	Energy_Full N
+CC0311LE14S0718175390	71817	Soil Within Row	CentralCity	3	11	Low N	E14	Grassl	63	Energy	Low N_Energy	Energy_Low N
+CC0312FS5S0718176307	71817	Soil Within Row	CentralCity	3	12	Full N	S5	Leoti	76	Sweet	Full N_Sweet	Sweet_Full N
+CC0312LS5S0718176314	71817	Soil Within Row	CentralCity	3	12	Low N	S5	Leoti	76	Sweet	Low N_Sweet	Sweet_Low N
+CC0313LE11S0718176315	71817	Soil Within Row	CentralCity	3	13	Low N	E11	PI506069	74	Energy	Low N_Energy	Energy_Low N
+CC0315FE4S0718176309	71817	Soil Within Row	CentralCity	3	15	Full N	E4	PI329632	71	Energy	Full N_Energy	Energy_Full N
+CC0315LE4S0718176316	71817	Soil Within Row	CentralCity	3	15	Low N	E4	PI329632	78	Energy	Low N_Energy	Energy_Low N
+CC0322FE6S0718176310	71817	Soil Within Row	CentralCity	3	22	Full N	E6	PI585954	73	Energy	Full N_Energy	Energy_Full N
+CC0322LE6S0718176317	71817	Soil Within Row	CentralCity	3	22	Low N	E6	PI585954	77	Energy	Low N_Energy	Energy_Low N
+CC0402FG1S0718176328	71817	Soil Within Row	CentralCity	4	2	Full N	G1	BTx623	73	Grain	Full N_Grain	Grain_Full N
+CC0402LG1S0718176318	71817	Soil Within Row	CentralCity	4	2	Low N	G1	BTx623	72	Grain	Low N_Grain	Grain_Low N
+CC0403FE17S0718176329	71817	Soil Within Row	CentralCity	4	3	Full N	E17	PI655972	70	Energy	Full N_Energy	Energy_Full N
+CC0403LE17S0718176319	71817	Soil Within Row	CentralCity	4	3	Low N	E17	PI655972	75	Energy	Low N_Energy	Energy_Low N
+CC0405FS10S0718176330	71817	Soil Within Row	CentralCity	4	5	Full N	S10	China17	71	Sweet	Full N_Sweet	Sweet_Full N
+CC0405LS10S0718176320	71817	Soil Within Row	CentralCity	4	5	Low N	S10	China17	78	Sweet	Low N_Sweet	Sweet_Low N
+CC0406FS2S0718176331	71817	Soil Within Row	CentralCity	4	6	Full N	S2	SanChiSan	72	Sweet	Full N_Sweet	Sweet_Full N
+CC0406LS2S0718176321	71817	Soil Within Row	CentralCity	4	6	Low N	S2	SanChiSan	76	Sweet	Low N_Sweet	Sweet_Low N
+CC0410FS5S0718176332	71817	Soil Within Row	CentralCity	4	10	Full N	S5	Leoti	70	Sweet	Full N_Sweet	Sweet_Full N
+CC0410LS5S0718176322	71817	Soil Within Row	CentralCity	4	10	Low N	S5	Leoti	75	Sweet	Low N_Sweet	Sweet_Low N
+CC0413FE6S0718176333	71817	Soil Within Row	CentralCity	4	13	Full N	E6	PI585954	75	Energy	Full N_Energy	Energy_Full N
+CC0413LE6S0718176323	71817	Soil Within Row	CentralCity	4	13	Low N	E6	PI585954	76	Energy	Low N_Energy	Energy_Low N
+CC0416FE4S0718176334	71817	Soil Within Row	CentralCity	4	16	Full N	E4	PI329632	74	Energy	Full N_Energy	Energy_Full N
+CC0416LE4S0718176324	71817	Soil Within Row	CentralCity	4	16	Low N	E4	PI329632	74	Energy	Low N_Energy	Energy_Low N
+CC0417FE9S0718176335	71817	Soil Within Row	CentralCity	4	17	Full N	E9	PI229841	70	Energy	Full N_Energy	Energy_Full N
+CC0417LE9S0718176325	71817	Soil Within Row	CentralCity	4	17	Low N	E9	PI229841	72	Energy	Low N_Energy	Energy_Low N
+CC0422FE14S0718176336	71817	Soil Within Row	CentralCity	4	22	Full N	E14	Grassl	72	Energy	Full N_Energy	Energy_Full N
+CC0422LE14S0718176326	71817	Soil Within Row	CentralCity	4	22	Low N	E14	Grassl	78	Energy	Low N_Energy	Energy_Low N
+CC0424FE11S0718176337	71817	Soil Within Row	CentralCity	4	24	Full N	E11	PI506069	76	Energy	Full N_Energy	Energy_Full N
+CC0424LE11S0718176327	71817	Soil Within Row	CentralCity	4	24	Low N	E11	PI506069	76	Energy	Low N_Energy	Energy_Low N
+CC0501FG1S0718175391	71817	Soil Within Row	CentralCity	5	1	Full N	G1	BTx623	63	Grain	Full N_Grain	Grain_Full N
+CC0501LG1S0718175394	71817	Soil Within Row	CentralCity	5	1	Low N	G1	BTx623	69	Grain	Low N_Grain	Grain_Low N
+CC0503FS2S0718176338	71817	Soil Within Row	CentralCity	5	3	Full N	S2	SanChiSan	74	Sweet	Full N_Sweet	Sweet_Full N
+CC0503LS2S0718176345	71817	Soil Within Row	CentralCity	5	3	Low N	S2	SanChiSan	70	Sweet	Low N_Sweet	Sweet_Low N
+CC0504FS10S0718176339	71817	Soil Within Row	CentralCity	5	4	Full N	S10	China17	73	Sweet	Full N_Sweet	Sweet_Full N
+CC0504LS10S0718176346	71817	Soil Within Row	CentralCity	5	4	Low N	S10	China17	78	Sweet	Low N_Sweet	Sweet_Low N
+CC0505FE17S0718175392	71817	Soil Within Row	CentralCity	5	5	Full N	E17	PI655972	69	Energy	Full N_Energy	Energy_Full N
+CC0505LE17S0718175395	71817	Soil Within Row	CentralCity	5	5	Low N	E17	PI655972	62	Energy	Low N_Energy	Energy_Low N
+CC0509FE4S0718176340	71817	Soil Within Row	CentralCity	5	9	Full N	E4	PI329632	73	Energy	Full N_Energy	Energy_Full N
+CC0509LE4S0718176347	71817	Soil Within Row	CentralCity	5	9	Low N	E4	PI329632	70	Energy	Low N_Energy	Energy_Low N
+CC0510LE9S0718176348	71817	Soil Within Row	CentralCity	5	10	Low N	E9	PI229841	77	Energy	Low N_Energy	Energy_Low N
+CC0512FE14S0718175393	71817	Soil Within Row	CentralCity	5	12	Full N	E14	Grassl	62	Energy	Full N_Energy	Energy_Full N
+CC0512LE14S0718175396	71817	Soil Within Row	CentralCity	5	12	Low N	E14	Grassl	63	Energy	Low N_Energy	Energy_Low N
+CC0514FE6S0718176342	71817	Soil Within Row	CentralCity	5	14	Full N	E6	PI585954	78	Energy	Full N_Energy	Energy_Full N
+CC0514LE6S0718176349	71817	Soil Within Row	CentralCity	5	14	Low N	E6	PI585954	76	Energy	Low N_Energy	Energy_Low N
+CC0516FE11S0718176343	71817	Soil Within Row	CentralCity	5	16	Full N	E11	PI506069	75	Energy	Full N_Energy	Energy_Full N
+CC0516LE11S0718176350	71817	Soil Within Row	CentralCity	5	16	Low N	E11	PI506069	73	Energy	Low N_Energy	Energy_Low N
+CC0524FS5S0718176344	71817	Soil Within Row	CentralCity	5	24	Full N	S5	Leoti	76	Sweet	Full N_Sweet	Sweet_Full N
+CC0524LS5S0718176351	71817	Soil Within Row	CentralCity	5	24	Low N	S5	Leoti	70	Sweet	Low N_Sweet	Sweet_Low N
+CC0602FG1S0718175397	71817	Soil Within Row	CentralCity	6	2	Full N	G1	BTx623	69	Grain	Full N_Grain	Grain_Full N
+CC0602LG1S0718175400	71817	Soil Within Row	CentralCity	6	2	Low N	G1	BTx623	64	Grain	Low N_Grain	Grain_Low N
+CC0603FS2S0718176352	71817	Soil Within Row	CentralCity	6	3	Full N	S2	SanChiSan	70	Sweet	Full N_Sweet	Sweet_Full N
+CC0603LS2S0718176359	71817	Soil Within Row	CentralCity	6	3	Low N	S2	SanChiSan	71	Sweet	Low N_Sweet	Sweet_Low N
+CC0605FE17S0718175398	71817	Soil Within Row	CentralCity	6	5	Full N	E17	PI655972	65	Energy	Full N_Energy	Energy_Full N
+CC0605LE17S0718175401	71817	Soil Within Row	CentralCity	6	5	Low N	E17	PI655972	68	Energy	Low N_Energy	Energy_Low N
+CC0606FS10S0718176353	71817	Soil Within Row	CentralCity	6	6	Full N	S10	China17	75	Sweet	Full N_Sweet	Sweet_Full N
+CC0606LS10S0718176360	71817	Soil Within Row	CentralCity	6	6	Low N	S10	China17	72	Sweet	Low N_Sweet	Sweet_Low N
+CC0611FE9S0718176354	71817	Soil Within Row	CentralCity	6	11	Full N	E9	PI229841	76	Energy	Full N_Energy	Energy_Full N
+CC0611LE9S0718176361	71817	Soil Within Row	CentralCity	6	11	Low N	E9	PI229841	73	Energy	Low N_Energy	Energy_Low N
+CC0612FE14S0718175399	71817	Soil Within Row	CentralCity	6	12	Full N	E14	Grassl	68	Energy	Full N_Energy	Energy_Full N
+CC0612LE14S0718175402	71817	Soil Within Row	CentralCity	6	12	Low N	E14	Grassl	68	Energy	Low N_Energy	Energy_Low N
+CC0614FS5S0718176355	71817	Soil Within Row	CentralCity	6	14	Full N	S5	Leoti	72	Sweet	Full N_Sweet	Sweet_Full N
+CC0614LS5S0718176362	71817	Soil Within Row	CentralCity	6	14	Low N	S5	Leoti	77	Sweet	Low N_Sweet	Sweet_Low N
+CC0619FE11S0718176356	71817	Soil Within Row	CentralCity	6	19	Full N	E11	PI506069	74	Energy	Full N_Energy	Energy_Full N
+CC0619LE11S0718176363	71817	Soil Within Row	CentralCity	6	19	Low N	E11	PI506069	77	Energy	Low N_Energy	Energy_Low N
+CC0620FE6S0718176357	71817	Soil Within Row	CentralCity	6	20	Full N	E6	PI585954	77	Energy	Full N_Energy	Energy_Full N
+CC0620LE6S0718176364	71817	Soil Within Row	CentralCity	6	20	Low N	E6	PI585954	73	Energy	Low N_Energy	Energy_Low N
+CC0624FE4S0718176358	71817	Soil Within Row	CentralCity	6	24	Full N	E4	PI329632	75	Energy	Full N_Energy	Energy_Full N
+CC0624LE4S0718176365	71817	Soil Within Row	CentralCity	6	24	Low N	E4	PI329632	75	Energy	Low N_Energy	Energy_Low N
+CC0702FG1S0718176376	71817	Soil Within Row	CentralCity	7	2	Full N	G1	BTx623	74	Grain	Full N_Grain	Grain_Full N
+CC0702LG1S0718176366	71817	Soil Within Row	CentralCity	7	2	Low N	G1	BTx623	73	Grain	Low N_Grain	Grain_Low N
+CC0703FS10S0718176377	71817	Soil Within Row	CentralCity	7	3	Full N	S10	China17	76	Sweet	Full N_Sweet	Sweet_Full N
+CC0703LS10S0718176367	71817	Soil Within Row	CentralCity	7	3	Low N	S10	China17	77	Sweet	Low N_Sweet	Sweet_Low N
+CC0705FE17S0718176378	71817	Soil Within Row	CentralCity	7	5	Full N	E17	PI655972	75	Energy	Full N_Energy	Energy_Full N
+CC0705LE17S0718176368	71817	Soil Within Row	CentralCity	7	5	Low N	E17	PI655972	73	Energy	Low N_Energy	Energy_Low N
+CC0706FS2S0718176379	71817	Soil Within Row	CentralCity	7	6	Full N	S2	SanChiSan	70	Sweet	Full N_Sweet	Sweet_Full N
+CC0706LS2S0718176369	71817	Soil Within Row	CentralCity	7	6	Low N	S2	SanChiSan	74	Sweet	Low N_Sweet	Sweet_Low N
+CC0707FS5S0718176380	71817	Soil Within Row	CentralCity	7	7	Full N	S5	Leoti	75	Sweet	Full N_Sweet	Sweet_Full N
+CC0707LS5S0718176370	71817	Soil Within Row	CentralCity	7	7	Low N	S5	Leoti	74	Sweet	Low N_Sweet	Sweet_Low N
+CC0709FE6S0718176381	71817	Soil Within Row	CentralCity	7	9	Full N	E6	PI585954	76	Energy	Full N_Energy	Energy_Full N
+CC0709LE6S0718176371	71817	Soil Within Row	CentralCity	7	9	Low N	E6	PI585954	74	Energy	Low N_Energy	Energy_Low N
+CC0714FE4S0718176382	71817	Soil Within Row	CentralCity	7	14	Full N	E4	PI329632	75	Energy	Full N_Energy	Energy_Full N
+CC0714LE4S0718176372	71817	Soil Within Row	CentralCity	7	14	Low N	E4	PI329632	74	Energy	Low N_Energy	Energy_Low N
+CC0715FE11S0718176383	71817	Soil Within Row	CentralCity	7	15	Full N	E11	PI506069	71	Energy	Full N_Energy	Energy_Full N
+CC0715LE11S0718176373	71817	Soil Within Row	CentralCity	7	15	Low N	E11	PI506069	74	Energy	Low N_Energy	Energy_Low N
+CC0720FE9S0718176384	71817	Soil Within Row	CentralCity	7	20	Full N	E9	PI229841	72	Energy	Full N_Energy	Energy_Full N
+CC0720LE9S0718176374	71817	Soil Within Row	CentralCity	7	20	Low N	E9	PI229841	70	Energy	Low N_Energy	Energy_Low N
+CC0722LE14S0718176375	71817	Soil Within Row	CentralCity	7	22	Low N	E14	Grassl	75	Energy	Low N_Energy	Energy_Low N
+CC0802FG1S0718175403	71817	Soil Within Row	CentralCity	8	2	Full N	G1	BTx623	68	Grain	Full N_Grain	Grain_Full N
+CC0802LG1S0718175406	71817	Soil Within Row	CentralCity	8	2	Low N	G1	BTx623	68	Grain	Low N_Grain	Grain_Low N
+CC0803FS2S0718176386	71817	Soil Within Row	CentralCity	8	3	Full N	S2	SanChiSan	78	Sweet	Full N_Sweet	Sweet_Full N
+CC0803LS2S0718176393	71817	Soil Within Row	CentralCity	8	3	Low N	S2	SanChiSan	72	Sweet	Low N_Sweet	Sweet_Low N
+CC0804FE17S0718175404	71817	Soil Within Row	CentralCity	8	4	Full N	E17	PI655972	68	Energy	Full N_Energy	Energy_Full N
+CC0804LE17S0718175407	71817	Soil Within Row	CentralCity	8	4	Low N	E17	PI655972	62	Energy	Low N_Energy	Energy_Low N
+CC0806FS10S0718176387	71817	Soil Within Row	CentralCity	8	6	Full N	S10	China17	78	Sweet	Full N_Sweet	Sweet_Full N
+CC0806LS10S0718178579	71817	Soil Within Row	CentralCity	8	6	Low N	S10	China17	95	Sweet	Low N_Sweet	Sweet_Low N
+CC0807FE9S0718176388	71817	Soil Within Row	CentralCity	8	7	Full N	E9	PI229841	76	Energy	Full N_Energy	Energy_Full N
+CC0807LE9S0718176395	71817	Soil Within Row	CentralCity	8	7	Low N	E9	PI229841	75	Energy	Low N_Energy	Energy_Low N
+CC0810LE6S0718176396	71817	Soil Within Row	CentralCity	8	10	Low N	E6	PI585954	73	Energy	Low N_Energy	Energy_Low N
+CC0819FE11S0718176390	71817	Soil Within Row	CentralCity	8	19	Full N	E11	PI506069	75	Energy	Full N_Energy	Energy_Full N
+CC0819LE11S0718176397	71817	Soil Within Row	CentralCity	8	19	Low N	E11	PI506069	77	Energy	Low N_Energy	Energy_Low N
+CC0820FE4S0718176391	71817	Soil Within Row	CentralCity	8	20	Full N	E4	PI329632	77	Energy	Full N_Energy	Energy_Full N
+CC0820LE4S0718176398	71817	Soil Within Row	CentralCity	8	20	Low N	E4	PI329632	72	Energy	Low N_Energy	Energy_Low N
+CC0821FE14S0718175405	71817	Soil Within Row	CentralCity	8	21	Full N	E14	Grassl	69	Energy	Full N_Energy	Energy_Full N
+CC0821LE14S0718175408	71817	Soil Within Row	CentralCity	8	21	Low N	E14	Grassl	63	Energy	Low N_Energy	Energy_Low N
+CC0822FS5S0718176392	71817	Soil Within Row	CentralCity	8	22	Full N	S5	Leoti	77	Sweet	Full N_Sweet	Sweet_Full N
+CC0822LS5S0718176399	71817	Soil Within Row	CentralCity	8	22	Low N	S5	Leoti	72	Sweet	Low N_Sweet	Sweet_Low N

@@ -1,0 +1,1007 @@
+id	SampleType	GrowthCondtion	Genotype	SorghumType	Variety	GrowthCondtion_Variety	Variety_GrowthCondtion	SampleType_GrowthCondtion	GrowthCondtion_SampleType	SampleType_Variety	Variety_SampleType	Variety_SampleType_GrowthCondtion	SampleType_Variety_GrowthCondtion	faith_pd
+CC0101FG1L0718176036	Leaf	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Leaf_Full N	Full N_Leaf	Leaf_Grain	Grain_Leaf	Grain_Leaf_Full N	Leaf_Grain_Full N	11.41322532
+CC0104LE17L0718176034	Leaf	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	13.89725318
+CC0105FS2L0718177283	Leaf	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	10.47533058
+CC0106FE10L0718177284	Leaf	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	10.11413554
+CC0108LS3L0718177265	Leaf	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	15.85404907
+CC0113LE14L0718176035	Leaf	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	13.24112658
+CC0115FE6L0718177292	Leaf	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	18.40088229
+CC0117FS6L0718177294	Leaf	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	13.27458935
+CC0117LS6L0718177273	Leaf	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	11.12238663
+CC0121LE11L0718177277	Leaf	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	7.834924469
+CC0122LE9L0718177278	Leaf	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	13.18826421
+CC0123FE13L0718177300	Leaf	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	11.33701788
+CC0201FG1L0718176042	Leaf	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Leaf_Full N	Full N_Leaf	Leaf_Grain	Grain_Leaf	Grain_Leaf_Full N	Leaf_Grain_Full N	15.94703828
+CC0203FE10L0718177416	Leaf	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	28.00955622
+CC0204FS2L0718177417	Leaf	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	13.09364423
+CC0205FE17L0718176043	Leaf	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	22.15306891
+CC0205LE17L0718176040	Leaf	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	17.54684152
+CC0206FS10L0718177418	Leaf	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	20.43493808
+CC0206LS10L0718177305	Leaf	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	18.70689276
+CC0207FS4L0718177419	Leaf	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	19.38717826
+CC0207LS4L0718177306	Leaf	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	10.08966283
+CC0208FE9L0718177420	Leaf	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	13.05075887
+CC0209FE1L0718177421	Leaf	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	23.00322356
+CC0210FE15L0718177422	Leaf	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	17.93212976
+CC0212LE6L0718177403	Leaf	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	21.74712577
+CC0213FS6L0718177425	Leaf	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	17.36316056
+CC0213LS6L0718177404	Leaf	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	31.10183693
+CC0214FE3L0718177426	Leaf	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	15.70003218
+CC0215FE18L0718177427	Leaf	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	17.84546661
+CC0215LE18L0718177406	Leaf	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	24.84969615
+CC0216FE4L0718177428	Leaf	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	16.00653368
+CC0216LE4L0718177407	Leaf	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	25.48987382
+CC0217LE8L0718177408	Leaf	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	10.02932983
+CC0218LS3L0718177409	Leaf	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	30.00201484
+CC0220LE14L0718176041	Leaf	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	14.31701521
+CC0221FE13L0718177432	Leaf	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	17.40230371
+CC0221LE13L0718177411	Leaf	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	8.577450116
+CC0222FE11L0718177433	Leaf	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	11.8789299
+CC0222LE11L0718177412	Leaf	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	12.44147814
+CC0223FE7L0718177434	Leaf	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	56.54771514
+CC0223LE7L0718177413	Leaf	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	13.69497488
+CC0301FG1L0718176045	Leaf	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Leaf_Full N	Full N_Leaf	Leaf_Grain	Grain_Leaf	Grain_Leaf_Full N	Leaf_Grain_Full N	11.85291533
+CC0304FS10L0718177437	Leaf	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	14.10326632
+CC0305FS2L0718177438	Leaf	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	8.703346717
+CC0306FE10L0718177439	Leaf	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	12.28108186
+CC0307FS3L0718177440	Leaf	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	10.51444253
+CC0307LS3L0718177461	Leaf	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	18.08368993
+CC0308FE9L0718177441	Leaf	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	14.9298889
+CC0310LE13L0718177464	Leaf	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	14.55252787
+CC0311FE14L0718176047	Leaf	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	18.53359529
+CC0311LE14L0718176050	Leaf	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	14.26868355
+CC0312FS5L0718177444	Leaf	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	11.09518814
+CC0313FE11L0718177445	Leaf	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	42.99196381
+CC0314LS8L0718177467	Leaf	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	88.1333476
+CC0316FE8L0718177448	Leaf	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	10.90753748
+CC0321FE1L0718177453	Leaf	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	20.44987573
+CC0321LE1L0718177474	Leaf	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	14.2050553
+CC0322FE6L0718177454	Leaf	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	14.86183354
+CC0322LE6L0718177475	Leaf	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	11.02366637
+CC0323FE3L0718177455	Leaf	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	14.97150114
+CC0402LG1L0718177479	Leaf	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Leaf_Low N	Low N_Leaf	Leaf_Grain	Grain_Leaf	Grain_Leaf_Low N	Leaf_Grain_Low N	10.41048963
+CC0403LE17L0718177480	Leaf	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	19.57211845
+CC0404FE10L0718177505	Leaf	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	12.98641221
+CC0406FS2L0718177507	Leaf	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	14.73900664
+CC0408FS4L0718177509	Leaf	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	18.33798314
+CC0410FS5L0718177511	Leaf	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	37.68010974
+CC0412LE15L0718177489	Leaf	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	19.89884787
+CC0413FE6L0718177514	Leaf	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	71.60032233
+CC0420FE13L0718177521	Leaf	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	31.25796562
+CC0422FE14L0718177523	Leaf	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	11.15222709
+CC0422LE14L0718177499	Leaf	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	15.94257723
+CC0423FE3L0718177524	Leaf	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	13.74876249
+CC0424FE11L0718177525	Leaf	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	12.37049132
+CC0501LG1L0718176054	Leaf	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Leaf_Low N	Low N_Leaf	Leaf_Grain	Grain_Leaf	Grain_Leaf_Low N	Leaf_Grain_Low N	14.06829909
+CC0502LG3L0718177547	Leaf	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Leaf_Low N	Low N_Leaf	Leaf_Grain	Grain_Leaf	Grain_Leaf_Low N	Leaf_Grain_Low N	40.24941011
+CC0505FE17L0718176052	Leaf	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	12.59817332
+CC0506LE10L0718177550	Leaf	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	7.731069719
+CC0508LE5L0718177552	Leaf	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	54.73754219
+CC0510LE9L0718177554	Leaf	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	11.43051962
+CC0511LE7L0718177555	Leaf	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	20.57531694
+CC0512FE14L0718176053	Leaf	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	20.9618027
+CC0513FS3L0718177535	Leaf	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	10.30346031
+CC0513LS3L0718177556	Leaf	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	31.31915483
+CC0514FE6L0718177536	Leaf	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	10.39320156
+CC0516FE11L0718177538	Leaf	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	16.10821713
+CC0516LE11L0718177559	Leaf	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	10.64060123
+CC0518FE3L0718177540	Leaf	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	10.2665655
+CC0519FS6L0718177541	Leaf	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	10.59938438
+CC0522FE18L0718177544	Leaf	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	10.17743097
+CC0522LE18L0718177565	Leaf	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	12.44071899
+CC0523LS8L0718177566	Leaf	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	16.07701156
+CC0601LG3L0718177394	Leaf	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Leaf_Low N	Low N_Leaf	Leaf_Grain	Grain_Leaf	Grain_Leaf_Low N	Leaf_Grain_Low N	25.35349648
+CC0602FG1L0718176057	Leaf	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Leaf_Full N	Full N_Leaf	Leaf_Grain	Grain_Leaf	Grain_Leaf_Full N	Leaf_Grain_Full N	15.23367092
+CC0602LG1L0718176060	Leaf	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Leaf_Low N	Low N_Leaf	Leaf_Grain	Grain_Leaf	Grain_Leaf_Low N	Leaf_Grain_Low N	16.71197495
+CC0603FS2L0718177569	Leaf	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	23.86952977
+CC0604FE10L0718177570	Leaf	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	23.0189976
+CC0605FE17L0718176058	Leaf	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	14.08143625
+CC0612FE14L0718176059	Leaf	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	30.5726374
+CC0612LE14L0718176062	Leaf	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	15.50463744
+CC0613FS3L0718177577	Leaf	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	9.997056888
+CC0620FE6L0718177399	Leaf	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	10.20534886
+CC0620LE6L0718177378	Leaf	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	9.416531941
+CC0621FE13L0718177398	Leaf	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	10.23272052
+CC0621LE13L0718177377	Leaf	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	12.90476389
+CC0703LS10L0718177371	Leaf	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	24.65405946
+CC0712LE13L0718177362	Leaf	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	14.20593504
+CC0715LE11L0718177359	Leaf	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	14.5224726
+CC0722LE14L0718177352	Leaf	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	12.06105376
+CC0724LE7L0718177350	Leaf	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	11.29705114
+CC0802LG1L0718176066	Leaf	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Leaf_Low N	Low N_Leaf	Leaf_Grain	Grain_Leaf	Grain_Leaf_Low N	Leaf_Grain_Low N	16.27603771
+CC0806LS10L0718177774	Leaf	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	13.39669599
+CC0807FE9L0718177321	Leaf	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	15.44784232
+CC0807LE9L0718177775	Leaf	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	12.31252263
+CC0812FS6L0718177316	Leaf	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	17.45327562
+CC0812LS6L0718177780	Leaf	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	16.6004515
+CC0815LE1L0718177783	Leaf	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	10.81859809
+CC0817FE7L0718177311	Leaf	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	13.29388194
+CC0818LS3L0718177786	Leaf	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Leaf_Low N	Low N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Low N	Leaf_Sweet_Low N	11.03048607
+CC0819LE11L0718177787	Leaf	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	10.32749526
+CC0821LE14L0718176068	Leaf	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	12.15831356
+CC0822FS5L0718177768	Leaf	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Leaf_Full N	Full N_Leaf	Leaf_Sweet	Sweet_Leaf	Sweet_Leaf_Full N	Leaf_Sweet_Full N	11.65608107
+CC0823FE13L0718177769	Leaf	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Leaf_Full N	Full N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Full N	Leaf_Energy_Full N	11.87474893
+CC0823LE13L0718177790	Leaf	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	14.96547298
+CC0824LE3L0718177791	Leaf	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Leaf_Low N	Low N_Leaf	Leaf_Energy	Energy_Leaf	Energy_Leaf_Low N	Leaf_Energy_Low N	13.21225026
+CC01FNPS30718176402	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	163.4637874
+CC01FNPS40718176403	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	166.6703182
+CC01LNPS10718176400	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	166.384744
+CC01LNPS20718176401	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	161.8689558
+CC02FNPS70718176406	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	153.5356704
+CC02FNPS80718176407	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	151.5721203
+CC02LNPS60718176405	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	153.185893
+CC03FNPS100718176409	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	159.3347989
+CC03FNPS90718176408	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	167.590802
+CC03LNPS110718176410	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	160.025987
+CC03LNPS120718176411	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	145.765842
+CC04FNPS150718176414	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	145.5414751
+CC04FNPS160718176415	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	172.9727204
+CC04LNPS130718176412	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	176.6160949
+CC05FNPS170718176416	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	169.272865
+CC05FNPS180718176417	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	170.0388912
+CC05LNPS190718176418	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	165.114511
+CC05LNPS200718176419	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	184.3787099
+CC06FNPS210718176420	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	172.620224
+CC06FNPS220718176421	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	176.9737094
+CC06LNPS230718176422	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	154.7358739
+CC06LNPS240718176423	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	174.48363
+CC07FNPS270718176426	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	177.5835364
+CC07FNPS280718176427	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	142.8135881
+CC07LNPS250718176424	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	172.4938968
+CC07LNPS260718176425	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	169.0469801
+CC08FNPS290718176428	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	177.1427968
+CC08FNPS300718176429	Soil Between Rows	Full N	No Plant Soil	No Plant Soil	No Plant Soil	Full N_No Plant Soil	No Plant Soil_Full N	Soil Between Rows_Full N	Full N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Full N	No Plant Soil_No Plant Soil_Full N	176.4685423
+CC08LNPS310718176430	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	164.5673921
+CC08LNPS320718176431	Soil Between Rows	Low N	No Plant Soil	No Plant Soil	No Plant Soil	Low N_No Plant Soil	No Plant Soil_Low N	Soil Between Rows_Low N	Low N_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil	No Plant Soil_No Plant Soil_Low N	No Plant Soil_No Plant Soil_Low N	167.6989078
+CC0101FG1Z0718175340	Rhizosphere	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	125.2531173
+CC0101LG1Z0718175337	Rhizosphere	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	128.9644706
+CC0102FG3Z0718176134	Rhizosphere	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	131.1895071
+CC0102LG3Z0718176113	Rhizosphere	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	98.0108645
+CC0103FS10Z0718176135	Rhizosphere	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	114.7637902
+CC0103LS10Z0718176114	Rhizosphere	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	152.5096766
+CC0104FE17Z0718175341	Rhizosphere	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	100.39525
+CC0104LE17Z0718175338	Rhizosphere	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	104.6889406
+CC0105FS2Z0718176136	Rhizosphere	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	133.9307495
+CC0106FE10Z0718176137	Rhizosphere	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	68.89613396
+CC0106LE10Z0718176116	Rhizosphere	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	92.14972646
+CC0107FE8Z0718176138	Rhizosphere	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	107.9206891
+CC0107LE8Z0718176117	Rhizosphere	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	146.1625035
+CC0108FS3Z0718176139	Rhizosphere	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	84.23026052
+CC0108LS3Z0718178574	Rhizosphere	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	138.3919364
+CC0109FS5Z0718176140	Rhizosphere	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	135.0652951
+CC0109LS5Z0718176119	Rhizosphere	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	106.4253171
+CC0110FE5Z0718176141	Rhizosphere	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	81.26497868
+CC0110LE5Z0718176120	Rhizosphere	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	155.0513168
+CC0111FE15Z0718176142	Rhizosphere	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	135.0714343
+CC0111LE15Z0718176121	Rhizosphere	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	101.9011551
+CC0112FE4Z0718176143	Rhizosphere	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	139.4602267
+CC0112LE4Z0718176122	Rhizosphere	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	152.1285079
+CC0113FE14Z0718175342	Rhizosphere	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	121.2723671
+CC0113LE14Z0718175339	Rhizosphere	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	104.8543494
+CC0114FS8Z0718176144	Rhizosphere	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	83.82336312
+CC0114LS8Z0718176123	Rhizosphere	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	153.1300952
+CC0115FE6Z0718176145	Rhizosphere	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	120.066848
+CC0115LE6Z0718176124	Rhizosphere	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	95.93219558
+CC0116FE3Z0718176146	Rhizosphere	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	105.1465983
+CC0116LE3Z0718176125	Rhizosphere	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	95.53709492
+CC0117FS6Z0718176147	Rhizosphere	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	151.7456989
+CC0117LS6Z0718176126	Rhizosphere	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	168.6451071
+CC0118FE7Z0718176148	Rhizosphere	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	75.01908313
+CC0118LE7Z0718176127	Rhizosphere	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	151.2888612
+CC0119FE1Z0718176149	Rhizosphere	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	101.2107862
+CC0119LE1Z0718176128	Rhizosphere	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	167.4121436
+CC0120FS4Z0718176150	Rhizosphere	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	145.3150738
+CC0120LS4Z0718176129	Rhizosphere	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	135.8385844
+CC0121FE11Z0718176151	Rhizosphere	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	154.4023669
+CC0121LE11Z0718176130	Rhizosphere	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	157.3606847
+CC0122FE9Z0718176152	Rhizosphere	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	106.7152966
+CC0122LE9Z0718176131	Rhizosphere	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	157.7008854
+CC0123FE13Z0718176153	Rhizosphere	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	67.43985715
+CC0123LE13Z0718176132	Rhizosphere	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	165.5650797
+CC0124FE18Z0718176154	Rhizosphere	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	143.5834407
+CC0124LE18Z0718176133	Rhizosphere	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	137.2902635
+CC0201FG1Z0718175346	Rhizosphere	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	112.0520574
+CC0201LG1Z0718175343	Rhizosphere	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	101.6921261
+CC0202FG3Z0718176176	Rhizosphere	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	136.0962196
+CC0202LG3Z0718176155	Rhizosphere	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	153.0642596
+CC0203FE10Z0718176177	Rhizosphere	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	136.880077
+CC0203LE10Z0718176156	Rhizosphere	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	159.0518216
+CC0204FS2Z0718176178	Rhizosphere	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	161.0155543
+CC0204LS2Z0718176157	Rhizosphere	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	156.5836025
+CC0205FE17Z0718175347	Rhizosphere	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	100.7503691
+CC0205LE17Z0718175344	Rhizosphere	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	82.6914615
+CC0206FS10Z0718176179	Rhizosphere	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	120.426817
+CC0206LS10Z0718176158	Rhizosphere	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	155.7181713
+CC0207FS4Z0718176180	Rhizosphere	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	131.4334622
+CC0207LS4Z0718176159	Rhizosphere	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	108.864844
+CC0208FE9Z0718176181	Rhizosphere	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	134.2566522
+CC0208LE9Z0718176160	Rhizosphere	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	153.2015705
+CC0209FE1Z0718176182	Rhizosphere	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	150.4123046
+CC0209LE1Z0718176161	Rhizosphere	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	152.7829667
+CC0210FE15Z0718176183	Rhizosphere	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	130.0340945
+CC0210LE15Z0718176162	Rhizosphere	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	142.1488611
+CC0211FS8Z0718176184	Rhizosphere	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	124.6415932
+CC0212FE6Z0718176185	Rhizosphere	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	144.5099754
+CC0212LE6Z0718176164	Rhizosphere	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	152.4584486
+CC0213FS6Z0718176186	Rhizosphere	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	129.6575467
+CC0213LS6Z0718176165	Rhizosphere	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	147.8518803
+CC0214FE3Z0718176187	Rhizosphere	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	133.5466524
+CC0215FE18Z0718176188	Rhizosphere	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	124.7866757
+CC0215LE18Z0718176167	Rhizosphere	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	132.8736636
+CC0216FE4Z0718176189	Rhizosphere	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	152.1787445
+CC0216LE4Z0718176168	Rhizosphere	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	152.0391623
+CC0217FE8Z0718176190	Rhizosphere	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	137.1904203
+CC0217LE8Z0718176169	Rhizosphere	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	161.3894137
+CC0218FS3Z0718176191	Rhizosphere	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	134.9195876
+CC0218LS3Z0718176170	Rhizosphere	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	159.8059856
+CC0219FE5Z0718176192	Rhizosphere	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	146.7561469
+CC0219LE5Z0718176171	Rhizosphere	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	156.5732818
+CC0220FE14Z0718175348	Rhizosphere	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	96.44458484
+CC0220LE14Z0718175345	Rhizosphere	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	122.7261426
+CC0221FE13Z0718176193	Rhizosphere	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	139.5895877
+CC0221LE13Z0718176172	Rhizosphere	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	156.3066304
+CC0222FE11Z0718176194	Rhizosphere	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	144.1022618
+CC0222LE11Z0718176173	Rhizosphere	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	165.8796004
+CC0223LE7Z0718176174	Rhizosphere	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	150.0711652
+CC0224FS5Z0718176196	Rhizosphere	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	111.0403329
+CC0224LS5Z0718176175	Rhizosphere	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	148.280198
+CC0301FG1Z0718175349	Rhizosphere	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	115.648013
+CC0301LG1Z0718175352	Rhizosphere	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	102.6076837
+CC0302FG3Z0718176197	Rhizosphere	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	129.7574911
+CC0302LG3Z0718176218	Rhizosphere	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	169.4483943
+CC0303FE17Z0718175350	Rhizosphere	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	80.41601877
+CC0303LE17Z0718175353	Rhizosphere	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	120.2532203
+CC0304FS10Z0718176198	Rhizosphere	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	151.1667026
+CC0304LS10Z0718176219	Rhizosphere	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	169.3855767
+CC0305FS2Z0718178575	Rhizosphere	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	150.5616037
+CC0305LS2Z0718176220	Rhizosphere	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	151.853949
+CC0306LE10Z0718176221	Rhizosphere	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	171.0137356
+CC0307LS3Z0718176222	Rhizosphere	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	172.6387263
+CC0308FE9Z0718176202	Rhizosphere	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	144.1631532
+CC0308LE9Z0718176223	Rhizosphere	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	170.648419
+CC0309FS4Z0718176203	Rhizosphere	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	137.1902597
+CC0309LS4Z0718176224	Rhizosphere	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	171.1811342
+CC0310FE13Z0718176204	Rhizosphere	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	145.8035037
+CC0310LE13Z0718176225	Rhizosphere	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	169.8439487
+CC0311FE14Z0718175351	Rhizosphere	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	83.24440158
+CC0311LE14Z0718175354	Rhizosphere	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	99.13689755
+CC0312FS5Z0718176205	Rhizosphere	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	150.4727998
+CC0312LS5Z0718176226	Rhizosphere	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	166.537778
+CC0313FE11Z0718176206	Rhizosphere	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	123.637584
+CC0313LE11Z0718176227	Rhizosphere	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	163.8740738
+CC0314FS8Z0718176207	Rhizosphere	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	130.0483679
+CC0314LS8Z0718176229	Rhizosphere	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	168.6479642
+CC0315FE4Z0718176208	Rhizosphere	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	132.3320794
+CC0315LE4Z0718176228	Rhizosphere	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	163.5814102
+CC0316FE8Z0718176209	Rhizosphere	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	144.2036314
+CC0316LE8Z0718176230	Rhizosphere	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	172.2599024
+CC0317LE15Z0718176231	Rhizosphere	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	147.8041363
+CC0318FE18Z0718176211	Rhizosphere	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	119.3554326
+CC0318LE18Z0718176232	Rhizosphere	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	156.9188791
+CC0319FE5Z0718176212	Rhizosphere	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	143.097987
+CC0319LE5Z0718176233	Rhizosphere	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	155.1187308
+CC0320FE7Z0718176213	Rhizosphere	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	126.6890429
+CC0320LE7Z0718176234	Rhizosphere	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	152.2888333
+CC0321FE1Z0718176214	Rhizosphere	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	116.3668081
+CC0321LE1Z0718176235	Rhizosphere	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	168.8456708
+CC0322FE6Z0718176215	Rhizosphere	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	140.5838415
+CC0323FE3Z0718176216	Rhizosphere	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	131.7876766
+CC0323LE3Z0718176237	Rhizosphere	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	168.8648035
+CC0324FS6Z0718176217	Rhizosphere	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	146.2894474
+CC0324LS6Z0718176238	Rhizosphere	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	161.530782
+CC0401FG3Z0718176263	Rhizosphere	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	117.3210734
+CC0401LG3Z0718176239	Rhizosphere	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	141.4482014
+CC0402FG1Z0718176264	Rhizosphere	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	124.9801732
+CC0402LG1Z0718176240	Rhizosphere	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	132.1473104
+CC0403FE17Z0718176265	Rhizosphere	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	83.7593017
+CC0403LE17Z0718176241	Rhizosphere	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	145.9302351
+CC0404FE10Z0718176266	Rhizosphere	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	141.0921862
+CC0404LE10Z0718176242	Rhizosphere	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	136.560816
+CC0405FS10Z0718176267	Rhizosphere	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	136.6128622
+CC0406FS2Z0718176268	Rhizosphere	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	156.2866233
+CC0406LS2Z0718176244	Rhizosphere	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	138.2275582
+CC0407FE18Z0718176270	Rhizosphere	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	120.9198441
+CC0407LE18Z0718176245	Rhizosphere	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	103.9618907
+CC0408FS4Z0718176269	Rhizosphere	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	108.4645473
+CC0408LS4Z0718176246	Rhizosphere	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	112.3590303
+CC0409FS6Z0718176271	Rhizosphere	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	116.0225462
+CC0409LS6Z0718176247	Rhizosphere	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	93.9748633
+CC0410FS5Z0718176272	Rhizosphere	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	120.9611916
+CC0410LS5Z0718176248	Rhizosphere	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	102.0013776
+CC0411FE7Z0718176273	Rhizosphere	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	119.2350427
+CC0411LE7Z0718176249	Rhizosphere	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	113.029674
+CC0412FE15Z0718176274	Rhizosphere	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	129.3205184
+CC0412LE15Z0718176250	Rhizosphere	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	103.6959889
+CC0413FE6Z0718176275	Rhizosphere	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	136.8818953
+CC0413LE6Z0718176251	Rhizosphere	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	98.64922949
+CC0414FS3Z0718176276	Rhizosphere	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	135.989176
+CC0414LS3Z0718176252	Rhizosphere	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	99.43772092
+CC0415FE1Z0718176277	Rhizosphere	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	165.832993
+CC0415LE1Z0718176253	Rhizosphere	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	118.1136672
+CC0416FE4Z0718176278	Rhizosphere	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	139.2644988
+CC0416LE4Z0718176254	Rhizosphere	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	144.7424479
+CC0417FE9Z0718176279	Rhizosphere	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	115.5397179
+CC0417LE9Z0718176256	Rhizosphere	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	124.5826071
+CC0418FS8Z0718176280	Rhizosphere	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	165.5409113
+CC0418LS8Z0718176255	Rhizosphere	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	113.9401277
+CC0419FE8Z0718176281	Rhizosphere	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	152.6400066
+CC0419LE8Z0718176257	Rhizosphere	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	113.2549148
+CC0420FE13Z0718176282	Rhizosphere	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	103.7466708
+CC0420LE13Z0718176258	Rhizosphere	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	135.8554457
+CC0421FE5Z0718176283	Rhizosphere	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	149.0053424
+CC0421LE5Z0718176741	Rhizosphere	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	119.7771421
+CC0422FE14Z0718176284	Rhizosphere	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	103.5727759
+CC0422LE14Z0718176260	Rhizosphere	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	120.4781113
+CC0423FE3Z0718176285	Rhizosphere	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	152.4124989
+CC0423LE3Z0718176261	Rhizosphere	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	118.6472806
+CC0424FE11Z0718176286	Rhizosphere	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	146.1179871
+CC0424LE11Z0718176262	Rhizosphere	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	145.4097861
+CC0501FG1Z0718175355	Rhizosphere	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	127.2476989
+CC0501LG1Z0718175358	Rhizosphere	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	147.7951693
+CC0502FG3Z0718176287	Rhizosphere	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	147.9488692
+CC0502LG3Z0718177595	Rhizosphere	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	161.642408
+CC0503FS2Z0718176288	Rhizosphere	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	153.7593285
+CC0503LS2Z0718177596	Rhizosphere	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	89.58487823
+CC0504FS10Z0718176289	Rhizosphere	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	142.0696419
+CC0504LS10Z0718177597	Rhizosphere	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	112.8423636
+CC0505FE17Z0718175356	Rhizosphere	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	71.36709127
+CC0505LE17Z0718175359	Rhizosphere	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	103.8620157
+CC0506FE10Z0718176290	Rhizosphere	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	143.7590232
+CC0506LE10Z0718177598	Rhizosphere	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	145.9836103
+CC0507LE15Z0718177599	Rhizosphere	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	154.4455326
+CC0508FE5Z0718176292	Rhizosphere	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	144.6781648
+CC0508LE5Z0718177600	Rhizosphere	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	151.2814751
+CC0509FE4Z0718176293	Rhizosphere	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	142.414943
+CC0509LE4Z0718177601	Rhizosphere	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	142.612184
+CC0510FE9Z0718176294	Rhizosphere	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	135.7527373
+CC0510LE9Z0718177602	Rhizosphere	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	147.8440769
+CC0511FE7Z0718176295	Rhizosphere	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	126.0980057
+CC0511LE7Z0718177603	Rhizosphere	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	52.36003391
+CC0512FE14Z0718175357	Rhizosphere	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	101.9123227
+CC0512LE14Z0718175360	Rhizosphere	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	103.7280324
+CC0513FS3Z0718176296	Rhizosphere	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	146.9290736
+CC0513LS3Z0718177604	Rhizosphere	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	143.248956
+CC0514FE6Z0718177584	Rhizosphere	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	146.2743235
+CC0514LE6Z0718177605	Rhizosphere	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	93.66151921
+CC0515FS4Z0718177585	Rhizosphere	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	135.6495192
+CC0515LS4Z0718177606	Rhizosphere	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	88.30579896
+CC0516FE11Z0718177586	Rhizosphere	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	147.638054
+CC0516LE11Z0718177607	Rhizosphere	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	163.2190049
+CC0517FE1Z0718177587	Rhizosphere	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	157.1480393
+CC0517LE1Z0718177608	Rhizosphere	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	131.0725027
+CC0518LE3Z0718177609	Rhizosphere	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	105.5844476
+CC0519FS6Z0718178591	Rhizosphere	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	138.1763826
+CC0519LS6Z0718177610	Rhizosphere	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	154.4003629
+CC0520FE13Z0718177590	Rhizosphere	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	135.2376654
+CC0520LE13Z0718177611	Rhizosphere	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	107.1630693
+CC0521FE8Z0718177591	Rhizosphere	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	139.5687659
+CC0521LE8Z0718177612	Rhizosphere	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	118.5328036
+CC0522FE18Z0718177592	Rhizosphere	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	145.1846028
+CC0522LE18Z0718177613	Rhizosphere	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	69.8505035
+CC0523LS8Z0718177614	Rhizosphere	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	157.7510411
+CC0524FS5Z0718177594	Rhizosphere	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	91.34895858
+CC0524LS5Z0718177615	Rhizosphere	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	149.6619531
+CC0601FG3Z0718177616	Rhizosphere	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	117.1696484
+CC0601LG3Z0718177637	Rhizosphere	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	171.5102804
+CC0602LG1Z0718175364	Rhizosphere	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	147.9775508
+CC0603FS2Z0718177617	Rhizosphere	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	145.2294827
+CC0603LS2Z0718177638	Rhizosphere	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	161.4439586
+CC0604FE10Z0718177618	Rhizosphere	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	122.1599111
+CC0604LE10Z0718177639	Rhizosphere	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	159.0829578
+CC0605FE17Z0718175362	Rhizosphere	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	111.7997842
+CC0605LE17Z0718175365	Rhizosphere	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	138.1044078
+CC0606FS10Z0718177619	Rhizosphere	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	101.9059829
+CC0606LS10Z0718177640	Rhizosphere	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	120.6782835
+CC0607FS8Z0718177620	Rhizosphere	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	150.4535135
+CC0607LS8Z0718177641	Rhizosphere	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	111.8865225
+CC0608FE5Z0718177621	Rhizosphere	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	119.3820554
+CC0608LE5Z0718177642	Rhizosphere	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	158.3283053
+CC0609FE15Z0718177622	Rhizosphere	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	152.4293259
+CC0609LE15Z0718177643	Rhizosphere	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	75.05167066
+CC0610FE3Z0718177623	Rhizosphere	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	142.0998259
+CC0610LE3Z0718177644	Rhizosphere	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	110.3900899
+CC0611FE9Z0718177624	Rhizosphere	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	143.3149943
+CC0611LE9Z0718177645	Rhizosphere	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	116.6473317
+CC0612FE14Z0718175363	Rhizosphere	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	137.1492446
+CC0612LE14Z0718175366	Rhizosphere	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	124.3863416
+CC0613FS3Z0718177625	Rhizosphere	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	115.7785572
+CC0613LS3Z0718177646	Rhizosphere	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	162.3679915
+CC0614FS5Z0718177626	Rhizosphere	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	146.6891395
+CC0614LS5Z0718177647	Rhizosphere	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	115.5352201
+CC0615FE1Z0718177627	Rhizosphere	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	139.7293373
+CC0615LE1Z0718177648	Rhizosphere	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	101.6422193
+CC0616FE8Z0718177628	Rhizosphere	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	160.1559636
+CC0616LE8Z0718177649	Rhizosphere	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	111.0438855
+CC0617LS6Z0718177650	Rhizosphere	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	168.3406596
+CC0618FE7Z0718177630	Rhizosphere	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	140.2296444
+CC0619FE11Z0718177631	Rhizosphere	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	142.5559997
+CC0619LE11Z0718177652	Rhizosphere	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	171.8406251
+CC0620FE6Z0718177632	Rhizosphere	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	144.2130859
+CC0621FE13Z0718177633	Rhizosphere	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	91.74877304
+CC0621LE13Z0718177654	Rhizosphere	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	105.3393978
+CC0622FS4Z0718177634	Rhizosphere	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	152.2142148
+CC0622LS4Z0718177655	Rhizosphere	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	166.0780752
+CC0623FE18Z0718177635	Rhizosphere	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	134.3483281
+CC0623LE18Z0718177656	Rhizosphere	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	87.49785176
+CC0624FE4Z0718177636	Rhizosphere	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	141.0278083
+CC0624LE4Z0718177657	Rhizosphere	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	143.0259768
+CC0701FG3Z0718177682	Rhizosphere	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	156.1573803
+CC0701LG3Z0718177658	Rhizosphere	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	172.4298855
+CC0702FG1Z0718177683	Rhizosphere	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	148.3991862
+CC0702LG1Z0718177659	Rhizosphere	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	158.6219792
+CC0703FS10Z0718177684	Rhizosphere	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	157.4848287
+CC0703LS10Z0718177660	Rhizosphere	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	166.336181
+CC0704FE10Z0718177685	Rhizosphere	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	164.2693772
+CC0704LE10Z0718177661	Rhizosphere	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	176.4091782
+CC0705FE17Z0718177686	Rhizosphere	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	148.1824471
+CC0705LE17Z0718177662	Rhizosphere	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	171.8498566
+CC0706FS2Z0718177687	Rhizosphere	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	156.0096279
+CC0706LS2Z0718177663	Rhizosphere	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	168.0878689
+CC0707FS5Z0718177688	Rhizosphere	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	153.9391791
+CC0707LS5Z0718177664	Rhizosphere	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	182.9879679
+CC0708FE3Z0718177689	Rhizosphere	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	126.8735716
+CC0708LE3Z0718177665	Rhizosphere	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	173.1999775
+CC0709FE6Z0718177690	Rhizosphere	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	129.6776851
+CC0709LE6Z0718177666	Rhizosphere	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	180.4173563
+CC0710FE5Z0718177691	Rhizosphere	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	150.1209167
+CC0710LE5Z0718177667	Rhizosphere	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	171.3051472
+CC0711FS3Z0718177692	Rhizosphere	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	151.2420711
+CC0711LS3Z0718177668	Rhizosphere	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	163.5441966
+CC0712FE13Z0718177693	Rhizosphere	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	154.631019
+CC0712LE13Z0718177669	Rhizosphere	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	175.9326111
+CC0713FE18Z0718177694	Rhizosphere	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	112.7204086
+CC0714FE4Z0718177695	Rhizosphere	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	116.3201167
+CC0714LE4Z0718177671	Rhizosphere	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	161.3994518
+CC0715FE11Z0718177696	Rhizosphere	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	125.1588068
+CC0715LE11Z0718177672	Rhizosphere	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	149.0203922
+CC0716FE1Z0718177697	Rhizosphere	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	139.7581278
+CC0716LE1Z0718177673	Rhizosphere	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	120.4308245
+CC0717FE15Z0718177698	Rhizosphere	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	127.3601767
+CC0717LE15Z0718177674	Rhizosphere	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	149.3244713
+CC0718FS8Z0718177699	Rhizosphere	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	107.6165955
+CC0718LS8Z0718177675	Rhizosphere	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	174.604624
+CC0719FS4Z0718177700	Rhizosphere	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	141.7996001
+CC0719LS4Z0718177676	Rhizosphere	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	163.3680838
+CC0720FE9Z0718177701	Rhizosphere	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	135.0245827
+CC0720LE9Z0718177677	Rhizosphere	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	151.4150818
+CC0721FS6Z0718177702	Rhizosphere	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	140.6162867
+CC0721LS6Z0718177678	Rhizosphere	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	136.9238103
+CC0722FE14Z0718177703	Rhizosphere	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	136.5867907
+CC0722LE14Z0718177679	Rhizosphere	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	155.6274051
+CC0723FE8Z0718177704	Rhizosphere	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	119.9460158
+CC0723LE8Z0718177680	Rhizosphere	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	80.99230121
+CC0724FE7Z0718177705	Rhizosphere	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	124.7098461
+CC0801FG3Z0718177706	Rhizosphere	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	144.3896835
+CC0801LG3Z0718177727	Rhizosphere	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	135.3831277
+CC0802FG1Z0718175367	Rhizosphere	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Full N	Rhizosphere_Grain_Full N	142.7186737
+CC0802LG1Z0718175370	Rhizosphere	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Grain	Grain_Rhizosphere	Grain_Rhizosphere_Low N	Rhizosphere_Grain_Low N	127.0106469
+CC0803FS2Z0718177707	Rhizosphere	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	149.7427621
+CC0803LS2Z0718177728	Rhizosphere	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	140.7539858
+CC0804FE17Z0718175368	Rhizosphere	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	162.820047
+CC0805FE10Z0718177708	Rhizosphere	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	137.8565534
+CC0805LE10Z0718177729	Rhizosphere	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	122.0249636
+CC0806LS10Z0718177730	Rhizosphere	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	174.399769
+CC0807FE9Z0718177710	Rhizosphere	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	134.8732326
+CC0807LE9Z0718177731	Rhizosphere	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	167.9907466
+CC0808FE18Z0718177711	Rhizosphere	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	140.7782392
+CC0808LE18Z0718177732	Rhizosphere	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	143.879628
+CC0809FS8Z0718177712	Rhizosphere	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	145.7883449
+CC0809LS8Z0718177733	Rhizosphere	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	102.3314373
+CC0810FE6Z0718177713	Rhizosphere	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	128.3230266
+CC0810LE6Z0718177734	Rhizosphere	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	168.5549726
+CC0811FE8Z0718177714	Rhizosphere	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	150.5503464
+CC0811LE8Z0718177735	Rhizosphere	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	140.7319001
+CC0812FS6Z0718177715	Rhizosphere	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	153.8593247
+CC0812LS6Z0718177736	Rhizosphere	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	156.1619314
+CC0813FS4Z0718177716	Rhizosphere	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	154.9410026
+CC0813LS4Z0718177737	Rhizosphere	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	109.9703574
+CC0814FE5Z0718177717	Rhizosphere	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	149.679492
+CC0814LE5Z0718177738	Rhizosphere	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	114.6232313
+CC0815FE1Z0718177718	Rhizosphere	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	144.4629284
+CC0815LE1Z0718177739	Rhizosphere	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	92.22595305
+CC0816FE15Z0718177719	Rhizosphere	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	144.0081049
+CC0816LE15Z0718177740	Rhizosphere	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	117.170505
+CC0817FE7Z0718177720	Rhizosphere	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	146.3605933
+CC0817LE7Z0718177741	Rhizosphere	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	126.6598441
+CC0818FS3Z0718177721	Rhizosphere	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	131.0047813
+CC0818LS3Z0718177742	Rhizosphere	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	75.28838777
+CC0819FE11Z0718177722	Rhizosphere	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	144.0048502
+CC0819LE11Z0718177743	Rhizosphere	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	104.0951057
+CC0820FE4Z0718177723	Rhizosphere	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	139.2519957
+CC0820LE4Z0718177744	Rhizosphere	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	112.0170998
+CC0821LE14Z0718175372	Rhizosphere	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	132.8390397
+CC0822FS5Z0718177724	Rhizosphere	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Full N	Rhizosphere_Sweet_Full N	135.4388902
+CC0822LS5Z0718177745	Rhizosphere	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Sweet	Sweet_Rhizosphere	Sweet_Rhizosphere_Low N	Rhizosphere_Sweet_Low N	94.5715446
+CC0823FE13Z0718177725	Rhizosphere	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	152.7428513
+CC0823LE13Z0718177746	Rhizosphere	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	111.353949
+CC0824FE3Z0718177726	Rhizosphere	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Rhizosphere_Full N	Full N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Full N	Rhizosphere_Energy_Full N	147.3636905
+CC0824LE3Z0718177747	Rhizosphere	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Rhizosphere_Low N	Low N_Rhizosphere	Rhizosphere_Energy	Energy_Rhizosphere	Energy_Rhizosphere_Low N	Rhizosphere_Energy_Low N	59.93194476
+CC0101FG1R0718175892	Root	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	104.0568463
+CC0101LG1R0718175889	Root	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	76.21817335
+CC0102FG3R0718176933	Root	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	111.1865087
+CC0102LG3R0718176912	Root	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	91.9372057
+CC0103LS10R0718176913	Root	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	89.67462717
+CC0104FE17R0718175893	Root	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	102.057638
+CC0104LE17R0718175890	Root	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	63.69364631
+CC0105FS2R0718176935	Root	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	77.43412638
+CC0105LS2R0718176914	Root	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	115.3249659
+CC0106LE10R0718176915	Root	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	98.41468479
+CC0107FE8R0718176937	Root	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	92.9849335
+CC0107LE8R0718176916	Root	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	102.3060741
+CC0108FS3R0718176938	Root	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	52.77052049
+CC0108LS3R0718176917	Root	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	66.19379712
+CC0110FE5R0718176940	Root	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	80.57884693
+CC0110LE5R0718176919	Root	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	96.52349832
+CC0111FE15R0718176941	Root	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	92.0731396
+CC0112FE4R0718176942	Root	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	74.69696949
+CC0112LE4R0718176921	Root	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	77.22263971
+CC0113FE14R0718175894	Root	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	90.07359212
+CC0113LE14R0718175891	Root	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	94.98254212
+CC0114FS8R0718176943	Root	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	83.27596562
+CC0114LS8R0718176922	Root	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	88.02728614
+CC0115FE6R0718176944	Root	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	86.6349272
+CC0115LE6R0718176923	Root	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	113.0538172
+CC0116FE3R0718178584	Root	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	91.92487735
+CC0116LE3R0718176924	Root	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	90.77517498
+CC0117FS6R0718176946	Root	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	90.55862172
+CC0118FE7R0718176947	Root	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	56.68736176
+CC0118LE7R0718176926	Root	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	88.4151983
+CC0119FE1R0718176948	Root	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	89.23846011
+CC0119LE1R0718176927	Root	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	91.51270486
+CC0120FS4R0718176949	Root	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	83.40966883
+CC0120LS4R0718176928	Root	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	112.3702473
+CC0121FE11R0718176950	Root	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	61.36667463
+CC0121LE11R0718176929	Root	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	93.57647503
+CC0122FE9R0718176951	Root	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	103.4017746
+CC0122LE9R0718176930	Root	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	118.8163989
+CC0123FE13R0718176952	Root	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	49.27051234
+CC0123LE13R0718176931	Root	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	100.1219603
+CC0124FE18R0718176953	Root	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	64.87446364
+CC0124LE18R0718176932	Root	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	88.51326298
+CC0201LG1R0718175895	Root	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	51.39125308
+CC0202FG3R0718176975	Root	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	100.1173698
+CC0202LG3R0718176954	Root	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	74.729906
+CC0203FE10R0718176976	Root	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	104.3386455
+CC0203LE10R0718176955	Root	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	80.04326155
+CC0204FS2R0718176977	Root	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	89.89586202
+CC0205LE17R0718175896	Root	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	111.2268377
+CC0206LS10R0718176957	Root	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	69.44445312
+CC0207FS4R0718176979	Root	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	101.8327538
+CC0207LS4R0718176958	Root	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	95.52237613
+CC0208FE9R0718176980	Root	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	55.77803686
+CC0209FE1R0718176981	Root	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	94.24304136
+CC0209LE1R0718176960	Root	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	101.3913954
+CC0210FE15R0718176982	Root	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	75.58975425
+CC0211FS8R0718176983	Root	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	63.22166628
+CC0212FE6R0718176984	Root	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	54.83553592
+CC0213LS6R0718176964	Root	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	57.70859419
+CC0214FE3R0718176986	Root	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	93.74819807
+CC0215LE18R0718176966	Root	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	59.11488626
+CC0216FE4R0718176988	Root	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	93.10727816
+CC0217FE8R0718176989	Root	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	115.3385166
+CC0218FS3R0718176990	Root	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	88.96424137
+CC0219FE5R0718176991	Root	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	98.83868252
+CC0219LE5R0718176970	Root	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	70.31587175
+CC0220FE14R0718175900	Root	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	100.6006592
+CC0220LE14R0718175897	Root	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	85.67566351
+CC0221FE13R0718176992	Root	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	102.3023449
+CC0221LE13R0718176971	Root	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	70.43303527
+CC0222FE11R0718176993	Root	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	92.35217583
+CC0222LE11R0718176972	Root	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	83.06917623
+CC0223FE7R0718176994	Root	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	66.85391878
+CC0223LE7R0718176973	Root	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	99.28579203
+CC0224FS5R0718176995	Root	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	54.53276747
+CC0224LS5R0718176974	Root	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	87.06357612
+CC0301FG1R0718175901	Root	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	70.3246052
+CC0301LG1R0718175904	Root	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	103.3300553
+CC0302FG3R0718176996	Root	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	97.87254733
+CC0302LG3R0718177017	Root	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	132.371534
+CC0303FE17R0718175902	Root	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	91.72819188
+CC0303LE17R0718175905	Root	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	55.82412523
+CC0304LS10R0718177018	Root	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	69.34651411
+CC0305FS2R0718176998	Root	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	83.75666441
+CC0305LS2R0718177019	Root	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	89.82369899
+CC0306FE10R0718176999	Root	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	92.24747002
+CC0306LE10R0718177020	Root	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	112.5002506
+CC0307FS3R0718177000	Root	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	81.18135439
+CC0307LS3R0718177021	Root	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	134.5965083
+CC0308FE9R0718177001	Root	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	66.23733581
+CC0308LE9R0718177022	Root	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	99.34258674
+CC0309FS4R0718177002	Root	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	76.45976819
+CC0309LS4R0718177023	Root	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	97.73239766
+CC0310FE13R0718177003	Root	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	109.5448012
+CC0310LE13R0718177024	Root	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	125.0307557
+CC0311FE14R0718175903	Root	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	53.32396355
+CC0311LE14R0718175906	Root	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	106.612775
+CC0312FS5R0718177004	Root	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	84.73156672
+CC0312LS5R0718177025	Root	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	116.3073977
+CC0313FE11R0718177005	Root	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	73.73614695
+CC0313LE11R0718177026	Root	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	102.6855417
+CC0314FS8R0718177006	Root	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	81.56971348
+CC0314LS8R0718177027	Root	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	76.00681266
+CC0315FE4R0718177007	Root	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	74.89627813
+CC0315LE4R0718177028	Root	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	97.2338986
+CC0316LE8R0718177029	Root	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	113.7518257
+CC0317FE15R0718177009	Root	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	78.70435333
+CC0317LE15R0718177030	Root	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	45.43339558
+CC0318FE18R0718177010	Root	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	79.63625539
+CC0318LE18R0718177031	Root	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	58.83921322
+CC0319FE5R0718177011	Root	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	53.49908829
+CC0319LE5R0718177032	Root	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	91.65745162
+CC0320FE7R0718177012	Root	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	64.40106031
+CC0320LE7R0718177033	Root	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	77.52856554
+CC0321FE1R0718177013	Root	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	75.3889743
+CC0322FE6R0718177014	Root	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	96.67287542
+CC0322LE6R0718177035	Root	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	89.92689893
+CC0323FE3R0718177015	Root	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	79.26597363
+CC0323LE3R0718177036	Root	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	78.44324987
+CC0324FS6R0718177016	Root	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	79.37513925
+CC0324LS6R0718178585	Root	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	81.51735503
+CC0401FG3R0718177062	Root	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	107.6661089
+CC0401LG3R0718177038	Root	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	111.5406442
+CC0402FG1R0718177063	Root	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	82.24679458
+CC0402LG1R0718177039	Root	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	91.33230285
+CC0403FE17R0718177064	Root	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	107.5849578
+CC0403LE17R0718177040	Root	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	110.6881493
+CC0404FE10R0718177065	Root	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	82.21671166
+CC0405FS10R0718177066	Root	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	102.3026314
+CC0405LS10R0718177042	Root	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	85.46771189
+CC0406FS2R0718177067	Root	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	116.7381653
+CC0407FE18R0718177068	Root	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	78.94069769
+CC0407LE18R0718177044	Root	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	90.82442568
+CC0408FS4R0718177069	Root	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	107.2444214
+CC0409FS6R0718177070	Root	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	78.89016949
+CC0409LS6R0718177046	Root	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	111.1935341
+CC0410FS5R0718177071	Root	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	108.5605415
+CC0410LS5R0718177047	Root	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	88.91638978
+CC0411FE7R0718177072	Root	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	80.3160743
+CC0412FE15R0718177073	Root	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	86.17124844
+CC0412LE15R0718177049	Root	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	87.41011182
+CC0413FE6R0718177074	Root	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	100.9662065
+CC0414FS3R0718177075	Root	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	51.16193881
+CC0414LS3R0718177051	Root	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	80.83114316
+CC0415FE1R0718177076	Root	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	81.34693363
+CC0416FE4R0718177077	Root	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	68.21853273
+CC0416LE4R0718177053	Root	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	75.50090041
+CC0417FE9R0718177078	Root	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	62.44406053
+CC0417LE9R0718177054	Root	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	109.6343146
+CC0418FS8R0718177079	Root	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	110.5932372
+CC0418LS8R0718177055	Root	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	92.17091721
+CC0419FE8R0718177080	Root	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	65.85179176
+CC0419LE8R0718177056	Root	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	87.0295232
+CC0420FE13R0718177081	Root	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	107.1980732
+CC0421FE5R0718177082	Root	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	79.88413096
+CC0421LE5R0718177058	Root	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	88.52390423
+CC0422FE14R0718177083	Root	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	83.30069573
+CC0422LE14R0718177059	Root	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	102.4803745
+CC0423FE3R0718177084	Root	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	98.28860328
+CC0423LE3R0718177060	Root	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	98.68844554
+CC0424LE11R0718177061	Root	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	103.5401144
+CC0501FG1R0718175908	Root	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	73.54043843
+CC0501LG1R0718175910	Root	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	128.3875962
+CC0502FG3R0718177086	Root	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	61.98945397
+CC0502LG3R0718177107	Root	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	86.14692571
+CC0503FS2R0718177087	Root	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	110.1242495
+CC0503LS2R0718177108	Root	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	85.35679309
+CC0504FS10R0718177088	Root	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	75.29423835
+CC0504LS10R0718177109	Root	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	85.11435552
+CC0505FE17R0718175907	Root	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	91.98647645
+CC0505LE17R0718175911	Root	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	117.5569771
+CC0506FE10R0718177089	Root	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	65.33509028
+CC0506LE10R0718177110	Root	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	77.63996563
+CC0507FE15R0718177090	Root	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	79.71387065
+CC0507LE15R0718177111	Root	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	65.38466384
+CC0508FE5R0718177091	Root	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	64.7548583
+CC0508LE5R0718177112	Root	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	63.25977431
+CC0509FE4R0718177092	Root	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	72.1579049
+CC0509LE4R0718177113	Root	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	75.34138627
+CC0510LE9R0718177114	Root	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	95.13197852
+CC0511FE7R0718177094	Root	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	43.77808913
+CC0511LE7R0718177115	Root	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	52.60512291
+CC0512FE14R0718175909	Root	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	88.96957549
+CC0512LE14R0718175912	Root	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	65.58731743
+CC0513FS3R0718177095	Root	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	91.0172593
+CC0513LS3R0718177116	Root	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	59.29496791
+CC0514FE6R0718177096	Root	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	80.83909121
+CC0514LE6R0718177117	Root	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	90.24626588
+CC0515FS4R0718177097	Root	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	62.09478764
+CC0515LS4R0718177118	Root	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	75.13169774
+CC0516FE11R0718177098	Root	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	65.00202765
+CC0516LE11R0718177119	Root	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	91.71689183
+CC0517FE1R0718177099	Root	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	89.26519
+CC0517LE1R0718177120	Root	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	88.77502144
+CC0518FE3R0718177100	Root	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	73.28094796
+CC0518LE3R0718177121	Root	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	67.09149957
+CC0519FS6R0718177101	Root	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	83.29189251
+CC0520FE13R0718177102	Root	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	78.14515362
+CC0520LE13R0718177123	Root	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	92.25394517
+CC0521FE8R0718177103	Root	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	84.76572491
+CC0521LE8R0718177124	Root	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	86.54871638
+CC0522FE18R0718177104	Root	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	76.34960905
+CC0522LE18R0718177125	Root	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	81.80122249
+CC0523FS8R0718177105	Root	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	64.01717283
+CC0523LS8R0718177126	Root	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	124.2211126
+CC0524FS5R0718177106	Root	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	78.54519829
+CC0524LS5R0718177127	Root	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	98.42740688
+CC0601FG3R0718177128	Root	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	101.8118246
+CC0601LG3R0718177149	Root	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	66.13373478
+CC0602FG1R0718175913	Root	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	104.0142438
+CC0602LG1R0718175916	Root	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	87.9916164
+CC0603FS2R0718178586	Root	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	118.2553119
+CC0603LS2R0718177150	Root	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	93.16862265
+CC0604FE10R0718177130	Root	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	74.21483817
+CC0605FE17R0718175914	Root	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	92.70665301
+CC0605LE17R0718175917	Root	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	102.041531
+CC0606FS10R0718177131	Root	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	89.13634527
+CC0606LS10R0718177152	Root	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	56.49927531
+CC0607FS8R0718177132	Root	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	100.0536667
+CC0607LS8R0718177153	Root	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	119.1432356
+CC0608FE5R0718177133	Root	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	89.21681326
+CC0608LE5R0718177154	Root	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	81.8515717
+CC0609FE15R0718177134	Root	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	106.418968
+CC0609LE15R0718177155	Root	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	68.58121606
+CC0610FE3R0718177135	Root	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	90.88287707
+CC0610LE3R0718177156	Root	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	66.10849655
+CC0611FE9R0718177136	Root	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	77.02384152
+CC0611LE9R0718177157	Root	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	87.45238972
+CC0612FE14R0718175915	Root	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	67.87907057
+CC0612LE14R0718175918	Root	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	79.98366218
+CC0613FS3R0718177137	Root	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	33.35357352
+CC0613LS3R0718177158	Root	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	105.7094669
+CC0614FS5R0718177138	Root	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	91.77617292
+CC0614LS5R0718177159	Root	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	99.14621842
+CC0615FE1R0718177139	Root	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	96.87927409
+CC0615LE1R0718177160	Root	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	96.47508211
+CC0616FE8R0718177140	Root	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	80.10415751
+CC0616LE8R0718177161	Root	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	111.350826
+CC0617FS6R0718177141	Root	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	95.80502691
+CC0617LS6R0718177162	Root	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	69.6159594
+CC0618FE7R0718177142	Root	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	58.09818479
+CC0620FE6R0718177144	Root	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	104.8383551
+CC0620LE6R0718177165	Root	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	91.50728253
+CC0621FE13R0718177145	Root	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	84.55736814
+CC0621LE13R0718177166	Root	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	77.36927795
+CC0622LS4R0718177167	Root	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	72.51736714
+CC0623FE18R0718177147	Root	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	59.97858246
+CC0623LE18R0718177168	Root	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	64.3337727
+CC0624FE4R0718177148	Root	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	69.75804598
+CC0624LE4R0718177169	Root	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	85.01034542
+CC0701FG3R0718177194	Root	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	73.82863774
+CC0701LG3R0718177170	Root	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	89.19138479
+CC0702FG1R0718177195	Root	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	66.89071789
+CC0702LG1R0718177171	Root	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	132.2281036
+CC0703FS10R0718177196	Root	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	77.1696388
+CC0703LS10R0718177172	Root	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	83.22299324
+CC0704FE10R0718177197	Root	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	107.5155186
+CC0705FE17R0718177198	Root	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	78.64532193
+CC0706LS2R0718177175	Root	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	111.3869464
+CC0707FS5R0718177200	Root	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	82.97706197
+CC0707LS5R0718177176	Root	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	135.5846623
+CC0708FE3R0718177201	Root	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	122.8542339
+CC0708LE3R0718177177	Root	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	77.80067256
+CC0709LE6R0718177178	Root	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	117.8952667
+CC0710FE5R0718177203	Root	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	105.7045475
+CC0710LE5R0718177179	Root	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	117.7878843
+CC0711FS3R0718177204	Root	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	110.2099635
+CC0711LS3R0718177180	Root	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	99.49499706
+CC0712FE13R0718177205	Root	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	134.9087442
+CC0712LE13R0718177181	Root	Low N	E13	PI297130	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	99.65534691
+CC0713FE18R0718177206	Root	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	103.9257278
+CC0713LE18R0718177182	Root	Low N	E18	PI510757	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	68.19517339
+CC0714FE4R0718177207	Root	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	93.17300655
+CC0714LE4R0718177183	Root	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	35.78848432
+CC0715FE11R0718177208	Root	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	103.4904958
+CC0715LE11R0718177184	Root	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	51.64503689
+CC0716FE1R0718177209	Root	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	82.29425026
+CC0716LE1R0718177185	Root	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	54.00402155
+CC0717FE15R0718177210	Root	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	94.17930586
+CC0717LE15R0718177186	Root	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	98.41383049
+CC0718FS8R0718177211	Root	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	84.34611447
+CC0718LS8R0718177187	Root	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	90.32294336
+CC0719FS4R0718177212	Root	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	78.0874484
+CC0719LS4R0718177188	Root	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	104.0757061
+CC0720FE9R0718177213	Root	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	99.10103016
+CC0720LE9R0718177189	Root	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	104.1570489
+CC0721FS6R0718177214	Root	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	121.613384
+CC0722FE14R0718177215	Root	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	120.427907
+CC0722LE14R0718177191	Root	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	73.11103465
+CC0723FE8R0718177216	Root	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	118.5135252
+CC0723LE8R0718177192	Root	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	40.41078123
+CC0724FE7R0718177217	Root	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	55.50269542
+CC0724LE7R0718177193	Root	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	91.67497558
+CC0801FG3R0718177218	Root	Full N	G3	Btx642	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	72.83454411
+CC0801LG3R0718177239	Root	Low N	G3	Btx642	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	108.7602189
+CC0802FG1R0718175919	Root	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Root_Full N	Full N_Root	Root_Grain	Grain_Root	Grain_Root_Full N	Root_Grain_Full N	43.75983594
+CC0802LG1R0718175922	Root	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Root_Low N	Low N_Root	Root_Grain	Grain_Root	Grain_Root_Low N	Root_Grain_Low N	102.8064654
+CC0803FS2R0718177219	Root	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	115.063048
+CC0803LS2R0718177240	Root	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	109.8459126
+CC0804FE17R0718175920	Root	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	82.35035321
+CC0805FE10R0718177220	Root	Full N	E10	PI297155	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	79.9501856
+CC0805LE10R0718177241	Root	Low N	E10	PI297155	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	95.26248617
+CC0806FS10R0718178587	Root	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	80.98316075
+CC0806LS10R0718177242	Root	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	88.46169124
+CC0807FE9R0718177222	Root	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	43.26242078
+CC0807LE9R0718177243	Root	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	66.76808078
+CC0808FE18R0718177223	Root	Full N	E18	PI510757	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	43.11393221
+CC0809FS8R0718177224	Root	Full N	S8	Rio	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	117.9401992
+CC0809LS8R0718177245	Root	Low N	S8	Rio	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	87.02955285
+CC0810LE6R0718177246	Root	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	112.1489374
+CC0811FE8R0718177226	Root	Full N	E8	M81e	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	58.65752859
+CC0811LE8R0718177247	Root	Low N	E8	M81e	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	94.95529067
+CC0812FS6R0718177227	Root	Full N	S6	ChineseAmber	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	97.33137681
+CC0812LS6R0718177248	Root	Low N	S6	ChineseAmber	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	103.4005255
+CC0813FS4R0718177228	Root	Full N	S4	Atlas	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	78.98636169
+CC0813LS4R0718177249	Root	Low N	S4	Atlas	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	90.03559554
+CC0814FE5R0718177229	Root	Full N	E5	PI35038	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	106.4297646
+CC0814LE5R0718177250	Root	Low N	E5	PI35038	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	115.2379914
+CC0815FE1R0718177230	Root	Full N	E1	PI329311	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	84.18681306
+CC0815LE1R0718177251	Root	Low N	E1	PI329311	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	103.3511118
+CC0816FE15R0718177231	Root	Full N	E15	PI152730	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	86.79971296
+CC0816LE15R0718177252	Root	Low N	E15	PI152730	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	102.7769351
+CC0817FE7R0718177232	Root	Full N	E7	NTJ2	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	77.24448449
+CC0817LE7R0718177253	Root	Low N	E7	NTJ2	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	79.10663179
+CC0818FS3R0718177233	Root	Full N	S3	ICSV700	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	86.064474
+CC0818LS3R0718177254	Root	Low N	S3	ICSV700	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	112.0681767
+CC0819FE11R0718177234	Root	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	78.72656399
+CC0819LE11R0718177255	Root	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	130.0760768
+CC0820FE4R0718177235	Root	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	94.62937339
+CC0820LE4R0718177256	Root	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	99.54673699
+CC0821FE14R0718175921	Root	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	80.13259394
+CC0821LE14R0718175924	Root	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	88.85563971
+CC0822FS5R0718177236	Root	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Root_Full N	Full N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Full N	Root_Sweet_Full N	110.6815298
+CC0822LS5R0718177257	Root	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Root_Low N	Low N_Root	Root_Sweet	Sweet_Root	Sweet_Root_Low N	Root_Sweet_Low N	125.5135375
+CC0823FE13R0718177237	Root	Full N	E13	PI297130	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	83.07324624
+CC0824FE3R0718177238	Root	Full N	E3	PI505735	Energy	Full N_Energy	Energy_Full N	Root_Full N	Full N_Root	Root_Energy	Energy_Root	Energy_Root_Full N	Root_Energy_Full N	77.3409969
+CC0824LE3R0718177259	Root	Low N	E3	PI505735	Energy	Low N_Energy	Energy_Low N	Root_Low N	Low N_Root	Root_Energy	Energy_Root	Energy_Root_Low N	Root_Energy_Low N	50.69046858
+CC0101FG1S0718175376	Soil Within Row	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Full N	Soil_Grain_Full N	198.0704632
+CC0101LG1S0718175373	Soil Within Row	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Low N	Soil_Grain_Low N	188.2102702
+CC0103FS10S0718177755	Soil Within Row	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	183.95417
+CC0103LS10S0718177748	Soil Within Row	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	183.811919
+CC0104FE17S0718175377	Soil Within Row	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	179.6673819
+CC0104LE17S0718175374	Soil Within Row	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	186.1435446
+CC0105FS2S0718177756	Soil Within Row	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	173.8908297
+CC0109FS5S0718177757	Soil Within Row	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	156.0636382
+CC0109LS5S0718177750	Soil Within Row	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	181.9880899
+CC0112LE4S0718177751	Soil Within Row	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	166.0663887
+CC0113FE14S0718175378	Soil Within Row	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	178.4885769
+CC0113LE14S0718175375	Soil Within Row	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	188.0627432
+CC0115FE6S0718177759	Soil Within Row	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	176.1876704
+CC0115LE6S0718177752	Soil Within Row	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	185.3934073
+CC0121FE11S0718177760	Soil Within Row	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	184.2164828
+CC0121LE11S0718177753	Soil Within Row	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	181.7284808
+CC0122FE9S0718177761	Soil Within Row	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	178.655269
+CC0122LE9S0718177754	Soil Within Row	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	190.0944073
+CC0201FG1S0718175382	Soil Within Row	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Full N	Soil_Grain_Full N	180.6759424
+CC0201LG1S0718175379	Soil Within Row	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Low N	Soil_Grain_Low N	180.7238271
+CC0204FS2S0718176297	Soil Within Row	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	166.7316083
+CC0205FE17S0718175383	Soil Within Row	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	176.379378
+CC0205LE17S0718175380	Soil Within Row	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	183.2864941
+CC0206FS10S0718176298	Soil Within Row	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	177.4646393
+CC0206LS10S0718177762	Soil Within Row	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	181.8267679
+CC0208FE9S0718176299	Soil Within Row	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	152.3755434
+CC0208LE9S0718177763	Soil Within Row	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	171.3305735
+CC0212FE6S0718176300	Soil Within Row	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	168.2050263
+CC0212LE6S0718177764	Soil Within Row	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	164.1893629
+CC0216FE4S0718176301	Soil Within Row	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	178.8169799
+CC0216LE4S0718177765	Soil Within Row	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	170.667419
+CC0220FE14S0718175384	Soil Within Row	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	186.2488744
+CC0220LE14S0718175381	Soil Within Row	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	183.5594314
+CC0222FE11S0718178578	Soil Within Row	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	173.0463132
+CC0222LE11S0718177766	Soil Within Row	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	174.6680772
+CC0224FS5S0718176303	Soil Within Row	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	178.1586177
+CC0224LS5S0718177767	Soil Within Row	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	176.6531443
+CC0301FG1S0718175385	Soil Within Row	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Full N	Soil_Grain_Full N	184.7476337
+CC0301LG1S0718175388	Soil Within Row	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Low N	Soil_Grain_Low N	186.2021441
+CC0303FE17S0718175386	Soil Within Row	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	181.7127341
+CC0303LE17S0718175389	Soil Within Row	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	180.8293134
+CC0304FS10S0718176304	Soil Within Row	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	171.0752103
+CC0304LS10S0718176311	Soil Within Row	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	183.458602
+CC0305FS2S0718176305	Soil Within Row	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	172.9681106
+CC0308FE9S0718176306	Soil Within Row	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	172.4050495
+CC0308LE9S0718176313	Soil Within Row	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	173.3100011
+CC0311FE14S0718175387	Soil Within Row	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	162.4126359
+CC0311LE14S0718175390	Soil Within Row	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	176.3581801
+CC0312FS5S0718176307	Soil Within Row	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	171.8964961
+CC0312LS5S0718176314	Soil Within Row	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	170.8125769
+CC0313LE11S0718176315	Soil Within Row	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	180.4149171
+CC0315FE4S0718176309	Soil Within Row	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	165.6821466
+CC0315LE4S0718176316	Soil Within Row	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	177.0967171
+CC0322FE6S0718176310	Soil Within Row	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	163.8155971
+CC0322LE6S0718176317	Soil Within Row	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	168.1951139
+CC0402FG1S0718176328	Soil Within Row	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Full N	Soil_Grain_Full N	168.299693
+CC0402LG1S0718176318	Soil Within Row	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Low N	Soil_Grain_Low N	179.9926049
+CC0403FE17S0718176329	Soil Within Row	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	173.1028767
+CC0403LE17S0718176319	Soil Within Row	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	183.3053705
+CC0405FS10S0718176330	Soil Within Row	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	180.1767744
+CC0405LS10S0718176320	Soil Within Row	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	181.9774943
+CC0406FS2S0718176331	Soil Within Row	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	167.8184117
+CC0406LS2S0718176321	Soil Within Row	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	188.9361908
+CC0410FS5S0718176332	Soil Within Row	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	182.0896826
+CC0410LS5S0718176322	Soil Within Row	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	188.8214734
+CC0413FE6S0718176333	Soil Within Row	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	183.2784453
+CC0413LE6S0718176323	Soil Within Row	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	178.9555954
+CC0416FE4S0718176334	Soil Within Row	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	174.3320768
+CC0416LE4S0718176324	Soil Within Row	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	171.9824721
+CC0417FE9S0718176335	Soil Within Row	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	165.2684591
+CC0417LE9S0718176325	Soil Within Row	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	169.8240047
+CC0422FE14S0718176336	Soil Within Row	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	170.3116401
+CC0422LE14S0718176326	Soil Within Row	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	174.3307472
+CC0424FE11S0718176337	Soil Within Row	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	166.9797356
+CC0424LE11S0718176327	Soil Within Row	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	172.4004552
+CC0501FG1S0718175391	Soil Within Row	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Full N	Soil_Grain_Full N	180.6339116
+CC0501LG1S0718175394	Soil Within Row	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Low N	Soil_Grain_Low N	171.6577123
+CC0503FS2S0718176338	Soil Within Row	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	180.6491189
+CC0503LS2S0718176345	Soil Within Row	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	181.5898003
+CC0504FS10S0718176339	Soil Within Row	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	172.5023162
+CC0504LS10S0718176346	Soil Within Row	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	179.8128042
+CC0505FE17S0718175392	Soil Within Row	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	181.7543801
+CC0505LE17S0718175395	Soil Within Row	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	181.6877987
+CC0509FE4S0718176340	Soil Within Row	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	161.6071384
+CC0509LE4S0718176347	Soil Within Row	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	183.640636
+CC0510LE9S0718176348	Soil Within Row	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	187.5199278
+CC0512FE14S0718175393	Soil Within Row	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	174.6176053
+CC0512LE14S0718175396	Soil Within Row	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	181.9818242
+CC0514FE6S0718176342	Soil Within Row	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	171.3648144
+CC0514LE6S0718176349	Soil Within Row	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	173.8122534
+CC0516FE11S0718176343	Soil Within Row	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	163.9028063
+CC0516LE11S0718176350	Soil Within Row	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	165.7010791
+CC0524FS5S0718176344	Soil Within Row	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	175.6436732
+CC0524LS5S0718176351	Soil Within Row	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	167.5195771
+CC0602FG1S0718175397	Soil Within Row	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Full N	Soil_Grain_Full N	185.58412
+CC0602LG1S0718175400	Soil Within Row	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Low N	Soil_Grain_Low N	184.1824084
+CC0603FS2S0718176352	Soil Within Row	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	177.4273565
+CC0603LS2S0718176359	Soil Within Row	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	159.7167148
+CC0605FE17S0718175398	Soil Within Row	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	182.0697603
+CC0605LE17S0718175401	Soil Within Row	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	184.922297
+CC0606FS10S0718176353	Soil Within Row	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	181.595615
+CC0606LS10S0718176360	Soil Within Row	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	168.1450464
+CC0611FE9S0718176354	Soil Within Row	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	183.4090982
+CC0611LE9S0718176361	Soil Within Row	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	174.0166841
+CC0612FE14S0718175399	Soil Within Row	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	176.3028761
+CC0612LE14S0718175402	Soil Within Row	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	176.3368172
+CC0614FS5S0718176355	Soil Within Row	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	172.5641221
+CC0614LS5S0718176362	Soil Within Row	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	179.0185785
+CC0619FE11S0718176356	Soil Within Row	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	169.3478912
+CC0619LE11S0718176363	Soil Within Row	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	168.1624846
+CC0620FE6S0718176357	Soil Within Row	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	169.7215484
+CC0620LE6S0718176364	Soil Within Row	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	155.3839171
+CC0624FE4S0718176358	Soil Within Row	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	173.0712088
+CC0624LE4S0718176365	Soil Within Row	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	179.0187524
+CC0702FG1S0718176376	Soil Within Row	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Full N	Soil_Grain_Full N	167.1111198
+CC0702LG1S0718176366	Soil Within Row	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Low N	Soil_Grain_Low N	163.7415368
+CC0703FS10S0718176377	Soil Within Row	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	179.1562039
+CC0703LS10S0718176367	Soil Within Row	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	172.8924454
+CC0705FE17S0718176378	Soil Within Row	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	179.7858389
+CC0705LE17S0718176368	Soil Within Row	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	169.6064706
+CC0706FS2S0718176379	Soil Within Row	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	177.4202391
+CC0706LS2S0718176369	Soil Within Row	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	180.4580684
+CC0707FS5S0718176380	Soil Within Row	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	184.4687916
+CC0707LS5S0718176370	Soil Within Row	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	185.7199647
+CC0709FE6S0718176381	Soil Within Row	Full N	E6	PI585954	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	187.9206727
+CC0709LE6S0718176371	Soil Within Row	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	185.4336315
+CC0714FE4S0718176382	Soil Within Row	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	189.284828
+CC0714LE4S0718176372	Soil Within Row	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	178.0880148
+CC0715FE11S0718176383	Soil Within Row	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	166.6190947
+CC0715LE11S0718176373	Soil Within Row	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	171.8257749
+CC0720FE9S0718176384	Soil Within Row	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	151.116324
+CC0720LE9S0718176374	Soil Within Row	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	168.7949435
+CC0722LE14S0718176375	Soil Within Row	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	176.0170841
+CC0802FG1S0718175403	Soil Within Row	Full N	G1	BTx623	Grain	Full N_Grain	Grain_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Full N	Soil_Grain_Full N	170.84682
+CC0802LG1S0718175406	Soil Within Row	Low N	G1	BTx623	Grain	Low N_Grain	Grain_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Grain	Grain_Soil	Grain_Soil_Low N	Soil_Grain_Low N	171.6067099
+CC0803FS2S0718176386	Soil Within Row	Full N	S2	SanChiSan	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	175.2551697
+CC0803LS2S0718176393	Soil Within Row	Low N	S2	SanChiSan	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	161.2572123
+CC0804FE17S0718175404	Soil Within Row	Full N	E17	PI655972	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	176.8308714
+CC0804LE17S0718175407	Soil Within Row	Low N	E17	PI655972	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	177.5398013
+CC0806FS10S0718176387	Soil Within Row	Full N	S10	China17	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	183.4572592
+CC0806LS10S0718178579	Soil Within Row	Low N	S10	China17	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	161.328985
+CC0807FE9S0718176388	Soil Within Row	Full N	E9	PI229841	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	169.2280326
+CC0807LE9S0718176395	Soil Within Row	Low N	E9	PI229841	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	171.5817705
+CC0810LE6S0718176396	Soil Within Row	Low N	E6	PI585954	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	156.6903529
+CC0819FE11S0718176390	Soil Within Row	Full N	E11	PI506069	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	164.3294194
+CC0819LE11S0718176397	Soil Within Row	Low N	E11	PI506069	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	171.1189808
+CC0820FE4S0718176391	Soil Within Row	Full N	E4	PI329632	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	170.9710728
+CC0820LE4S0718176398	Soil Within Row	Low N	E4	PI329632	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	164.993106
+CC0821FE14S0718175405	Soil Within Row	Full N	E14	Grassl	Energy	Full N_Energy	Energy_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Full N	Soil_Energy_Full N	174.2970565
+CC0821LE14S0718175408	Soil Within Row	Low N	E14	Grassl	Energy	Low N_Energy	Energy_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Energy	Energy_Soil	Energy_Soil_Low N	Soil_Energy_Low N	169.3994032
+CC0822FS5S0718176392	Soil Within Row	Full N	S5	Leoti	Sweet	Full N_Sweet	Sweet_Full N	Soil Within Row_Full N	Full N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Full N	Soil_Sweet_Full N	180.8057945
+CC0822LS5S0718176399	Soil Within Row	Low N	S5	Leoti	Sweet	Low N_Sweet	Sweet_Low N	Soil Within Row_Low N	Low N_Soil	Soil_Sweet	Sweet_Soil	Sweet_Soil_Low N	Soil_Sweet_Low N	162.8499955
