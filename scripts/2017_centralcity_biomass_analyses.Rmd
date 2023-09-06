@@ -1,0 +1,382 @@
+---
+title: "2017 Sorghum Data - Biomass"
+author: "Emily Goren"
+date: "12/2/2017"
+output:
+  html_document:
+    highlight: tango
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, dev = c("png", "pdf"), cache = TRUE)
+options(scipen = 999)
+require(ggplot2)
+require(lmerTest)
+require(emmeans)
+require(pbkrtest)
+require(knitr)
+theme_set(theme_bw(base_size = 16) + theme(legend.position = "bottom"))
+```
+
+# Data
+
+```{r data}
+# Function to extract line type from genotype.
+get.line <- function(genotypes) sapply(genotypes, function(geno) {
+  switch(substr(geno, 1, 1), "E" = "Energy", "S" = "Sweet", "G" = "Grain")
+})
+# Central city data.
+cc <- read.csv("cc_biomass_extract_EG.csv")
+cc$dry <- cc$Total.Dry.Weight.kg.acre
+cc$fresh <- cc$Total.Fresh.Weight.kg.acre
+cc$block <- as.factor(cc$Rep)
+cc$line <- get.line(cc$Geno)
+str(cc)
+
+# Subset by location and line.
+cc.E <- subset(cc, line == "Energy")
+cc.S <- subset(cc, line == "Sweet")
+cc.G <- subset(cc, line == "Grain")
+
+```
+
+
+### Biomass histograms
+
+```{r histograms, fig.width=11}
+ggplot(cc, aes(x = fresh)) +
+  geom_histogram(bins = 25) +
+  facet_grid(Treat ~ line, scales = "fixed") +
+  labs(x = "Total Fresh Weight (kg/acre)") +
+  ggtitle("Central City Fresh Weight Histograms")
+ggplot(cc, aes(x = dry)) +
+  geom_histogram(bins = 25) +
+  facet_grid(Treat ~ line, scales = "fixed") +
+  labs(x = "Total Dry Weight (kg/acre)") +
+  ggtitle("Central City Dry Weight Histograms")
+```
+
+
+# Model
+
+Analyze as a split-plot design with blocking on "replicate." If no evidence of a block effect, remove block. Note that genotypes were not completely randomized within treatment, as some genotypes were randomized to the southmost or northmost plots within a block based on height.
+
+
+### Fit linear mixed model (random block effects) 
+
+- For each combination of weight type, line, and location assume that $Y_{ijk} = \mu_{ij} + \tau_{k} + \gamma_{ik} + \varepsilon_{ijk}$, where 
+    - $Y_{ijk}$ is the (possibly log transformed) response for treatment $i = 1,2$; genotype $j = 1, \dots, J$; block $k = 1, \dots, 8$.
+    - $\mu_{ij} = \alpha_i + \beta_j + (\alpha\beta)_{ij}$ are fixed effects describing the genotype-by-treatment mean.
+    - $\tau_k \stackrel{iid}{\sim} \mathcal{N}(0, \sigma^2_\tau)$ are block random effects.
+    - $\gamma_{ik} \stackrel{iid}{\sim} \mathcal{N}(0, \sigma^2_\gamma)$ are block-by-treatment random effects.
+    - $\varepsilon_{ijk} \stackrel{iid}{\sim} \mathcal{N}(0, \sigma^2_\varepsilon)$ are random errors.
+
+- Test for block effect ($H_0: \sigma^2_\tau = 0$ versus $H_1: \sigma^2_\tau > 0$).
+
+```{r lmm}
+# CC fresh
+cc.fresh.E <- lmer(log(fresh) ~ Treat*Geno + (1|Treat:block) + (1|block), data = cc.E)
+cc.fresh.S <- lmer(log(fresh) ~ Treat*Geno + (1|Treat:block) + (1|block), data = cc.S)
+cc.fresh.G <- lmer(log(fresh) ~ Treat*Geno + (1|Treat:block) + (1|block), data = cc.G)
+# CC dry
+cc.dry.E <- lmer(log(dry) ~ Treat*Geno + (1|Treat:block) + (1|block), data = cc.E)
+cc.dry.S <- lmer(log(dry) ~ Treat*Geno + (1|Treat:block) + (1|block), data = cc.S)
+cc.dry.G <- lmer(log(dry) ~ Treat*Geno + (1|Treat:block) + (1|block), data = cc.G)
+
+# Summarize.
+lmm <- list(cc.fresh.E, cc.fresh.G, cc.fresh.S,
+            cc.dry.E, cc.dry.G, cc.dry.S)
+l <- c("Central City - Fresh - Energy", 
+       "Central City - Fresh - Grain", 
+       "Central City - Fresh - Sweet",
+       "Central City - Dry - Energy", 
+       "Central City - Dry - Grain", 
+       "Central City - Dry - Sweet")
+trans <- c(rep("Log", 6))
+vars <- data.frame(Analysis = l,
+                   Transformation = trans,
+                   BlockVariance = sapply(lmm, function(f) as.numeric(VarCorr(f)$block)),
+                   #p.value = sapply(lmm, function(f) rand(f)$rand.table["block", "p.value"]/2),
+                   TrtBlkVariance = sapply(lmm, function(f) as.numeric(VarCorr(f)$'Treat:block')),
+                   ErrorVariance = sapply(lmm, function(f) attr(VarCorr(f), "sc")^2))
+kable(vars, digits = 4)
+
+```
+
+
+### Remove block effects where appropriate
+
+- No evidence of a block effect ($p-val > 0.1$) for 
+    - Central City - Fresh - Grain
+    - Central City - Dry - Energy
+    - Central City - Dry - Grain
+
+- For the above analyses, remove random block effect and fit the reduced linear mixed model $Y_{ijk} = \mu_{ij} + \gamma_{ik} + \varepsilon_{ijk}$.
+
+```{r lm}
+# CC fresh
+cc.fresh.G <- lmer(log(fresh) ~ Treat*Geno + (1|Treat:block), data = cc.G)
+# CC dry
+cc.dry.E <- lmer(log(dry) ~ Treat*Geno + (1|Treat:block), data = cc.E)
+cc.dry.G <- lmer(log(dry) ~ Treat*Geno + (1|Treat:block), data = cc.G)
+
+```
+
+
+### Check residual plots
+
+```{r resids, fig.width = 10}
+fit <- list(cc.fresh.E, cc.fresh.G, cc.fresh.S,
+            cc.dry.E, cc.dry.G, cc.dry.S)
+n <- unlist(lapply(fit, function(f) length(fitted(f))))
+# Function to extract treatment from fitted model object.
+get.trt <- function(obj) {
+  if (class(obj) == "lm") out <- obj$model$Treat else out <- obj@frame$Treat
+  return(out)
+}
+resids <- data.frame(Analysis = rep(l, n),
+                     Transformation = rep(trans, n),
+                     Fitted = unlist(lapply(fit, fitted)),
+                     Residual = unlist(lapply(fit, resid)),
+                     Treatment = unlist(lapply(fit, get.trt)))
+resids$Response <- ifelse(sapply(resids$Analysis, function(f) grepl("Dry", f)), "Dry Weight", "Fresh Weight")
+resids$Location <- ifelse(sapply(resids$Analysis, function(f) grepl("Central City", f)), "Central City")
+resids$Line <- sapply(as.character(resids$Analysis), function(f) substr(f, nchar(f)-5, nchar(f)))
+# Plot.
+ggplot(subset(resids, Location == "Central City" & Response == "Fresh Weight"), 
+       aes(y = Residual, x = Fitted, color = Treatment)) +
+  ggtitle("Central City - Fresh Weight") +
+  geom_point() + scale_color_grey(start = 0.6, end = 0) +
+  facet_wrap( ~ Line, scales = "free")
+ggplot(subset(resids, Location == "Central City" & Response == "Dry Weight"), 
+       aes(y = Residual, x = Fitted, color = Treatment)) +
+  ggtitle("Central City - Dry Weight") +
+  geom_point() + scale_color_grey(start = 0.6, end = 0) +
+  facet_wrap( ~ Line, scales = "free")
+```
+
+# Estimates
+
+Find the ratio of estimated means (low/high) for each genotype with 95\% confidence intervals (on original, not log, scale). See output at end or exported .csv file or all estimates and $p$-value for the test of a treatment effect (i.e., whether the ratio is equal to one).
+
+For analysis performed on the original scale (no log transformation applied) as done for the energy lines at Scottsbluff, the confidence interval was computed using a generalization of Fieller 1954 (same methodology used for the 2016 data). 
+
+If blocks were included in the model, degrees of freedom were computed using the Kenward-Roger method implemented in the emmeans package.
+
+
+```{r ratios}
+# Function to find confidence bounds using generalization of Fieller 1954.
+find.T.bd <- function(theta, a1, a2, beta.hat, var.beta.hat, alpha, df, bd = 'lower') {
+    c <- a1 - theta * a2
+    L <- t(c) %*% beta.hat
+    var.L <- t(c) %*% var.beta.hat %*% c
+    T <- drop(L / sqrt(var.L))
+    crit <-  qt(1-alpha/2, df)
+    if (bd == 'lower') {
+        out <- crit - T
+    } else {
+        out <- - crit - T
+    }
+    return(out)
+}
+# Function to get CI for ratio of high/low treatment means and p-value for H0: ratio = 1.
+# Uses Kenward-Roger method to estimate df if block is included in model.
+get.res <- function(fit) {
+  mixed <- class(fit) != "lm"
+  if (mixed) log <- grepl("log", fit@call[2]) else log <- grepl("log", fit$call[2])
+  if (log) {
+    if(mixed) b <- fixef(fit) else b <- coef(fit)
+    m <- ifelse("TreatWW" %in% names(b), "pairwise", "revpairwise")
+    high <- ifelse("TreatWW" %in% names(b), "WW", "Full N")
+    low <- ifelse("TreatWW" %in% names(b), "WS", "Low N")
+    lsm <- emmeans(fit, ~ Treat | Geno)
+    ests <- confint(contrast(lsm, method = m))
+    emm <- summary(lsm)
+    out <- data.frame(Genotype = ests$Geno)
+    out$Est.High.log <- emm$emmean[emm$Treat == high]
+    out$SE.High.log <- emm$SE[emm$Treat == high]
+    out$Est.High <- exp(out$Est.High.log)
+    out$SE.High <- NA
+    out$Est.Low.log <- emm$emmean[emm$Treat == low]
+    out$SE.Low.log <- emm$SE[emm$Treat == low]
+    out$Est.Low <- exp(out$Est.Low.log)
+    out$SE.Low <- NA
+    out$Treatment <- gsub(" - ", "/", ests$contrast)
+    out$Ratio <- exp(ests$estimate)
+    out$Lower.95.CL <- exp(ests$lower.CL)
+    out$Upper.95.CL <- exp(ests$upper.CL)
+    out$df <- ests$df
+    out$p.value <- summary(contrast(lsm, method = m))$p.value
+    out$Log <- log
+  } else {
+    lsm <- emmeans(fit, ~ Treat | Geno)
+    if(mixed) b <- fixef(fit) else b <- coef(fit)
+    var.b <- as.matrix(vcov(fit))
+    A <- lsm@linfct
+    effects <- colnames(A)
+    if(mixed) genolev <- fit@frame$Geno else genolev <- fit$model$Geno
+    genos <- paste0("Geno", unique(genolev))
+    tmp <- lapply(genos, function(g) {
+      if (g %in% effects) { # Genotype isn't reference level.
+        contrs <- A[A[,g] == 1,]
+        if ("TreatWW" %in% effects) {
+          a1 <- contrs[contrs[,"TreatWW"] == 0,]
+          a2 <- contrs[contrs[,"TreatWW"] == 1,]
+        } else {
+          a2 <- contrs[contrs[,"TreatLow N"] == 0,]
+          a1 <- contrs[contrs[,"TreatLow N"] == 1,]
+        }
+      } else { # Genotype is reference level.
+        nonrefs <- genos[genos != g]
+        contrs <- A[apply(A[,nonrefs], 1, function(f) all(f == 0)),]
+        if ("TreatWW" %in% effects) {
+          a1 <- contrs[contrs[,"TreatWW"] == 0,]
+          a2 <- contrs[contrs[,"TreatWW"] == 1,]
+        } else {
+          a2 <- contrs[contrs[,"TreatLow N"] == 0,]
+          a1 <- contrs[contrs[,"TreatLow N"] == 1,]
+        }
+      }
+      low <- a1 %*% b
+      low.se <- sqrt(t(a1) %*% var.b %*% a1)
+      high <- a2 %*% b
+      high.se <- sqrt(t(a2) %*% var.b %*% a2)
+      val <- low / high
+      diffs <- summary(contrast(lsm, method = "pairwise"))
+      idx <- diffs$Geno == gsub("Geno", "", g)
+      DF <- diffs$df[idx]
+      r1 <- uniroot(find.T.bd, maxiter = 1e6,
+                    lower = -1e6, upper = 1e6,
+                    a1 = a1, a2 = a2,
+                    beta.hat = b, var.beta.hat = var.b,
+                    alpha = 0.05, df = DF, bd = 'lower')
+      r2 <- uniroot(find.T.bd, maxiter = 1e6,
+                    lower = -1e6, upper = 1e6,
+                    a1 = a1, a2 = a2,
+                    beta.hat = b, var.beta.hat = var.b,
+                    alpha = 0.05, df = DF, bd = 'upper')
+      ans <- data.frame(Genotype = gsub("Geno", "", g),
+                        Est.High.log = NA,
+                        SE.High.log = NA,
+                        Est.High = high,
+                        SE.High = high.se,
+                        Est.Low.log = NA,
+                        SE.Low.log = NA,
+                        Est.Low = low,
+                        SE.Low = low.se,
+                        Treatment = ifelse("TreatWW" %in% effects, "WS/WW", "Low N/Full N"),
+                        Ratio = val,
+                        Lower.95.CL = r1$root,
+                        Upper.95.CL = r2$root,
+                        df = DF,
+                        p.value = diffs$p.value[idx])
+      return(ans)
+    })
+    out <- do.call("rbind", tmp)
+    out$Log <- log
+  }
+  num <- as.numeric(unlist(regmatches(out$Genotype, gregexpr("[[:digit:]]+", out$Genotype))))
+  return(out[order(num),])
+}
+results <- lapply(fit, get.res)
+names(results) <- l
+```
+
+
+### Plots of ratio of estimated mean biomass (low/high treatment) with 95% confidence intervals
+
+
+```{r plotratios, fig.width = 10}
+results2 <- results
+for (r in 1:length(results2)) {
+  results2[[r]]$Line <- get.line(results2[[r]]$Genotype)
+  results2[[r]]$Response <- ifelse(grepl("Dry", names(results2)[r]), "Dry Weight", "Fresh Weight")
+  results2[[r]]$Location <- ifelse(grepl("Central City", names(results2)[r]), "Central City")
+}
+results2 <- do.call("rbind", results2)
+write.csv(results2, "2017_sorghum_biomass_estimates_splitplot_noE10atSB.csv", row.names = FALSE)
+ggplot(subset(results2, Location == "Central City" & Response == "Fresh Weight"),
+       aes(x = Genotype, y = Ratio, fill = Line)) + 
+  geom_bar(stat = "identity") + scale_fill_brewer(palette = "Dark2") +
+  geom_errorbar(aes(ymin = Lower.95.CL, ymax = Upper.95.CL), width = 0.5) + # 95% CI
+  geom_hline(yintercept = 1, color = "darkgrey", linetype = "dashed") +
+  xlab("Genotype") + ylab("Ratio of Mean Fresh Weight \n (Low/High N)") +
+  ggtitle("Central City - Fresh Weight")
+ggplot(subset(results2, Location == "Central City" & Response == "Dry Weight"),
+       aes(x = Genotype, y = Ratio, fill = Line)) + 
+  geom_bar(stat = "identity") + scale_fill_brewer(palette = "Dark2") +
+  geom_errorbar(aes(ymin = Lower.95.CL, ymax = Upper.95.CL), width = 0.5) + # 95% CI
+  geom_hline(yintercept = 1, color = "darkgrey", linetype = "dashed") +
+  xlab("Genotype") + ylab("Ratio of Mean Dry Weight \n (Low/High N)") +
+  ggtitle("Central City - Dry Weight")
+
+```
+
+
+
+### Plots of estimated mean weight (kg/acre) for each genotype and treatment combination
+
+```{r plotmeans}
+results3 <- reshape(results2, direction = "long", 
+                    varying = c("Est.Low", "Est.High"))
+iscc <- results3$Location == "Central City"
+results3$Treatment[iscc] <- ifelse(results3$time[iscc] == "High", "Full N", "Low N")
+
+# CC fresh
+ggplot(subset(results3, 
+              Location == "Central City" & Response == "Fresh Weight" & Line == "Energy"),
+       aes(x = Genotype, y = Est, fill = Treatment)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  scale_fill_grey(start = 0.6, end = 0) +
+  xlab("Genotype") + ylab("Estimated Mean Fresh Weight (kg/acre)") +
+  ggtitle("Central City - Fresh Weight - Energy") 
+ggplot(subset(results3, 
+              Location == "Central City" & Response == "Fresh Weight" & Line == "Grain"),
+       aes(x = Genotype, y = Est, fill = Treatment)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  scale_fill_grey(start = 0.6, end = 0) +
+  xlab("Genotype") + ylab("Estimated Mean Fresh Weight (kg/acre)") +
+  ggtitle("Central City - Fresh Weight - Grain") 
+ggplot(subset(results3, 
+              Location == "Central City" & Response == "Fresh Weight" & Line == "Sweet"),
+       aes(x = Genotype, y = Est, fill = Treatment)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  scale_fill_grey(start = 0.6, end = 0) +
+  xlab("Genotype") + ylab("Estimated Mean Fresh Weight (kg/acre)") +
+  ggtitle("Central City - Fresh Weight - Sweet") 
+# CC dry
+ggplot(subset(results3, 
+              Location == "Central City" & Response == "Dry Weight" & Line == "Energy"),
+       aes(x = Genotype, y = Est, fill = Treatment)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  scale_fill_grey(start = 0.6, end = 0) +
+  xlab("Genotype") + ylab("Estimated Mean Dry Weight (kg/acre)") +
+  ggtitle("Central City - Dry Weight - Energy") 
+ggplot(subset(results3, 
+              Location == "Central City" & Response == "Dry Weight" & Line == "Grain"),
+       aes(x = Genotype, y = Est, fill = Treatment)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  scale_fill_grey(start = 0.6, end = 0) +
+  xlab("Genotype") + ylab("Estimated Mean Dry Weight (kg/acre)") +
+  ggtitle("Central City - Dry Weight - Grain") 
+ggplot(subset(results3, 
+              Location == "Central City" & Response == "Dry Weight" & Line == "Sweet"),
+       aes(x = Genotype, y = Est, fill = Treatment)) + 
+  geom_bar(stat = "identity", position = position_dodge()) + 
+  scale_fill_grey(start = 0.6, end = 0) +
+  xlab("Genotype") + ylab("Estimated Mean Dry Weight (kg/acre)") +
+  ggtitle("Central City - Dry Weight - Sweet") 
+
+```
+
+
+### Big tables of estimates 
+
+Exported as .csv file "2017_sorghum_biomass_estimates_splitplot_noE10atSB.csv.csv"
+
+```{r printratios, results = "asis"}
+for (r in 1:length(results)) {
+  print(kable(results[[r]], digits = 3, row.names = FALSE,
+              caption = names(results)[r]), padding = 0)
+}
+```

@@ -1,0 +1,410 @@
+---
+title: "2017_centralcity_microbiome_analyses"
+author: "Yen Ning Chai"
+date: "2023-09-05"
+output:
+  html_document:
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, cache = TRUE)
+library("phyloseq")
+library("ggplot2")
+library("plyr")
+library("scales")
+library(grid)
+library(reshape2)
+library(ape)
+library(vegan)
+library(emmeans)
+library(ggpubr)
+library(rstatix)
+library(multcompView)
+library(xtable)
+library(PMCMRplus)
+library(tidyverse)
+```
+
+# Fig 2
+
+## Fig2A: Unconstrained PCoA for all sample types/compartments (soil between rows, soil within rows, rhizosphere, root, and leaf)
+
+```{r fig2a}
+ss.map <- read.delim("map_cc_0718_samples_but_blanks.txt") #change this
+row.names(ss.map)<-ss.map$SampleID
+ss.map$SampleID<- NULL
+ss.map$GrowthCondtion <- factor(ss.map$GrowthCondtion)
+ss.map$Plate <- as.factor(ss.map$Plate)
+ss.map$Rep <- as.factor(ss.map$Rep)
+ss.map$Plot <- as.factor(ss.map$Plot)
+ss.map$Variety <- as.factor(ss.map$Variety)
+ss.map$SampleType <- as.factor(ss.map$SampleType)
+
+ss.bcurtis <- read.table("distance-matrix.tsv", header = T, row.names = 1)
+ss.bcurtis <- ss.bcurtis[match(row.names(ss.map), row.names(ss.bcurtis)), match(row.names(ss.map), colnames(ss.bcurtis))]
+
+#PCoA
+r <- pcoa(ss.bcurtis)
+r.axes <- data.frame((scores(r$vectors[,1:2])))
+comp.col <- c("blue","purple","red","orange","darkgreen","yellow","purple","grey","green")
+plot<-ggplot(r.axes, aes(x = Axis.1, y = Axis.2))+ #label=rownames(bcurtis.cap.whole.axes)+ #change, or can add "size = Replicate"
+  geom_vline(xintercept = 0, alpha = 0.9) +
+  geom_hline(yintercept = 0, alpha = 0.9) +
+  geom_point(size = 3, alpha = 0.75, aes(color=ss.map$SampleType, shape=ss.map$GrowthCondtion)) +
+  theme_classic() +
+  labs(x = "PCo1 (15.95%)", y = "PCo1 (8.56%)") + #change
+  scale_color_manual(values = comp.col) +
+  theme(text = element_text(size = 20)) +
+  #geom_text(size=3)+
+  #stat_ellipse()+
+  labs(color = "Sample Type", shape="Treatment") +
+  #guides(fill = guide_legend(title = "Growth Condition")) +
+  theme(panel.border = element_rect(colour = "black",fill=NA))
+
+adonis(ss.bcurtis~ SampleType*GrowthCondtion*Variety,data = ss.map,add = T, strata = ss.map$Rep)
+
+ggsave(filename="pcoa_sampletype_trt.png", plot=plot, device="png", height=5, width=7.5, units="in", dpi=500)
+```
+
+## Fig 2B: Alpha diversities
+
+```{r fig2b}
+## faith's pd
+alpha <- read.delim("faith_pd_cc.txt") 
+alpha$SampleType <- factor(alpha$SampleType, levels = c("Soil Between Rows","Soil Within Row","Rhizosphere","Root","Leaf"))
+alpha$SampleType_GrowthCondtion <- factor(alpha$SampleType_GrowthCondtion, levels=c("Soil Between Rows_Full N","Soil Between Rows_Low N","Soil Within Row_Full N","Soil Within Row_Low N","Rhizosphere_Full N","Rhizosphere_Low N","Root_Full N","Root_Low N","Leaf_Full N","Leaf_Low N"))
+
+a<-aov(faith_pd ~ SampleType_GrowthCondtion, data = alpha)
+tukey<-TukeyHSD(a)
+
+kruskal.test(faith_pd ~ SampleType_GrowthCondtion, data = alpha)
+pw<-pairwise.wilcox.test(alpha$faith_pd, alpha$SampleType_GrowthCondtion, p.adjust.method = "fdr")
+
+pw
+out.p <- get.pvalues(pw)
+out.mcV <- multcompLetters(out.p,compare="<",threshold=0.05,Letters=letters)
+out.mcV
+
+
+bxp <- ggboxplot(alpha, x = "SampleType_GrowthCondtion", y = "faith_pd", ylim=range(0,250), fill = "SampleType", palette =c("blue","purple","red","orange","darkgreen"), notch = TRUE)
+
+ggsave(filename="faith_pd.png", plot=bxp, device="png", height=5, width=6, units="in", dpi=500)
+
+## shannon
+alpha <- read.delim("shannon_cc.txt")
+alpha$SampleType <- factor(alpha$SampleType, levels = c("Soil Between Rows","Soil Within Row","Rhizosphere","Root","Leaf"))
+alpha$SampleType_GrowthCondtion <- factor(alpha$SampleType_GrowthCondtion, levels=c("Soil Between Rows_Full N","Soil Between Rows_Low N","Soil Within Row_Full N","Soil Within Row_Low N","Rhizosphere_Full N","Rhizosphere_Low N","Root_Full N","Root_Low N","Leaf_Full N","Leaf_Low N"))
+
+kruskal.test(shannon_entropy ~ SampleType_GrowthCondtion, data = alpha)
+pw<-pairwise.wilcox.test(alpha$shannon_entropy, alpha$SampleType_GrowthCondtion, p.adjust.method = "fdr")
+pw
+out.p <- get.pvalues(pw)
+out.mcV <- multcompLetters(out.p,compare="<",threshold=0.05,Letters=letters)
+out.mcV
+
+
+bxp <- ggboxplot(alpha, x = "SampleType_GrowthCondtion", y = "shannon_entropy", ylim=range(0,15), fill = "SampleType", palette =c("blue","purple","red","orange","darkgreen"), notch = TRUE)
+
+ggsave(filename="shannon.png", plot=bxp, device="png", height=5, width=6, units="in", dpi=500)
+
+```
+
+
+## Fig 2C: Relative abundance
+
+```{r fig3c}
+ps = import_biom("ASV_table_all_sample_without_blank__Date_71817_with_tax.biom", treefilename="rooted-tree_cc.nwk", refseqfilename="ASVs_sequence.fa")
+mapfile <- import_qiime_sample_data("map_cc_0718_samples_but_blanks__Date_71817__.txt")
+
+mydata <- merge_phyloseq(ps, mapfile)
+ps.rarefied = rarefy_even_depth(mydata, rngseed=2, sample.size=10240, replace=F)
+
+physeq2 = filter_taxa(ps.rarefied, function(x) mean(x) > 0.1, TRUE)
+physeq3 = transform_sample_counts(physeq2, function(x) x / sum(x) )
+physeq3
+
+glom <- tax_glom(physeq3, taxrank = 'Rank2')
+glom.trt <- merge_samples(glom, "SampleType_GrowthCondtion")
+glom.trt.phylum = transform_sample_counts(glom.trt, function(x) x / sum(x))
+data_glom <- psmelt(glom.trt.phylum) # create dataframe from phyloseq object
+
+trt <- ggplot(data=data_glom, aes(x=SampleType_GrowthCondtion, y=Abundance, fill=Rank2)) +
+facet_grid(~SampleType, scales = "free") +
+geom_bar(aes(),stat="identity", position="stack") +
+scale_fill_manual(values = c("darkblue", "darkgoldenrod1", "darkseagreen", "mediumpurple4", "darkolivegreen1", "lightskyblue", "darkgreen", "indianred1", "black", "red4", "aquamarine", "darkorange1", "cyan1", "cornflowerblue", "chocolate4","red2","cyan4","bisque3","darkolivegreen2","deeppink1","honeydew3","khaki","lightblue4","lightsalmon3","magenta1","lightblue","gold1","purple1","royalblue4","thistle","yellow","lavender","grey")) +
+theme(legend.position="bottom")
+
+ggsave(filename="relativeabundance_sampletype_trt.png", plot=trt, device="png", height=6, width=10, units="in", dpi=1000)
+```
+
+# Fig 3
+## Fig A-E: Constrained analysis of principal coordinates in each sample type/compartment (soil between rows, soil within rows, rhizosphere, root, and leaf)
+
+```{r fig 3}
+ss.map <- read.delim("map_cc__Date_71817____SampleType_Soil__.txt") #change this
+row.names(ss.map)<-ss.map$SampleID
+ss.map$SampleID<- NULL
+ss.map$GrowthCondtion <- factor(ss.map$GrowthCondtion)
+ss.map$Plate <- as.factor(ss.map$Plate)
+ss.map$Rep <- as.factor(ss.map$Rep)
+ss.map$Plot <- as.factor(ss.map$Plot)
+
+
+ss.bcurtis <- read.table("distance-matrix_full.tsv", header = T, row.names = 1)
+ss.bcurtis <- ss.bcurtis[match(row.names(ss.map), row.names(ss.bcurtis)), match(row.names(ss.map), colnames(ss.bcurtis))]
+
+
+bcurtis.cap.whole <- capscale(as.dist(ss.bcurtis) ~ Variety*GrowthCondtion+Condition(Rep),data = ss.map, add = T)
+bcurtis.cap.whole.axes <- data.frame(cbind(ss.map, scores(bcurtis.cap.whole)$sites))
+#wuf.cap.whole.axes$Plant <- factor(wuf.cap.whole.axes$Plant,levels = c("Adenum","Aloe","Cissus","Cleome","Zygophyllum"))#change
+#comp.col <- c("red","blue","black","darkgreen","darkgreen","blue","purple","orange","yellow","purple","grey","green")
+comp.col <- c("red2","cyan4","bisque3","darkolivegreen2","deeppink1","honeydew3","khaki","lightblue4","lightsalmon3","magenta1","lightblue","gold1","purple1","royalblue4","thistle")
+
+percent_explained <- bcurtis.cap.whole$CCA$eig / sum(bcurtis.cap.whole$CCA$eig) * 100
+plot<-ggplot(bcurtis.cap.whole.axes, aes(x = CAP1, y = CAP2, color=Variety, shape=GrowthCondtion) )+ #change, or can add "size = Replicate"
+  geom_vline(xintercept = 0, alpha = 0.9) +
+  geom_hline(yintercept = 0, alpha = 0.9) +
+  geom_point(size = 4, alpha = 0.75) +
+  theme_classic() +
+  labs(x = "Constrained PCo1 (56.60%)", y = "Constrained PCo2 (17.08%)") + #change
+  scale_color_manual(values = comp.col) +
+  #scale_shape_manual(values = comp.shape) +
+  labs(color="Sorghum Type", shape="Treatment") +
+  theme(text = element_text(size = 20)) +
+  theme(panel.border = element_rect(colour = "black",fill=NA))
+
+
+adonis2(ss.bcurtis~ Variety+GrowthCondtion,data = ss.map,add = T, strata = ss.map$Rep)
+```
+
+# Fig 4
+
+```{r}
+d <- read.csv("ra_sampletype_trt.csv", header=TRUE, sep=",") 
+
+d$SampleType_GrowthCondtion <- as.factor(d$SampleType_GrowthCondtion)
+d$SampleType <- as.factor(d$SampleType)
+
+d$SampleType_GrowthCondtion <- factor(d$SampleType_GrowthCondtion, levels=c("Soil Between Rows_Full N","Soil Between Rows_Low N","Soil Within Row_Full N","Soil Within Row_Low N","Rhizosphere_Full N","Rhizosphere_Low N","Root_Full N","Root_Low N","Leaf_Full N","Leaf_Low N"))
+
+d$SampleType <- factor(d$SampleType, levels=c("Soil Between Rows","Soil Within Row","Rhizosphere","Root","Leaf"))
+
+bxp1 <- ggboxplot(d, x = "SampleType_GrowthCondtion", y = "Bacteroidota", fill = "SampleType", palette =c("blue","purple","red","orange","darkgreen"), notch=TRUE)
+
+
+
+bxp1<- bxp1 + ggtitle("Bacteroidota") + 
+  geom_bracket(xmin = "Rhizosphere_Full N", xmax = "Rhizosphere_Low N", y.position = 0.3,label = "**") + 
+  geom_bracket(xmin = "Root_Full N", xmax = "Root_Low N", y.position = 0.7,label = "*") +
+  scale_y_continuous(labels = scales::number_format(accuracy = 0.01)) + 
+  theme(panel.border = element_rect(colour = "black",fill=NA), text = element_text(size=15)) +
+  theme(axis.text=element_text(size=11)) +
+  rotate_x_text(60) + labs(x = "Sample Type_Treatment", y = "Relative Abundance") 
+
+
+bxp2 <- ggboxplot(d, x = "SampleType_GrowthCondtion", y = "Firmicutes", fill = "SampleType", palette =c("blue","purple","red","orange","darkgreen"), ylim=c(0,0.5), notch=TRUE)
+
+
+bxp2<- bxp2 + labs(title = "Firmicutes") +
+  geom_bracket(xmin = "Root_Full N", xmax = "Root_Low N", y.position = 0.17,label = "**") +
+  scale_y_continuous(labels = scales::number_format(accuracy = 0.01)) + 
+  theme(panel.border = element_rect(colour = "black",fill=NA), text = element_text(size=15)) +
+  theme(axis.text=element_text(size=11)) +
+  rotate_x_text(60) + labs(x = "Sample Type_Treatment", y = "Relative Abundance") 
+
+  
+bxp3 <- ggboxplot(d, x = "SampleType_GrowthCondtion", y = "Myxococcota", fill = "SampleType", palette =c("blue","purple","red","orange","darkgreen"), ylim=c(0,0.25), notch=TRUE)
+
+
+bxp3<- bxp3 + labs(title = "Myxococcota") +
+  geom_bracket(xmin = "Rhizosphere_Full N", xmax = "Rhizosphere_Low N", y.position = 0.1,label = "*",tip.length = 0.008) + 
+  scale_y_continuous(labels = scales::number_format(accuracy = 0.01)) + 
+  theme(panel.border = element_rect(colour = "black",fill=NA), text = element_text(size=15)) +
+  theme(axis.text=element_text(size=11)) +
+  rotate_x_text(60) + labs(x = "Sample Type_Treatment", y = "Relative Abundance") 
+
+
+bxp4 <- ggboxplot(d, x = "SampleType_GrowthCondtion", y = "Acidobacteriota", fill = "SampleType", palette =c("blue","purple","red","orange","darkgreen"), ylim=c(0,0.25), notch=TRUE)
+
+
+bxp4<- bxp4 + labs(title = "Acidobacteriota") +
+  geom_bracket(xmin = "Root_Full N", xmax = "Root_Low N", y.position = 0.17,label = "**",tip.length = 0.01) +
+  theme(panel.border = element_rect(colour = "black",fill=NA), text = element_text(size=15)) +
+  theme(axis.text=element_text(size=11)) +
+  rotate_x_text(60) + labs(x = "Sample Type_Treatment", y = "Relative Abundance")
+
+
+bxp5 <- ggboxplot(d, x = "SampleType_GrowthCondtion", y = "Chloroflexi", fill = "SampleType", palette =c("blue","purple","red","orange","darkgreen"), ylim=c(0,0.15), notch=TRUE)
+
+
+bxp5<- bxp5 + labs(title = "Chloroflexi") +
+  geom_bracket(xmin = "Rhizosphere_Full N", xmax = "Rhizosphere_Low N", y.position = 0.1,label = "*",tip.length = 0.01) + 
+  geom_bracket(xmin = "Root_Full N", xmax = "Root_Low N", y.position = 0.1,label = "**",tip.length = 0.01) +
+  theme(panel.border = element_rect(colour = "black",fill=NA), text = element_text(size=15)) +
+  theme(axis.text=element_text(size=11)) +
+  rotate_x_text(60) + labs(x = "Sample Type_Treatment", y = "Relative Abundance") 
+
+
+bxp6 <- ggboxplot(d, x = "SampleType_GrowthCondtion", y = "Crenarchaeota", fill = "SampleType", palette =c("blue","purple","red","orange","darkgreen"), ylim=c(0,0.2), notch=TRUE)
+
+
+bxp6<- bxp6 + labs(title = "Crenarchaeota") +
+  geom_bracket(xmin = "Root_Full N", xmax = "Root_Low N", y.position = 0.05,label = "*") +
+  theme(panel.border = element_rect(colour = "black",fill=NA), text = element_text(size=15)) +
+  theme(axis.text=element_text(size=11)) +
+  rotate_x_text(60) + labs(x = "Sample Type_Treatment", y = "Relative Abundance") 
+
+bxp7 <- ggboxplot(d, x = "SampleType_GrowthCondtion", y = "Planctomycetota", fill = "SampleType", palette =c("blue","purple","red","orange","darkgreen"), ylim=c(0,0.1), notch=TRUE)
+
+
+
+bxp7<- bxp7 + labs(title = "Planctomycetota") +
+  geom_bracket(xmin = "Rhizosphere_Full N", xmax = "Rhizosphere_Low N", y.position = 0.06,label = "*") + 
+  geom_bracket(xmin = "Root_Full N", xmax = "Root_Low N", y.position = 0.07,label = "***") +
+  scale_y_continuous(labels = scales::number_format(accuracy = 0.01)) + 
+  theme(panel.border = element_rect(colour = "black",fill=NA), text = element_text(size=15)) +
+  theme(axis.text=element_text(size=11)) +
+  rotate_x_text(60) + labs(x = "Sample Type_Treatment", y = "Relative Abundance") 
+
+
+bxp8 <- ggboxplot(d, x = "SampleType_GrowthCondtion", y = "Gemmatimonadota", fill = "SampleType", palette =c("blue","purple","red","orange","darkgreen"), ylim=c(0,0.06), notch=TRUE)
+
+
+bxp8<- bxp8 + labs(title = "Gemmatimonadota") +
+  geom_bracket(xmin = "Root_Full N", xmax = "Root_Low N", y.position = 0.038,label = "*") +
+  theme(panel.border = element_rect(colour = "black",fill=NA), text = element_text(size=15)) +
+  theme(axis.text=element_text(size=11)) +
+  rotate_x_text(60) + labs(x = "Sample Type_Treatment", y = "Relative Abundance") 
+
+```
+
+# Fig 5
+
+## The relationship between bacterial alpha diversities in rhizosphere and sorghum NUE.
+
+```{r fig5}
+# shannon
+## all types
+data <- read.csv("shannon_biomasss_ratio_mean_correlation_root.csv",header=TRUE, sep=",")
+shannon <- data$shannon_ratio
+biomass <- data$biomass_ratio
+
+cor <- cor.test(shannon, biomass, method = c("kendall"))
+summary(cor)
+
+plot<-ggplot(data,aes(shannon, biomass_ratio)) +
+#geom_point(size = 3, alpha = 0.75) +
+geom_point(size = 3, alpha = 0.75,aes(colour = factor(Type))) +
+scale_color_manual(values = c("Energy" = "red2", "Grain" = "cyan4","Sweet" = "bisque3")) +
+geom_smooth(method=lm, color="black") + 
+labs(x = "Shannon Diversity Ratio", y = "Dry Biomass Ratio") +
+annotate("text", x = 1.15, y = 1.1, label =expression(italic('τ')*' = 0.10, '*italic('P')*' = 0.53')) +
+labs(color="Sorghum Type") +
+theme_classic() + 
+theme(panel.border = element_rect(colour = "black",fill=NA),panel.grid.major = element_blank(),panel.grid.minor = element_blank()) + 
+theme(text = element_text(size = 20)) + theme(axis.text.y = element_text(color="black", size=15),axis.text.x = element_text(color="black", size=15))
+
+ggsave(filename="cor_biomass_shannon_ratio_root.png", plot=plot, device="png", height=5, width=7.5, units="in", dpi=500)
+
+#energy and grain only
+data <- read.csv("shannon_biomasss_ratio_mean_correlation_root_excluded_sweet.csv",header=TRUE, sep=",")
+shannon <- data$shannon_ratio
+biomass <- data$biomass_ratio
+
+cor <- cor.test(shannon, biomass, method = c("kendall"))
+summary(cor)
+
+plot<-ggplot(data,aes(shannon, biomass_ratio)) +
+#geom_point(size = 3, alpha = 0.75) +
+geom_point(size = 3, alpha = 0.75,aes(colour = factor(Type))) +
+scale_color_manual(values = c("Energy" = "red2", "Grain" = "cyan4")) +
+geom_smooth(method=lm, color="black") + 
+labs(x = "Shannon Diversity Ratio", y = "Dry Biomass Ratio") +
+annotate("text", x = 1.15, y = 1.1, label =expression(italic('τ')*' = 0.10, '*italic('P')*' = 0.53')) +
+labs(color="Sorghum Type") +
+theme_classic() + 
+theme(panel.border = element_rect(colour = "black",fill=NA),panel.grid.major = element_blank(),panel.grid.minor = element_blank()) + 
+theme(text = element_text(size = 20)) + theme(axis.text.y = element_text(color="black", size=15),axis.text.x = element_text(color="black", size=15))
+
+ggsave(filename="cor_biomass_shannon_ratio_root_excluded_sweet.png", plot=plot, device="png", height=5, width=7.5, units="in", dpi=500)
+
+# faith's pd
+# all types
+data <- read.csv("faithpd_biomasss_ratio_mean_correlation_root.csv",header=TRUE, sep=",")
+faithpd <- data$faith_ratio
+biomass <- data$biomass_ratio
+
+cor <- cor.test(faithpd, biomass, method = c("kendall"))
+summary(cor)
+
+plot<-ggplot(data,aes(faithpd, biomass_ratio)) +
+#geom_point(size = 3, alpha = 0.75) +
+geom_point(size = 3, alpha = 0.75,aes(colour = factor(Type))) +
+scale_color_manual(values = c("Energy" = "red2", "Grain" = "cyan4","Sweet" = "bisque3")) +
+geom_smooth(method=lm, color="black") + 
+labs(x = "Faith's PD Ratio", y = "Dry Biomass Ratio") +
+annotate("text", x = 1.2, y = 1.1, label =expression(italic('τ')*' = 0.19, '*italic('P')*' = 0.23')) +
+labs(color="Sorghum Type") +
+theme_classic() + 
+theme(panel.border = element_rect(colour = "black",fill=NA),panel.grid.major = element_blank(),panel.grid.minor = element_blank()) + 
+theme(text = element_text(size = 20)) + theme(axis.text.y = element_text(color="black", size=15),axis.text.x = element_text(color="black", size=15))
+
+ggsave(filename="cor_biomass_faithpd_ratio_root.png", plot=plot, device="png", height=5, width=7.5, units="in", dpi=500)
+
+#energy and grain only
+data <- read.csv("faithpd_biomasss_ratio_mean_correlation_root_excluded_sweet.csv",header=TRUE, sep=",")
+faithpd <- data$faith_ratio
+biomass <- data$biomass_ratio
+
+cor <- cor.test(faithpd, biomass, method = c("kendall"))
+summary(cor)
+
+plot<-ggplot(data,aes(faithpd, biomass_ratio)) +
+#geom_point(size = 3, alpha = 0.75) +
+geom_point(size = 3, alpha = 0.75,aes(colour = factor(Type))) +
+scale_color_manual(values = c("Energy" = "red2", "Grain" = "cyan4")) +
+geom_smooth(method=lm, color="black") + 
+labs(x = "Faith's PD Ratio", y = "Dry Biomass Ratio") +
+annotate("text", x = 1.21, y = 1.1, label =expression(italic('τ')*' = 0.10, '*italic('P')*' = 0.53')) +
+labs(color="Sorghum Type") +
+theme_classic() + 
+theme(panel.border = element_rect(colour = "black",fill=NA),panel.grid.major = element_blank(),panel.grid.minor = element_blank()) + 
+theme(text = element_text(size = 20)) + theme(axis.text.y = element_text(color="black", size=15),axis.text.x = element_text(color="black", size=15))
+
+ggsave(filename="cor_biomass_faithpd_ratio_root_excluded_sweet.png", plot=plot, device="png", height=5, width=7.5, units="in", dpi=500)
+
+```
+
+# Fig 6
+
+## Bacterial taxa affected by sorghum NUE.
+
+```{r}
+data <- read.csv("pseudomonas_mean_biomass_ra_ratio_correlation.csv",header=TRUE, sep=",")
+cor <- lm(biomass_ratio~Pseudomonas_ratio, data=data)
+ra <- data$Pseudomonas_ratio
+biomass <- data$biomass_ratio
+
+cor <- cor.test(ra, biomass, method = c("kendall"))
+
+plot<-ggplot(data,aes(Pseudomonas_ratio, biomass_ratio)) +
+geom_point(size = 3, alpha = 0.75) +
+#geom_point(size = 3, alpha = 0.75,aes(colour = factor(Type))) +
+#scale_color_manual(values = c("Energy" = "black", "Grain" = "red","Sweet" = "blue")) +
+geom_smooth(method=lm, color="black") + 
+labs(x = expression(italic('Pseudomonas ')*'Fold Change'), y = "Dry Biomass Ratio") +
+annotate("text", size = 5, x = 1.7, y = 0.9, label =expression(italic('τ')*' = -0.47, '*italic('P')*' = 0.008')) +
+theme_classic() + 
+theme(panel.border = element_rect(colour = "black",fill=NA),panel.grid.major = element_blank(),panel.grid.minor = element_blank()) + 
+theme(text = element_text(size = 20)) + theme(axis.text.y = element_text(color="black", size=15),axis.text.x = element_text(color="black", size=15))
+
+ggsave(filename="cor_biomass_pseudomonas_ra_mean_ratio.png", plot=plot, device="png", height=5, width=5, units="in", dpi=500)
+
+```
+
+
+```{r}
+
+```
+

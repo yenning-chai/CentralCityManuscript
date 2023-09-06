@@ -1,0 +1,87 @@
+---
+title: "2017_centralcity_metabolite_analyses"
+author: "Yen Ning Chai"
+date: "2023-09-05"
+output:
+  html_document:
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(broom)
+library(cowplot)
+library(ape)
+library(vegan)
+library(ggplot2)
+library(plyr)
+library(MetabolAnalyze)
+require(gridExtra)
+library("FactoMineR")
+library("factoextra")
+library(gplots)
+```
+
+# Fig 7
+
+```{r cars}
+metab_0718_root <- read.table("metabolite_root_0718.txt", header = T, row.names = 1)
+#metab_0718_root <- subset(metab, date=="7/18/17" & tissue == "Root")
+pca_fit <- metab_0718_root  %>% dplyr::select(where(is.numeric)) %>% log2() %>% scaling(type="pareto") %>% prcomp()
+fviz_eig(pca_fit, addlabels = TRUE, ylim = c(0, 60))
+
+pca_fit %>% augment(metab_0718_root) %>% # add original dataset back in
+  ggplot(aes(.fittedPC1, .fittedPC2, color = Treatment, shape=Variety)) + 
+  geom_point(size = 3.5) +
+  labs(x = "PC1 (31.7%)", y = "PC2 (15.4%)") +
+  labs(color="Treatment", shape = "Sorghum Type") +
+  theme_classic() + 
+  theme(panel.border = element_rect(colour = "black",fill=NA),panel.grid.major = element_blank(),panel.grid.minor = element_blank()) + 
+  theme(text = element_text(size = 20)) + theme(axis.text.y = element_text(color="black",  size=15),axis.text.x = element_text(color="black", size=15))
+
+ggsave(filename="pca_metab_full.png", plot=pca_fit, device="png", height=5, width=7.5, units="in", dpi=500)
+
+br_dist <- metab_0718_root %>% dplyr::select(where(is.numeric)) 
+br_dist <- vegdist(br_dist, method="bray", binary=FALSE, diag=FALSE)
+br_dist <- as.matrix(br_dist)
+
+ss.map <- read.delim("map_root.txt") #change this
+row.names(ss.map)<-ss.map$barcode
+ss.map$barcode<- NULL
+ss.map$Variety <- factor(ss.map$Variety)
+ss.map$Rep <- factor(ss.map$Rep)
+ss.map$Treatment <- factor(ss.map$Treatment)
+ss.map$NUE <- factor(ss.map$NUE)
+ss.map$Treatment_Rep <- factor(ss.map$Treatment_Rep)
+
+
+ss.bcurtis <- br_dist[match(row.names(ss.map), row.names(br_dist)), match(row.names(ss.map), colnames(br_dist))]
+
+adonis2(ss.bcurtis~ Treatment*Variety,data = ss.map,add = T, strata = ss.map$Rep)
+
+```
+
+# Fig 8
+
+```{r pressure, echo=FALSE}
+data <- read.csv("shikimic_pseudomonas_ratio_correlation.csv",header=TRUE, sep=",")
+metab <- data$Shikimic_ratio
+ra <- data$Pseudomonas_ratio
+cor <- cor.test(ra, metab, method = c("kendall"))
+
+plot<-ggplot(data,aes(Shikimic_ratio, Pseudomonas_ratio)) +
+     geom_point(size = 3, alpha = 0.75) +
+     #geom_point(size = 3, alpha = 0.75,aes(colour = factor(Treatment))) +
+     #scale_color_manual(values = c("Energy" = "black", "Grain" = "red","Sweet" = "blue")) +
+     geom_smooth(method=lm, color="black") + 
+     labs(x = "Shikimic Acid Ratio", y = expression(italic('Pseudomonas ')*'Relative Abundance Ratio')) +
+     annotate("text", size = 5, x =1.04, y = 3.1, label =expression(italic('τ')*' = 0.43, '*italic('P')*' = 0.01')) +
+     labs(color="Sorghum Type") +
+     theme_classic() + 
+     theme(panel.border = element_rect(colour = "black",fill=NA),panel.grid.major = element_blank(),panel.grid.minor = element_blank()) + 
+     theme(text = element_text(size = 20)) + theme(axis.text.y = element_text(color="black", size=15),axis.text.x = element_text(color="black", size=15))
+
+ggsave(filename="cor_pseudomonas_shikimic_acid_ratio.png", plot=plot, device="png", height=5, width=7.5, units="in", dpi=500)
+```
+

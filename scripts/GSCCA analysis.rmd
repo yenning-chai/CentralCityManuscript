@@ -1,0 +1,1056 @@
+---
+title: "Large Harvest Follow Up Analysis"
+author: "Yunhui Qi"
+date: "9/29/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+```{r,message=FALSE,results='hide'}
+
+####################################
+########## 1.Data reading ##########
+####################################
+#### Read mtb data ####
+mtb <- read.csv("SpecAbund_2017_Large_Harvest_GCMS_FINAL_061721.csv")
+
+N_index <- mtb$Treatment %in% c("Full N", "Low N")
+mtb_df <- mtb[N_index,12:ncol(mtb)]
+rownames(mtb_df) <- mtb$barcode[N_index]
+colnames(mtb_df) <- colnames(mtb)[12:ncol(mtb)]
+mtb_map <- mtb[N_index ,1:11]
+rownames(mtb_map) <- mtb_map$barcode
+mtb_map$Variety <- gsub("[[:digit:]]","",mtb_map$Genotype)
+
+
+
+
+#### Read mb data ####
+mb_RHZ <- (read.table("RHZ_ASVtable_071817_metabolite_samples.txt", fill = TRUE, header = T))
+mb_RHZ_map <- read.table("RHZ_map_071817_metabolite_samples.txt", fill = T, header = T)
+mb_RHZ_map <- mb_RHZ_map[-7,] # row 7 indicate unavailable asvs
+rownames(mb_RHZ_map) <- mb_RHZ_map$SampleID
+
+## transpose the data frame to have samples in rows, asvs in columns
+get_dfs <- function(df){
+  sample_name <- colnames(df)[2:(ncol(df)-7)]
+  asv_name <- df$ID
+  group_df <- df[,(ncol(df)-6):ncol(df)]
+  rownames(group_df) <- asv_name
+  asv_df <- as.data.frame(t(df[,2:(ncol(df)-7)]))
+  rownames(asv_df) <- sample_name
+  colnames(asv_df) <- asv_name
+  return(list(asv_df = asv_df, group_df = group_df))
+}
+
+## mb_tissue_dfs is a list containing two dfs:
+## asv_df is the asv table, group_df contains group information
+mb_RHZ_dfs <- get_dfs(mb_RHZ)
+# mb_root_dfs <- get_dfs(mb_root)
+# mb_soil_dfs <- get_dfs(mb_soil)
+
+## filter out the low library size samples
+in_barcode <- rownames(mb_RHZ_dfs$asv_df)[apply(mb_RHZ_dfs$asv_df, 1, sum) > 40000]
+mb_RHZ_dfs$asv_df <- mb_RHZ_dfs$asv_df[in_barcode, ]
+mb_RHZ_map <- mb_RHZ_map[in_barcode,]
+
+#### align samples from mtb and mb ####
+sample_map <- read.csv("map_barcode_metabolite_microbiome.csv", header = T)
+
+# change mb barcode to the corresponding mtb barcode to align them
+change_barcode <- function(mb_dfs, mb_map, tissue, map){
+  asv_df <- mb_dfs$asv_df
+  map_df <- mb_map
+  if(nrow(asv_df) != nrow(map_df)){paste("wrong input")}
+  else{
+    if(tissue == "root"){
+      for (i in 1:nrow(asv_df)) {
+          rownames(asv_df)[i] <- map$metabolite.barcode[map$Root.sample.id == rownames(asv_df)[i] ]
+          map_df$SampleID_mtb[i] <- map$metabolite.barcode[map$Root.sample.id == map_df$SampleID[i] ]
+          rownames(map_df)[i] <- map$metabolite.barcode[map$Root.sample.id == map_df$SampleID[i] ]
+          }
+    }
+    else if(tissue == "soil"){
+      for (i in 1:nrow(asv_df)) {
+        rownames(asv_df)[i] <- map$metabolite.barcode[map$Soil.sample.id == rownames(asv_df)[i] ]
+      }
+    }
+    else if(tissue == "RHZ"){
+      for (i in 1:nrow(asv_df)) {
+        # print(i)
+        rownames(asv_df)[i] <- map$metabolite.barcode[map$RHZ.sample.id == rownames(asv_df)[i] ]
+        map_df$SampleID_mtb[i] <- map$metabolite.barcode[map$RHZ.sample.id == map_df$SampleID[i] ]
+        rownames(map_df)[i] <- map$metabolite.barcode[map$RHZ.sample.id == map_df$SampleID[i] ]     
+        }
+    }
+    
+  return(list(asv_df, map_df))
+  }
+}
+## RHZ
+mb_RHZ_data <- change_barcode(mb_RHZ_dfs, mb_RHZ_map, tissue = "RHZ", sample_map)[[1]]
+mb_RHZ_map <- change_barcode(mb_RHZ_dfs, mb_RHZ_map, tissue = "RHZ", sample_map)[[2]]
+# ## root
+# mb_root_data <- change_barcode(mb_root_dfs, mb_root_map, tissue = "root", sample_map)[[1]]
+# mb_root_map <- change_barcode(mb_root_dfs, mb_root_map, tissue = "root", sample_map)[[2]]
+
+
+# align the barcode, 
+# ## root: there are 178 sample left in total. since mb 6/184 barcode are not available
+# mtb_data <- mtb_df[sample_map$metabolite.barcode[sample_map$Root.sample.id != "Unavailable"], ]
+# mtb_map <- mtb_map[sample_map$metabolite.barcode[sample_map$Root.sample.id != "Unavailable"], ]
+
+## RHZ: there are 181 samples left in total, since mb 3/184 barcode are not available
+mtb_data <- mtb_df[sample_map$metabolite.barcode[sample_map$RHZ.sample.id != "Unavailable"], ]
+mtb_map <- mtb_map[sample_map$metabolite.barcode[sample_map$RHZ.sample.id != "Unavailable"], ]
+
+mtb_data <- mtb_df[rownames(mb_RHZ_data),]
+mtb_map <- mtb_map[rownames(mb_RHZ_data),]
+
+# # order the rows of mb data so that the order of mb is the same as the order of mtb
+# mb_root_data <- mb_root_data[rownames(mtb_data), ]
+# mb_root_map <- mb_root_map[rownames(mtb_data), ]
+
+mb_RHZ_data <- mb_RHZ_data[rownames(mtb_data), ]
+mb_RHZ_map <- mb_RHZ_map[rownames(mtb_data), ]
+
+#### step1 output data ####
+mb_data_s1<- mb_RHZ_data
+mb_map_s1 <- mb_RHZ_map
+mb_group_s1 <- mb_RHZ_dfs$group_df
+
+mtb_data_s1 <- mtb_data
+mtb_map_s1 <- mtb_map
+
+
+
+
+
+
+
+```
+
+
+```{r,echo=FALSE,results='hide'}
+########################################
+########## 2.Define core ASVs ##########
+########################################
+#### genotype intersect, variety union or intersect, treatment union ####
+mb_map_s1$Variety <- gsub("[[:digit:]]","",mb_map_s1$Genotype)
+num_asv <- ncol(mb_data_s1)
+names_asv <- colnames(mb_data_s1)
+E_geno <- names(table(mb_map_s1$Genotype[mb_map_s1$Variety == "E"]))
+G_geno <- names(table(mb_map_s1$Genotype[mb_map_s1$Variety == "G"]))
+S_geno <- names(table(mb_map_s1$Genotype[mb_map_s1$Variety == "S"]))
+## high N, E, intersection of genotypes
+high_E_data_list <- list()
+high_E_core_index <- list()
+for (g in 1:length(E_geno)) {
+  geno <- E_geno[g]
+  high_E_data_list[[geno]] <- mb_data_s1[mb_map_s1$Variety == "E" & mb_map_s1$GrowthCondtion == "HighN" & mb_map_s1$Genotype == geno,]
+  high_E_core_index[[geno]] <- seq(1, num_asv)[apply(high_E_data_list[[geno]], 2, function(s){ sum(s != 0) >= 0.95 * length(s)})]
+}
+high_E_inter_index <- intersect(high_E_core_index[[1]], high_E_core_index[[2]])
+for (g in 3:length(E_geno)) {
+  high_E_inter_index <- intersect(high_E_inter_index, high_E_core_index[[g]])
+}
+high_E_inter_names <- names_asv[high_E_inter_index]
+
+## high N, G, intersection of genotypes
+high_G_data <- mb_data_s1[mb_map_s1$Variety == "G" & mb_map_s1$GrowthCondtion == "HighN", ]
+high_G_inter_index <- seq(1, num_asv)[apply(high_G_data, 2, function(s){ sum(s != 0) >= 0.95 * length(s)})]
+high_G_inter_names <- names_asv[high_G_inter_index]
+
+## high N, S, intersection of genotypes
+high_S_data_list <- list()
+high_S_core_index <- list()
+for (g in 1:length(S_geno)) {
+  geno <- S_geno[g]
+  high_S_data_list[[geno]] <- mb_data_s1[mb_map_s1$Variety == "S" & mb_map_s1$GrowthCondtion == "HighN" & mb_map_s1$Genotype == geno,]
+  high_S_core_index[[geno]] <- seq(1, num_asv)[apply(high_S_data_list[[geno]], 2, function(s){ sum(s != 0) >= 0.95 * length(s)})]
+}
+high_S_inter_index <- intersect(high_S_core_index[[1]], high_S_core_index[[2]])
+for (g in 3:length(S_geno)) {
+  high_S_inter_index <- intersect(high_S_inter_index, high_S_core_index[[g]])
+}
+high_S_inter_names <- names_asv[high_S_inter_index]
+
+## high N, variety intersection
+high_inter_index <- intersect(high_E_inter_index, high_G_inter_index)
+high_inter_index <- intersect(high_inter_index, high_S_inter_index)
+high_inter_names <- names_asv[high_inter_index]
+
+## high N, variety union
+high_union_index <- union(high_E_inter_index, high_G_inter_index)
+high_union_index <- union(high_union_index, high_S_inter_index)
+high_union_names <- names_asv[high_union_index]
+
+## low N, E, intersection of genotypes
+low_E_data_list <- list()
+low_E_core_index <- list()
+for (g in 1:length(E_geno)) {
+  geno <- E_geno[g]
+  low_E_data_list[[geno]] <- mb_data_s1[mb_map_s1$Variety == "E" & mb_map_s1$GrowthCondtion == "LowN" & mb_map_s1$Genotype == geno,]
+  low_E_core_index[[geno]] <- seq(1, num_asv)[apply(low_E_data_list[[geno]], 2, function(s){ sum(s != 0) >= 0.95 * length(s)})]
+}
+low_E_inter_index <- intersect(low_E_core_index[[1]], low_E_core_index[[2]])
+for (g in 3:length(E_geno)) {
+  low_E_inter_index <- intersect(low_E_inter_index, low_E_core_index[[g]])
+}
+low_E_inter_names <- names_asv[low_E_inter_index]
+
+## high N, G, intersection of genotypes
+low_G_data <- mb_data_s1[mb_map_s1$Variety == "G" & mb_map_s1$GrowthCondtion == "LowN", ]
+low_G_inter_index <- seq(1, num_asv)[apply(low_G_data, 2, function(s){ sum(s != 0) >= 0.95 * length(s)})]
+low_G_inter_names <- names_asv[low_G_inter_index]
+
+## high N, S, intersection of genotypes
+low_S_data_list <- list()
+low_S_core_index <- list()
+for (g in 1:length(S_geno)) {
+  geno <- S_geno[g]
+  low_S_data_list[[geno]] <- mb_data_s1[mb_map_s1$Variety == "S" & mb_map_s1$GrowthCondtion == "LowN" & mb_map_s1$Genotype == geno,]
+  low_S_core_index[[geno]] <- seq(1, num_asv)[apply(low_S_data_list[[geno]], 2, function(s){ sum(s != 0) >= 0.95 * length(s)})]
+}
+low_S_inter_index <- intersect(low_S_core_index[[1]], low_S_core_index[[2]])
+for (g in 3:length(S_geno)) {
+  low_S_inter_index <- intersect(low_S_inter_index, low_S_core_index[[g]])
+}
+low_S_inter_names <- names_asv[low_S_inter_index]
+
+## low N, variety intersection
+low_inter_index <- intersect(low_E_inter_index, low_G_inter_index)
+low_inter_index <- intersect(low_inter_index, low_S_inter_index)
+low_inter_names <- names_asv[low_inter_index]
+
+## low N, variety union
+low_union_index <- union(low_E_inter_index, low_G_inter_index)
+low_union_index <- union(low_union_index, low_S_inter_index)
+low_union_names <- names_asv[low_union_index]
+
+
+## treatment union
+# union_index <- union(low_union_index, high_union_index)
+# union_names <- names_asv[union_index]
+
+union_index <- union(low_inter_index, high_inter_index)
+union_names <- names_asv[union_index]
+
+# #### genotype ignore, variety union, treatment union ####
+# 
+# ## high N, variety union
+# E_dat <- mb_data_s1[mb_map_s1$Variety == "E" & mb_map_s1$GrowthCondtion == "HighN",]
+# G_dat <- mb_data_s1[mb_map_s1$Variety == "G" & mb_map_s1$GrowthCondtion == "HighN",]
+# S_dat <- mb_data_s1[mb_map_s1$Variety == "S" & mb_map_s1$GrowthCondtion == "HighN",]
+# high_variety_data <- list(E_dat, G_dat, S_dat)
+# high_variety_index <- list()
+# high_variety_names <- list()
+# for (v in 1:length(high_variety_data)) {
+#   high_variety_index[[v]] <- seq(1, num_asv)[apply(high_variety_data[[v]], 2, function(s){ sum(s != 0) >= 0.95 * length(s)})]
+#   high_variety_names[[v]] <- names_asv[high_variety_index[[v]]]
+# }
+# 
+# high_union_index <- union(high_variety_index[[1]], high_variety_index[[2]])
+# high_union_index <- union(high_union_index, high_variety_index[[3]])
+# 
+# high_inter_index <- intersect(high_variety_index[[1]], high_variety_index[[2]])
+# high_inter_index <- intersect(high_inter_index, high_variety_index[[3]])
+# 
+# ## low N, variety union
+# E_dat <- mb_data_s1[mb_map_s1$Variety == "E" & mb_map_s1$GrowthCondtion == "LowN",]
+# G_dat <- mb_data_s1[mb_map_s1$Variety == "G" & mb_map_s1$GrowthCondtion == "LowN",]
+# S_dat <- mb_data_s1[mb_map_s1$Variety == "S" & mb_map_s1$GrowthCondtion == "LowN",]
+# low_variety_data <- list(E_dat, G_dat, S_dat)
+# low_variety_index <- list()
+# low_variety_names <- list()
+# for (v in 1:length(low_variety_data)) {
+#   low_variety_index[[v]] <- seq(1, num_asv)[apply(low_variety_data[[v]], 2, function(s){ sum(s != 0) >= 0.95 * length(s)})]
+#   low_variety_names[[v]] <- names_asv[low_variety_index[[v]]]
+# }
+# 
+# low_union_index <- union(low_variety_index[[1]], low_variety_index[[2]])
+# low_union_index <- union(low_union_index, low_variety_index[[3]])
+# 
+# low_inter_index <- intersect(low_variety_index[[1]], low_variety_index[[2]])
+# low_inter_index <- intersect(low_inter_index, low_variety_index[[3]])
+# 
+# ## treatment union
+# union_index <- union(high_union_index, low_union_index)
+# union_names <- names_asv[union_index]
+# 
+# union_index <- union(high_inter_index, low_inter_index)
+# union_names <- names_asv[union_index]
+
+#### step 2 output data ####
+mb_data_s2 <- mb_data_s1[, union_names]
+mb_group_s2 <- mb_group_s1[union_names, ]
+mb_map_s2 <- mb_map_s1
+
+mtb_data_s2 <- mtb_data_s1
+mtb_map_s2 <- mtb_map_s1
+
+```
+
+
+
+```{r,echo=FALSE,results='hide'}
+#########################################
+########## 3.Group information ##########
+#########################################
+#### mb group infor ####
+annofunc<-function(dfrow){
+  d=unlist(strsplit(unlist(strsplit(dfrow[1], split="__"))[2],split = ";"))
+  p=unlist(strsplit(unlist(strsplit(dfrow[2], split="__"))[2],split = ";"))
+  c=unlist(strsplit(unlist(strsplit(dfrow[3], split="__"))[2],split = ";"))
+  o=unlist(strsplit(unlist(strsplit(dfrow[4], split="__"))[2],split = ";"))
+  f=unlist(strsplit(unlist(strsplit(dfrow[5], split="__"))[2],split = ";"))
+  g=unlist(strsplit(unlist(strsplit(dfrow[6], split="__"))[2],split = ";"))
+  s=unlist(strsplit(unlist(strsplit(dfrow[7], split="__"))[2],split = ";"))
+  return(cbind(d,p,c,o,f,g,s))
+}
+strext <- function(group_df){
+  extracted_df <- data.frame()
+  asv_id <- rownames(group_df)
+  extracted_df <- cbind(asv_id,t(apply(group_df,1,annofunc)))
+  rownames(extracted_df) <- asv_id
+  colnames(extracted_df) <- c("ASV","domain","phylum","class","order","family","genus", "species")
+  return(extracted_df)
+}
+mb_group_s3 <- as.data.frame(strext(mb_group_s2))
+
+#### mtb group 75 ####
+# 75/429 ASVs have group lables
+mtb_group <- read.csv("2017_Large_Harvest_GCMS_Annotations_InChi.csv")
+mtb_group_s3 <- data.frame(mtb = colnames(mtb_data_s2))
+rownames(mtb_group_s3) <- mtb_group_s3$mtb
+for (m in 1:nrow(mtb_group_s3)) {
+  mtb_name <- mtb_group_s3$mtb[m]
+  if(mtb_name %in% mtb_group$Cluster){
+    mtb_group_s3$superclass[m] <- mtb_group$Superclass[mtb_group$Cluster == mtb_name]
+    mtb_group_s3$class[m] <- mtb_group$Class[mtb_group$Cluster == mtb_name]
+    mtb_group_s3$subclass[m] <- mtb_group$Subclass[mtb_group$Cluster == mtb_name]
+  }
+  else{
+    mtb_group_s3$superclass[m] <- NA
+    mtb_group_s3$class[m] <- NA
+    mtb_group_s3$subclass[m] <- NA
+  }
+}
+# table(mtb_group_s3$superclass)
+# for (i in 1:77) {
+#   if(mtb_group$Cluster[i] %in% mtb_group_s3$mtb[!is.na(mtb_group_s3$superclass)]){
+#     print(i)
+#   }
+#   else(print(mtb_group$Cluster[i]))
+# }
+
+
+
+#### step 3 output data ####
+mtb_group_s3 <- mtb_group_s3[!is.na(mtb_group_s3$superclass),]
+mb_data_s3 <- mb_data_s2
+mb_group_s3 <- mb_group_s3
+mb_map_s3 <- mb_map_s2
+
+
+mtb_data_s3 <- mtb_data_s2[ ,mtb_group_s3$mtb]
+mtb_map_s3 <- mtb_map_s2
+mtb_group_s3 <- mtb_group_s3
+
+
+
+
+```
+
+
+
+```{r,echo=FALSE,results='hide'}
+########################################################
+#################### 4.Trans, Stand ####################
+########################################################
+#### transformation ####
+logX <- log(mtb_data_s3)
+ancom1Y <- ancom1(mb_data_s3)
+
+#### standardization ####
+stdlogX <- stand(logX)
+stdancom1Y <- stand(ancom1Y)
+
+#### step 4 output data ####
+mtb_data_s4 <- stdlogX
+mtb_map_s4 <- mtb_map_s3
+mtb_group_s4 <- mtb_group_s3
+
+mb_data_s4 <- stdancom1Y
+mb_map_s4 <- mb_map_s3
+mb_group_s4 <- mb_group_s3
+
+
+
+
+```
+
+
+
+```{r,echo=FALSE,results='hide'}
+###############################################################
+############ 5.Group Correlation and Reconstruction ###########
+###############################################################
+#### some group metrics ####
+Xlabel=levels(as.factor(mtb_group_s4$superclass))
+groupP=length(levels(as.factor(mtb_group_s4$superclass)))
+groupPK=as.vector(table(mtb_group_s4$superclass))
+X=mtb_data_s4[ ,mtb_group_s4$mtb[order(mtb_group_s4$superclass)]]
+
+Ylabel=levels(as.factor(mb_group_s4$phylum))
+groupQ=length(levels(as.factor(mb_group_s4$phylum)))
+groupQK=as.vector(table(mb_group_s4$phylum))
+Y=mb_data_s4[ ,mb_group_s4$ASV[order(mb_group_s4$phylum)]]
+
+#### group correlation plots ####
+# get lower triangle of the correlation matrix
+get_lower_tri<-function(cormat){
+  cormat[upper.tri(cormat)] <- NA
+  return(cormat)
+}
+# get upper triangle of the correlation matrix
+get_upper_tri <- function(cormat){
+  cormat[lower.tri(cormat)]<- NA
+  return(cormat)
+}
+group_cor_struc <- function(sorteddat,groupsize,groupname,cortype=c("pearson","spearman","kendall")){
+  groupstruc <- rep.int(1:length(groupsize),times = groupsize)
+  cormatrix <- matrix(0,nrow=length(groupsize),ncol = length(groupsize))
+  for(g in 1:length(groupsize)){
+    for (k in g:length(groupsize)) {
+      if(k==g){
+        if(groupsize[g]>1){
+          withing <- cor(sorteddat[,groupstruc==g],method = cortype)
+          #cormatrix[g,g] <- withing[upper.tri(withing)][which.min(abs(withing[upper.tri(withing)]))]
+          cormatrix[g,g] <- mean(abs(upper.tri(withing)))
+        }
+        else{cormatrix[g,g] <- 1}
+      }
+      else{
+        betweeng <- cor(sorteddat[,groupstruc==g],sorteddat[,groupstruc==k],method = cortype)
+        #cormatrix[g,k] <- betweeng[which.max(abs(betweeng))]
+        cormatrix[g,k] <- mean(abs(betweeng))
+        cormatrix[k,g] <- cormatrix[g,k]
+      }
+    }
+  }
+  cormatrix <- round(cormatrix,2)
+  upper_tri <- get_upper_tri(cormatrix)
+  melted_cormat <- melt(upper_tri, na.rm = TRUE)
+  melted_cormat$Var1 <- groupname[melted_cormat$Var1]
+  
+  ggheatmap <- ggplot(melted_cormat, aes(Var2, Var1, fill = value))+
+    geom_tile(color = "white")+
+    scale_fill_gradient2(low = "blue", high = "red", mid = "white", 
+                         midpoint = 0, limit = c(-1,1), space = "Lab", 
+                         name=paste(cortype,"\nCorrelation")) +
+    theme_minimal()+ # minimal theme
+    theme(axis.text.x = element_text(angle = 45, vjust = 1, 
+                                     size = 12, hjust = 1))+
+    coord_fixed()
+  ggheatmap + 
+    geom_text(aes(Var2, Var1, label = value), color = "black", size = 3) +
+    theme(
+      axis.title.x = element_blank(),
+      axis.title.y = element_blank(),
+      panel.grid.major = element_blank(),
+      panel.border = element_blank(),
+      panel.background = element_blank(),
+      axis.ticks = element_blank(),
+      legend.justification = c(1, 0),
+      legend.position = c(0.6, 0.7),
+      legend.direction = "horizontal")+
+    guides(fill = guide_colorbar(barwidth = 7, barheight = 1,
+                                 title.position = "top", title.hjust = 0.5))+
+    labs(title = "mtb group cor heat map")
+}
+
+#### group resconstruction ####
+mtb_group <- mtb_group_s4
+# combine mtb groups: combine 4 groups into 2
+mtb_group$superclass[mtb_group$superclass=="Hydrocarbons"] <- "Hydrocarbons Lipids and lipid-like molecules(CB)"
+mtb_group$superclass[mtb_group$superclass=="Lipids and lipid-like molecules"] <- "Hydrocarbons Lipids and lipid-like molecules(CB)"
+
+mtb_group$superclass[mtb_group$superclass=="Nucleosides, nucleotides, and analogues"] <- "Nucleosides Organic nitrogen Acids(CB)"
+mtb_group$superclass[mtb_group$superclass=="Organic nitrogen compounds" ] <- "Nucleosides Organic nitrogen Acids(CB)"
+mtb_group$superclass[mtb_group$superclass=="Organic acids and derivatives" ] <- "Nucleosides Organic nitrogen Acids(CB)"
+
+
+mtb_group$superclass[mtb_group$superclass=="Phenylpropanoids and polyketides" ] <- "Benzenoids Phenylpropanoids(CB)"
+mtb_group$superclass[mtb_group$superclass=="Benzenoids" ] <- "Benzenoids Phenylpropanoids(CB)"
+
+
+
+# re plot cor heat map after construction 
+
+Xlabel=levels(as.factor(mtb_group$superclass))
+groupP=length(levels(as.factor(mtb_group$superclass)))
+groupPK=as.vector(table(mtb_group$superclass))
+X=mtb_data_s4[ ,mtb_group$mtb[order(mtb_group$superclass)]]
+
+
+# combine mb groups: combine 4 groups into 1
+mb_group <- mb_group_s4
+# mb_group$phylum[mb_group$phylum=="NB1-j"] <- "NB1-j/RCP2-54(CB)"
+# mb_group$phylum[mb_group$phylum=="RCP2-54"] <- "NB1-j/RCP2-54(CB)"
+# 
+# mb_group$phylum[mb_group$phylum=="Methylomirabilota"] <- "Armatimonadota/Methylomirabilota(CB)"
+# mb_group$phylum[mb_group$phylum=="Armatimonadota"] <- "Armatimonadota/Methylomirabilota(CB)"
+# 
+# 
+# mb_group$phylum[mb_group$phylum=="NB1-j"] <- "NB1-j/RCP2-54/Nitrospirota(CB)"
+# mb_group$phylum[mb_group$phylum=="RCP2-54"] <- "NB1-j/RCP2-54/Nitrospirota(CB)"
+# mb_group$phylum[mb_group$phylum=="Nitrospirota"] <- "NB1-j/RCP2-54/Nitrospirota(CB)"
+# 
+
+mb_group$phylum[mb_group$phylum=="Myxococcota"] <- "Myxococcota/Entotheonellaeota(CB)"
+mb_group$phylum[mb_group$phylum=="Entotheonellaeota"] <- "Myxococcota/Entotheonellaeota(CB)"
+
+
+mb_group$phylum[mb_group$phylum=="NB1-j"] <- "NB1-j/Nitrospirota/Armatimonadota/Methylomirabilota/RCP2-54(CB)"
+mb_group$phylum[mb_group$phylum=="Nitrospirota"] <-  "NB1-j/Nitrospirota/Armatimonadota/Methylomirabilota/RCP2-54(CB)"
+mb_group$phylum[mb_group$phylum=="Methylomirabilota"] <- "NB1-j/Nitrospirota/Armatimonadota/Methylomirabilota/RCP2-54(CB)"
+mb_group$phylum[mb_group$phylum=="Armatimonadota"] <- "NB1-j/Nitrospirota/Armatimonadota/Methylomirabilota/RCP2-54(CB)"
+mb_group$phylum[mb_group$phylum=="RCP2-54"] <- "NB1-j/Nitrospirota/Armatimonadota/Methylomirabilota/RCP2-54(CB)"
+
+
+
+Ylabel=levels(as.factor(mb_group$phylum))
+groupQ=length(levels(as.factor(mb_group$phylum)))
+groupQK=as.vector(table(mb_group$phylum))
+Y=mb_data_s4[ ,mb_group$ASV[order(mb_group$phylum)]]
+ 
+#### final datasets for GSCCA ####
+# final group datasets name: mtb_group_full, mb_group_full
+# table(mtb_group$superclass)
+# table(mb_group$phylum)
+
+mtb_group_full <- mtb_group
+mb_group_full <- mb_group
+# final datasets name: datX, datY
+mtb_data_full <- X
+mb_data_full <- Y
+
+# final map datasets: mtb_map_full, mb_map_full
+mtb_map_full <- mtb_map_s4
+mb_map_full <- mb_map_s4
+
+
+# treatment for pooled cross covariance
+mtb_map_full$Treatment <- factor(mtb_map_full$Treatment)
+mb_map_full$GrowthCondtion <- factor(mb_map_full$GrowthCondtion)
+levels(mtb_map_full$Treatment) <- levels(mb_map_full$GrowthCondtion)
+trtX=droplevels(as.factor(mtb_map_full$Treatment))
+trtY=droplevels(as.factor(mb_map_full$GrowthCondtion))
+
+
+
+
+
+```
+
+
+```{r,echo=FALSE,results='hide'}
+##########################################################
+################# 6.GroupSparseCCA Pool ##################
+##########################################################
+#### data ####
+datX <- mtb_data_full
+datY <- mb_data_full
+
+mtb_group <- mtb_group_full
+mb_group <- mb_group_full
+
+mtb_map <- mtb_map_full
+mb_map <- mb_map_full
+
+# stratified cv or not(choose one)
+split_variable = mtb_map$Genotype
+#split_variable = NULL
+
+
+Xlabel=levels(as.factor(mtb_group$superclass))
+groupP=length(levels(as.factor(mtb_group$superclass)))
+groupPK=as.vector(table(mtb_group$superclass))
+
+Ylabel=levels(as.factor(mb_group$phylum))
+groupQ=length(levels(as.factor(mb_group$phylum)))
+groupQK=as.vector(table(mb_group$phylum))
+#### Model fit variate 1 Pool ####
+# initial value
+u0=rep(0.25,dim(datX)[2])
+v0=rep(0.25,dim(datY)[2])
+
+ 
+
+# pooled cross covariance
+s=matrix(0,nrow = dim(datX)[2],ncol = dim(datY)[2])
+for (l in levels(trtX)) {
+  s <- s+cov(datX[trtX==l,],datY[trtY==l,])*sum(trtX==l)/length(trtX)
+}
+
+
+
+# fit model
+res_pool_var1 <- SCCA_sGrpLR(s,u0,v0,lamda=c(0.09,0.03), tau=c(0.41,0.01),groupP,groupPK,groupQ,groupQK)
+fu1 <- res_pool_var1[[1]]
+fv1 <- res_pool_var1[[2]]
+(fcor1 <- cor(datX%*%fu1,datY%*%fv1))
+
+
+#### Model fit variate 2 Pool ####
+# Second canonical variate
+u0=rep(0.25,dim(datX)[2])
+v0=rep(0.25,dim(datY)[2])
+
+u1=as.matrix(res_pool_var1[[1]])
+v1=as.matrix(res_pool_var1[[2]])
+
+
+
+
+# fit model
+res_pool_var2 <- SCCA_sGrpLR(Kupdate(s,uold=u1,vold=v1),u0,v0,lamda=c(0.01,0.05),tau=c(0.21,0.61),groupP,groupPK,groupQ,groupQK)
+fu2 <- res_pool_var2[[1]]
+fv2 <- res_pool_var2[[2]]
+(fcor2 <- cor(datX%*%fu2,datY%*%fv2))
+
+#### Model fit variate 3 Pool ####
+# third canonical variate
+u0=rep(0.25,dim(datX)[2])
+v0=rep(0.25,dim(datY)[2])
+
+u1=as.matrix(res_pool_var1[[1]])
+v1=as.matrix(res_pool_var1[[2]])
+u2=as.matrix(res_pool_var2[[1]])
+v2=as.matrix(res_pool_var2[[2]])
+
+
+
+
+# fit model
+K2=Kupdate(s,uold=u1,vold=v1)
+res_pool_var3 <- SCCA_sGrpLR(Kupdate(K2,uold = u2, vold = v2),u0,v0,lamda=c(0.05,0.03),tau=c(0.81,0.01),groupP,groupPK,groupQ,groupQK)
+
+
+fu3 <- res_pool_var3[[1]]
+fv3 <- res_pool_var3[[2]]
+(fcor3 <- cor(datX%*%fu3,datY%*%fv3))
+```
+
+
+# Test of canoncial correlations
+```{r,echo=FALSE,eval=F}
+cor_sig_perm(datX,datY,fu1,fv1,fcor1,10000)
+cor_sig_perm(datX,datY,fu2,fv2,fcor2,10000)
+cor_sig_perm(datX,datY,fu3,fv3,fcor3,10000)
+```
+
+
+
+# Test of Separation
+
+<!-- We use Hotelling's T^2 test and permutation test, although the two sets of points themselves are not strictly following multivariate normal distribution(HighN group with skewness pvalue 0.046), both Hotelling's T^2 test and permutation test  give significant separation result. -->
+
+<!-- Goodpaster A M, Kennedy M A. Quantification and statistical significance analysis of group separation in NMR-based metabonomics studies[J]. Chemometrics and Intelligent Laboratory Systems, 2011, 109(2): 162-170. -->
+
+
+```{r,,echo=FALSE,eval=F}
+#######################################
+###### 7. Test of Separation #############
+#######################################‘
+N_efficiency=ifelse(mtb_map$Genotype %in% c("E1","E10", "E11", "E13", "E5", "E9", "S2", "S3", "S5", "S8"),"Efficient","Inefficient")
+canovar1X <- datX%*%fu1
+canovar2X <- datX%*%fu2
+canovar3X <- datX%*%fu3
+canovar1Y <- datY%*%fv1
+canovar2Y <- datY%*%fv2
+canovar3Y <- datY%*%fv3
+dfcan=data.frame(canovar1X,canovar2X,canovar3X,canovar1Y,canovar2Y,canovar3Y, genotype=mtb_map$Genotype, treatment=mtb_map$Treatment, variety=mtb_map$Variety, N_efficiency=N_efficiency)
+ggplot(dfcan,aes(canovar2X,canovar3X))+
+  geom_point(aes(col=N_efficiency),size=3)+
+  labs(x="u2",y="u3")
+
+# Normality check
+QuantPsyc::mult.norm(cbind(canovar2X[mtb_map$Treatment=="HighN"],canovar3X[mtb_map$Treatment=="HighN"]))$mult.test
+QuantPsyc::mult.norm(cbind(canovar2X[mtb_map$Treatment=="LowN"],canovar3X[mtb_map$Treatment=="LowN"]))$mult.test
+
+# Hotelling's T2 test
+x1=canovar2X[mtb_map$Treatment=="HighN"]
+x2=canovar2X[mtb_map$Treatment=="LowN"]
+y1=canovar3X[mtb_map$Treatment=="HighN"]
+y2=canovar3X[mtb_map$Treatment=="LowN"]
+n1=sum(mtb_map$Treatment=="HighN")
+n2=sum(mtb_map$Treatment=="LowN")
+p=2
+Cw=cov(cbind(x1,y1))*n1/(n1+n2)+cov(cbind(x2,y2))*n2/(n1+n2)
+d=matrix(c(mean(x2)-mean(x1),mean(y2)-mean(y1)))
+Fvalue=(n1+n2-p-1)/p/(n1+n2-2)*(n1*n2)/(n1+n2)*t(d)%*%solve(Cw)%*%d
+paste("Pvalue of Hotelling's T^2 test:",pf(Fvalue,p,n1+n2-p-1,lower.tail = F))
+
+
+# Permutation test
+count=0
+Robs <- t(d)%*%solve(Cw)%*%d
+for(perm in 1:10000){
+  perm_seed=sample(1:length(canovar2X),size=length(canovar2X),replace = F)
+  canovar2X_perm=canovar2X[perm_seed]
+  canovar3X_perm=canovar3X[perm_seed]
+  # ggplot(data.frame(canovar2X_perm,canovar3X_perm, treatment=mtb_map$Treatment),aes(canovar2X_perm,canovar3X_perm))+
+  # geom_point(aes(col=treatment))+
+  # labs(x="u2",y="u3")
+  x1_perm=canovar2X_perm[mtb_map$Treatment=="HighN"]
+  x2_perm=canovar2X_perm[mtb_map$Treatment=="LowN"]
+  y1_perm=canovar3X_perm[mtb_map$Treatment=="HighN"]
+  y2_perm=canovar3X_perm[mtb_map$Treatment=="LowN"]
+  
+  Cw_perm=cov(cbind(x1_perm,y1_perm))*n1/(n1+n2)+cov(cbind(x2_perm,y2_perm))*n2/(n1+n2)
+  d_perm=matrix(c(mean(x2_perm)-mean(x1_perm),mean(y2_perm)-mean(y1_perm)))
+  R_perm=t(d_perm)%*%solve(Cw_perm)%*%d_perm
+  if(R_perm>=Robs){count=count+1}
+}
+paste("Pvalue of permutation test:",count/10000)
+
+```
+
+
+
+
+
+# Pairwise correlation of selected MTB and ASV
+
+<!-- Note that on the 1st dimension, the higher correlations pairs often involves ASV57, ASV970 -->
+
+<!-- On the 2nd dimension, the higher correlation pairs often involves ASV215, ASV1725, ASV762 -->
+
+<!-- On the 3rd dimension, the higher correlations pairs often involves ASV57, ASV970 -->
+
+```{r,echo=FALSE,eval=F}
+#########################################
+#### 8.Pairwise correlation analysis ####
+#########################################
+mtb_dim1 <- datX[,fu1!=0]
+mb_dim1 <- datY[,fv1!=0]
+mtb_dim2 <- datX[,fu2!=0]
+mb_dim2 <- datY[,fv2!=0]
+mtb_dim3 <- datX[,fu3!=0]
+mb_dim3 <- datY[,fv3!=0]
+
+# heatmap of fu1 and fv1
+cormat <- round(cor(mtb_dim1, mb_dim1),2)
+melted_cormat <- melt(cormat)
+ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=abs(value))) + 
+  geom_tile()+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  labs(x="MTB",y="MB", title="Correlation heatmap of 1st dimension")+
+  scale_fill_gradient(low="lightblue",high="darkblue")+
+  theme(axis.text.y = element_text( size=2))
+
+summary(melted_cormat$value)
+print(melted_cormat[abs(melted_cormat$value)>0.5,])
+
+
+# heatmap of fu2 and fv2
+cormat <- round(cor(mtb_dim2, mb_dim2),2)
+melted_cormat <- melt(cormat)
+ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=abs(value))) + 
+  geom_tile()+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  labs(x="MTB",y="MB", title="Correlation heatmap of 2nd dimension")+
+  scale_fill_gradient(low="lightblue",high="darkblue")
+summary(melted_cormat$value)
+print(melted_cormat[abs(melted_cormat$value)>0.3,])
+
+# heatmap of fu3 and fv3
+cormat <- round(cor(mtb_dim3, mb_dim3),2)
+melted_cormat <- melt(cormat)
+ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=abs(value))) + 
+  geom_tile()+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  labs(x="MTB",y="MB", title="Correlation heatmap of 3rd dimension")+
+  scale_fill_gradient(low="lightblue",high="darkblue")+
+  theme(axis.text.y = element_text( size=2))
+summary(melted_cormat$value)
+print(melted_cormat[abs(melted_cormat$value)>0.5,])
+
+
+# scatter plot of highest correlated asv and metabolites in each dimension
+plot_function=function(data){
+  ggplot(data = data)+
+    geom_point(aes(x=data[,1],y=data[,2],color=data[,3]),show.legend=F)+
+    labs(x=paste(colnames(data)[1],mtb_group_s4[colnames(data)[1],]$superclass,sep = "\n"),y=paste(colnames(data)[2],mb_group_s4[colnames(data)[2],]$phylum,sep = "\n"))+
+    annotate(geom = 'text', label = paste("corr=",round(cor(data[,1],data[,2]),2),sep=""), x = max(data[,1])-1.5, y = min(data[,2])+1, hjust = 0, vjust = 1,size=3)+
+    geom_abline(slope = lm(data[,2]~data[,1])$coefficients[2], intercept = lm(data[,2]~data[,1])$coefficients[1])+
+    #geom_vline(xintercept = 0)+
+    theme_bw() + 
+    theme(
+      plot.background = element_blank(),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+    )+
+    
+    theme(legend.text=element_text(size=12))+
+    theme(legend.title=element_text(size=16))+
+    theme(plot.title = element_text(hjust = 0.5,size=16))+
+    theme(axis.title=element_text(size=10))+
+      guides(color=guide_legend(title="Treatment"))
+
+  }
+
+cormat <- round(cor(mtb_dim1, mb_dim1),2)
+cor_selected <- melt(cormat)
+highcor_selected=cor_selected[abs(cor_selected$value)>0.5,][c(1,2,7,4,5,8,6,3,9,17,11,15,16,10,12,13,14),]
+scatter=list()
+for (i.row in 1:nrow(highcor_selected)) {
+  scatter[[i.row]]=data.frame(x=mtb_dim1[,highcor_selected$Var1[i.row]],
+                              y=mb_dim1[,highcor_selected$Var2[i.row]],
+                              N_efficiency=as.factor(N_efficiency))
+  colnames(scatter[[i.row]])[1:2]=c(as.character(highcor_selected$Var1[i.row]),as.character(highcor_selected$Var2[i.row]))
+  
+}
+
+plotlist_dim1 = lapply(scatter,plot_function)
+ggpubr::ggarrange(plotlist=plotlist_dim1)
+p1=ggpubr::ggarrange(plotlist=plotlist_dim1[1:2],ncol = 8,nrow=1)
+p2=ggpubr::ggarrange(plotlist =plotlist_dim1[3:8],ncol = 8,nrow=1)
+p3=ggpubr::ggarrange(plotlist =plotlist_dim1[9],ncol = 8,nrow=1)
+p4=ggpubr::ggarrange(plotlist =plotlist_dim1[10:17],ncol = 8,nrow=1)
+cowplot::plot_grid(p1,p2,p3,p4,ncol= 1)
+
+cormat <- round(cor(mtb_dim2, mb_dim2),2)
+cor_selected <- melt(cormat)
+highcor_selected=cor_selected[abs(cor_selected$value)>0.3,][c(1,17,2,3,13,7,4,6,8,5,9,10,11,12,16,15,14),]
+scatter=list()
+for (i.row in 1:nrow(highcor_selected)) {
+  scatter[[i.row]]=data.frame(x=mtb_dim2[,highcor_selected$Var1[i.row]],
+                              y=mb_dim2[,highcor_selected$Var2[i.row]],
+                              Treatment=as.factor(N_efficiency))
+  colnames(scatter[[i.row]])[1:2]=c(as.character(highcor_selected$Var1[i.row]),as.character(highcor_selected$Var2[i.row]))}
+
+
+plotlist_dim2 = lapply(scatter,plot_function)
+ggpubr::ggarrange(plotlist=plotlist_dim2)
+p1=ggpubr::ggarrange(plotlist=plotlist_dim2[1:5],ncol = 6,nrow=1)
+p2=ggpubr::ggarrange(plotlist =plotlist_dim2[6:11],ncol = 6,nrow=1)
+p3=ggpubr::ggarrange(plotlist =plotlist_dim2[12:14],ncol = 6,nrow=1)
+p4=ggpubr::ggarrange(plotlist =plotlist_dim2[15:17],ncol = 6,nrow=1)
+cowplot::plot_grid(p1,p2,p3,p4,ncol= 1)
+  
+cormat <- round(cor(mtb_dim3, mb_dim3),2)
+cor_selected <- melt(cormat)
+highcor_selected=cor_selected[abs(cor_selected$value)>0.5,][c(1,6,7,2,4,3,5,10,9,11,8),]
+scatter=list()
+for (i.row in 1:nrow(highcor_selected)) {
+  scatter[[i.row]]=data.frame(x=mtb_dim3[,as.character(highcor_selected$Var1[i.row])],
+                              y=mb_dim3[,as.character(highcor_selected$Var2[i.row])],
+                              Treatment=as.factor(N_efficiency))
+  colnames(scatter[[i.row]])[1:2]=c(as.character(highcor_selected$Var1[i.row]),as.character(highcor_selected$Var2[i.row]))}
+plotlist_dim3 = lapply(scatter,plot_function)
+ggpubr::ggarrange(plotlist=plotlist_dim3)
+p1=ggpubr::ggarrange(plotlist=plotlist_dim3[1:4],ncol = 4,nrow=1)
+p2=ggpubr::ggarrange(plotlist =plotlist_dim3[5:7],ncol = 4,nrow=1)
+p3=ggpubr::ggarrange(plotlist =plotlist_dim3[8:11],ncol = 4,nrow=1)
+cowplot::plot_grid(p1,p2,p3,ncol= 1)
+  
+
+
+
+```
+
+
+
+# N-use efficiency analysis
+
+### Intro
+
+For each genotype, we have samples of high N, and samples of Low N, the biomass ratio of this genotype is the $ratio=\frac{mean(weight-of-samples-LowN)}{mean(weight-of-samples-HighN)}$. We compute the ratio for dry weight and fresh weight and use the product of these two ratios. The higher the product, the more efficient of N use.
+
+The relative abundance is computed by dividing the total count of each sample. 
+
+For each phylum or order, for each sample, the relative abundance is the sum of relative abundance of the ASVs in this phylum or order. In this way, we can have one relative abundance value, one ratio(same across samples in one genotype) of each sample. 
+
+
+### Phylum boxplots
+
+We then generate the boxplot of relative abundance vs ratio product. We would expect blue bars(low N) are higher than red bars(high N) at the right, converse at the left, this may be an indication that the corresponding phylum or order are more abundant in N use efficient lines under low N treatment. 
+
+It turns out that phylum Firmicutes may have this pattern, and we also look at the orders in this phylum. All the orders show similar pattern as Firmicutes.
+
+
+```{r}
+#########################################
+#### 9. N-use efficiency analysis #######
+#########################################
+
+# get ratio of biomass(total dry weight or fresh weight) for each genotype
+
+cc <- read.csv("cc_biomass_extract_EG.csv")
+cc_sub=cc[cc$Unique.ID %in% mtb_map_full$Unique.ID,]
+genotypes=names(table(mtb_map_full$Genotype))
+ratio_fresh=c()
+ratio_dry=c()
+for (geno in genotypes) {
+  #cc_geno=cc_sub[cc_sub$Geno==geno,]
+  cc_geno_high=cc[cc$Treat=="Full N",]
+  cc_geno_low=cc[cc$Treat=="Low N",]
+  ratio_dry=c(ratio_dry,mean(cc_geno_low$Total.Dry.Weight.kg.hectare)/mean(cc_geno_high$Total.Dry.Weight.kg.hectare))
+  ratio_fresh=c(ratio_fresh,mean(cc_geno_low$Total.Fresh.Weight.kg.hectare)/mean(cc_geno_high$Total.Fresh.Weight.kg.hectare))
+}
+names(ratio_fresh)=genotypes
+names(ratio_dry)=genotypes
+
+```
+
+```{r,message=FALSE}
+# relative abundance vs ratio
+cc_sub$ratio_dry=sapply(cc_sub$Geno,function(x){ratio_dry[x]})
+cc_sub$ratio_fresh=sapply(cc_sub$Geno,function(x){ratio_fresh[x]})
+cc_sub$ratio_product=sapply(cc_sub$Geno,function(x){ratio_fresh[x]*ratio_dry[x]})
+RA=mb_data_s2/matrix(rep(rowSums(mb_data_s2),ncol(mb_data_s2)),nrow=nrow(mb_data_s2),byrow=F)
+
+
+datasets_generation=function(group_variable, data_asv){
+  datasets=list()
+for (phylum in names(table(group_variable) )) {
+  RA_phylum=as.matrix(RA[,data_asv[group_variable==phylum]])
+  RA_sum_phylum_map=data.frame(ratio_dry=(round(cc_sub$ratio_dry,2)),
+                             ratio_fresh=(round(cc_sub$ratio_fresh,2)),
+                             ratio_product=as.factor(paste(round(cc_sub$ratio_product,2),cc_sub$Geno,sep="_")),
+                             genotype=cc_sub$Geno,
+                             treatment=cc_sub$Treat,
+                             relative_abundance= apply(RA_phylum,1,sum),
+                             phylum=rep(phylum,nrow(RA_phylum)),
+                             biomass_ratio_product=round(cc_sub$ratio_product,2))
+  ratio_ra_phylum=c()
+for (geno in names(table(RA_sum_phylum_map$genotype))) {
+  RA_sum_phylum_map_geno=RA_sum_phylum_map[RA_sum_phylum_map$genotype==geno,]
+  RA_sum_phylum_map_geno_high=RA_sum_phylum_map_geno[RA_sum_phylum_map_geno$treatment=="Full N",]
+  RA_sum_phylum_map_geno_low=RA_sum_phylum_map_geno[RA_sum_phylum_map_geno$treatment=="Low N",]
+  ratio_ra_phylum=c(ratio_ra_phylum,mean(RA_sum_phylum_map_geno_low$relative_abundance)/mean(RA_sum_phylum_map_geno_high$relative_abundance))
+}
+  names(ratio_ra_phylum)=names(table(RA_sum_phylum_map$genotype))
+  RA_sum_phylum_map$ratio_RA=sapply(RA_sum_phylum_map$genotype, function(x){ratio_ra_phylum[x]})
+
+  # RA_phylum_map=data.frame(ratio_dry=rep(as.factor(round(cc_sub$ratio_dry,2)),ncol(RA_phylum)),
+  #                        ratio_fresh=rep(as.factor(round(cc_sub$ratio_fresh,2)),ncol(RA_phylum)),
+  #                        ratio_product=rep(as.factor(round(cc_sub$ratio_product,2)),ncol(RA_phylum)),
+  #                        genotype=rep(cc_sub$Geno, ncol(RA_phylum)),
+  #                        treatment=rep(cc_sub$Treat,ncol(RA_phylum)),
+  #                        relative_abundance=c(as.matrix(RA_phylum)))
+  datasets=append(datasets,list(RA_sum_phylum_map))
+  names(datasets)[length(datasets)]=phylum
+}
+  return(datasets)
+}
+
+
+boxplot_function=function(data){
+  # plot sum of features in each sample
+  ggplot(data=data,
+         aes(x=data[,3], y=data[,6],fill=data[,5]))+
+  geom_boxplot(show.legend = F)+
+  labs(title=names(table(data[,7])),x="ratio_product",y="relative_abundance")+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  theme(axis.text=element_text(size=8),
+        axis.title=element_text(size=8,face="bold"))+
+    theme(plot.title = element_text(size=10,face="bold"))
+  ## plot all feature points
+# ggplot(data=RA_phylum_map,
+#        aes(x=ratio_product, y=relative_abundance,fill=treatment))+
+#   geom_boxplot()+
+#   labs(title=phylum)+
+#   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+}
+
+ratio_scatter_function=function(data){
+ geno=unique(data[,4])
+ x=c()
+ y=c()
+ for(genotype in geno){
+   x=c(x, data[data[,4]==genotype,9][1])
+   y=c(y, data[data[,4]==genotype,8][1])
+ }
+  ggplot(data=data.frame(x,y),aes(x=(x), y=y))+
+    geom_point()+
+  geom_smooth(method=lm, color='#2C3E50')+
+    # geom_abline(slope = lm(y~x)$coefficients[2], intercept = lm(y~x)$coefficients[1])+
+  labs(title=names(table(data[,7])),x="ratio_relative_abundance",y="biomass_ratio_product")+
+  #theme(axis.text.y = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  theme(axis.text=element_text(size=8),
+        axis.title=element_text(size=8,face="bold"))+
+    theme(plot.title = element_text(size=10,face="bold"))+
+      annotate(geom = 'text', label = paste("corr=",round(cor(x,y,method="kendall"),3),sep=""), x = max(x)-1, y = min(y)+1, hjust = 0, vjust = 1,size=3)
+}
+
+
+
+
+group_variable=mb_group_s3$phylum[mb_group_s3$phylum %in% c("Actinobacteriota","Myxococcota","Firmicutes")]
+data_asv=mb_group_s3$ASV[mb_group_s3$phylum %in% c("Actinobacteriota","Myxococcota","Firmicutes")]
+
+datasets=datasets_generation(group_variable , data_asv )
+
+plotlist_sum= lapply(datasets,boxplot_function)
+ggpubr::ggarrange(plotlist=plotlist_sum)
+
+
+
+```
+
+
+
+### Order boxplots in Firmicutes
+
+```{r,message=FALSE}
+
+
+group_variable=mb_group_s3$order[mb_group_s3$phylum=="Firmicutes"]
+data_asv=mb_group_s3$ASV[mb_group_s3$phylum=="Firmicutes"]
+
+datasets=datasets_generation(group_variable , data_asv )
+plotlist_sum= lapply(datasets,boxplot_function)
+ggpubr::ggarrange(plotlist=plotlist_sum)
+
+```
+
+### Phylum ratio-scatter-plots 
+
+For each phylum, each genotype, we compute $ratio-RA=\frac{mean-of-relative-abundance-lowN}{mean-of-relative-abundance-highN}$. In this way, for each genotype, we can have one relative abundance ratio and one biomass ratio. We plot the scatter plot of these ratios. We would expect a positive trend which is the indication that this phylum are more abundant in N-use efficient lines under low N condition. 
+
+We also compute the kendall's tau correlation between the two ratios. We would expect high positve correlation between two ratios if this phylum is more abundant under low N in N use efficient lines. Armatimonadota, Bacteroidota and Firmicutes RCP2-54 may of interest
+
+
+
+
+```{r,message=FALSE}
+group_variable=mb_group_s3$phylum[mb_group_s3$phylum %in% c("Armatimonadota","Bacteroidota","Firmicutes","RCP2-54")]
+data_asv=mb_group_s3$ASV[mb_group_s3$phylum %in% c("Armatimonadota","Bacteroidota","Firmicutes","RCP2-54")]
+
+datasets=datasets_generation(group_variable , data_asv )
+
+plotlist_sum_positive= lapply(datasets,ratio_scatter_function)
+ggpubr::ggarrange(plotlist=plotlist_sum_positive)
+
+```
+
+
+We also found several phylums which have high negative correlation, these phylums may be supressed or harm the biomass under low N in N use efficient lines. Acidobacteriota, Chloroflexi,Planctomycetota may behave in this way.
+
+```{r,message=FALSE}
+group_variable=mb_group_s3$phylum[mb_group_s3$phylum %in% c("Acidobacteriota","Chloroflexi","Planctomycetota")]
+data_asv=mb_group_s3$ASV[mb_group_s3$phylum %in% c("Acidobacteriota","Chloroflexi","Planctomycetota")]
+
+datasets=datasets_generation(group_variable , data_asv )
+
+plotlist_sum_negative= lapply(datasets,ratio_scatter_function)
+ggpubr::ggarrange(plotlist=plotlist_sum_negative)
+```
+
